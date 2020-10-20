@@ -188,7 +188,7 @@ body {
 }
 
 
-@media only screen {
+@media only screen and (orientation: landscape){
 	body {
 		margin-left:30%;
 		margin-right:30%;
