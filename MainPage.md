@@ -1,5 +1,5 @@
 # Main Page
-### Introdcution
+### Introduction
 This is a C++ renderer using the Path Tracing algorithm I made throughout 2020 in the context of my *Travail de Maturité*. You can find the code on a [GitHub repository](https://github.com/JoachimFavre/PathTracer). If you want to have the code behind this documentation, you can find it on another [GitHub repository](https://github.com/JoachimFavre/PathTracerDocumentation).
 
 Note that this site is not great for phone users, because it was not really thought for them (there are only two CSS lines that differ according to the orientation of the screen). If you absolutely need to access this site on your phone, you may want to consider activating the *desktop site* option in your explorer.
