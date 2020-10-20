@@ -185,8 +185,14 @@ div.directory {
 
 body {
 	background: #111111;
-  margin-left:30%;
-	margin-right:30%;
+}
+
+
+@media only screen {
+	body {
+		margin-left:30%;
+		margin-right:30%;
+	}
 }
 
 .el {
