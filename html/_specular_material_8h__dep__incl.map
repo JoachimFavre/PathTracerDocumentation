@@ -1,0 +1,15 @@
+<map id="D:/PathTracer/PathTracer/SpecularMaterial.h" name="D:/PathTracer/PathTracer/SpecularMaterial.h">
+<area shape="rect" id="node1" title="Defines the SpecularMaterial class." alt="" coords="673,5,842,47"/>
+<area shape="rect" id="node2" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="366,95,536,136"/>
+<area shape="rect" id="node9" href="$_scene_8h.html" title="Defines the Scene class and the functions around it." alt="" coords="464,273,633,315"/>
+<area shape="rect" id="node13" href="$_specular_material_8cpp.html" title=" " alt="" coords="796,95,965,136"/>
+<area shape="rect" id="node3" href="$_interface_8h.html" title="Defines some functions for the interface." alt="" coords="148,363,317,404"/>
+<area shape="rect" id="node6" href="$_interface_gestion_8cpp.html" title=" " alt="" coords="550,184,720,225"/>
+<area shape="rect" id="node7" href="$_object3_d_group_8h.html" title="Defines the Object3DGroup class and the functions around it." alt="" coords="112,184,281,225"/>
+<area shape="rect" id="node11" href="$_picture_8h.html" title="Defines the Picture class and the functions around it." alt="" coords="305,184,474,225"/>
+<area shape="rect" id="node4" href="$_interface_8cpp.html" title=" " alt="" coords="52,452,221,493"/>
+<area shape="rect" id="node5" href="$main_8cpp.html" title=" " alt="" coords="245,452,414,493"/>
+<area shape="rect" id="node8" href="$_object3_d_group_8cpp.html" title=" " alt="" coords="25,273,194,315"/>
+<area shape="rect" id="node10" href="$_scene_8cpp.html" title=" " alt="" coords="464,363,633,404"/>
+<area shape="rect" id="node12" href="$_picture_8cpp.html" title=" " alt="" coords="270,273,440,315"/>
+</map>

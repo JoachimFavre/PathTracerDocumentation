@@ -1,0 +1,4 @@
+<map id="Triangle" name="Triangle">
+<area shape="rect" id="node1" title="A triangle defined by its three vertices." alt="" coords="10,80,77,107"/>
+<area shape="rect" id="node2" href="$class_object3_d.html" title="Abstract class for a three&#45;dimentional object." alt="" coords="5,5,81,32"/>
+</map>

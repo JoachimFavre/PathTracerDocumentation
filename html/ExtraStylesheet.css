@@ -1,0 +1,337 @@
+#titlearea {
+	background: #111111;
+	color: #DDDDDD;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border:none;
+}
+
+#projectname {
+	font-weight: bold!important;
+}
+
+address.footer {
+	font-weight: bold;
+	color: #CCCCCC;
+	font-size: 120%;
+	margin-top: 2%;
+	margin-bottom: 20%;
+}
+
+.footer {
+	border: none;
+}
+
+.footer a {
+	color: #728DC1;
+	font-weight: bold;
+}
+
+img.footer {
+	filter: grayscale() contrast(2) brightness(0.85);
+}
+
+/* Navigation*/
+#main-nav {
+	background: #262626;
+}
+
+.sm-dox a {
+  text-shadow:0 0px 0px;
+	color: #CCCCCC;
+}
+
+.sm-dox a.has-submenu {
+	background: #262626;
+  text-shadow:0 0px 0px;
+	color: #CCCCCC!important;
+}
+
+.sm-dox ul a {
+	background: white;
+  text-shadow:0 0px 0px;
+  color: #555555;
+}
+
+.sm-dox a span.sub-arrow {
+  border-color:#CCCCCC transparent transparent transparent
+}
+
+.sm-dox a:hover {
+	font-weight: bolder;
+	color: white;
+}
+
+.sm-dox a.has-submenu:hover {
+  text-shadow:0 0px 0px;
+	color: white!important;
+}
+
+.sm-dox ul a:hover {
+  text-shadow:0 0px 0px;
+	font-weight: bold;
+  color: black;
+}
+
+.sm-dox a:hover span.sub-arrow {
+  border-color:white transparent transparent transparent
+}
+
+.sm-nowrap {
+	background: white;
+}
+
+#MSearchBox {
+	background: #111111;
+}
+
+#MSearchField {
+	color: #DDDDDD!important;
+}
+
+#MSearchBox {
+	box-shadow: none;
+}
+
+#MSearchSelect {
+	filter: brightness(100);
+}
+
+#MSearchCloseImg {
+	filter: brightness(100);
+}
+
+#MSearchSelectWindow {
+	background: #0A0A0A;
+	border: none;
+}
+
+.SelectItem {
+	color: #CCCCCC!important;
+}
+
+.SelectItem:hover {
+	color: white!important;;
+	background: #1A1A1A!important;
+}
+
+.SREntry {
+  color: yellow!important;
+}
+
+#MSearchResultsWindow {
+  border: none!important;
+  background-color: #DDDDDD!important;
+}
+
+/* /Navigation */
+
+.header {
+  border-bottom: 2px solid #5373B4!important;
+}
+
+.headertitle {
+  background: #111111;
+	color: #DDDDDD;
+}
+
+#doc-content {
+	background: white;
+}
+
+.contents {
+	border:none!important;;
+	background: #262626;
+	color: white;
+	border:1px solid #444444;
+	padding: 4%;
+}
+
+
+.contents .textblock {
+	padding-bottom: 2%;
+	font-size: 105%;
+}
+
+.contents .textblock a {
+  color: #728DC1;
+	font-weight: bold;
+}
+
+#side-nav{
+	margin-left: 30%;
+	background: gray;
+}
+
+#nav-tree {
+	background: gray;
+	color: white;
+}
+
+div.directory {
+	padding-top: 2%;
+	padding-bottom: 1%;
+  border-top: 1px solid white;
+  border-bottom: 0px solid white;
+}
+
+.entry {
+	background: #262626;
+}
+
+.desc {
+	background: #262626;
+}
+
+body {
+	background: #111111;
+  margin-left:30%;
+	margin-right:30%;
+}
+
+.el {
+	color: #728DC1!important;
+  text-shadow:0 0px 0px black!important;
+}
+
+.navpath ul {
+	border: none;
+  border-top: 10px solid #111111;
+	background: #262626;
+}
+
+.line {
+	line-height: 1.5!important;
+	border: none!important;
+	background: #111111;
+	font-family: consolas!important;
+}
+
+span.lineno {
+	border: none!important;
+	background: #111111!important;
+	font-family: consolas!important;
+	padding-right: 3%!important;
+}
+
+span.lineno a {
+	color: #C13E74!important;
+	border: none!important;
+	background: #111111!important;
+	font-family: consolas!important;
+}
+
+div.fragment {
+	padding: 0;
+	border-bottom: -1px solid white!important;;
+}
+
+.preprocessor {
+  color: #518000!important;
+}
+
+.keyword {
+	color: #D69D76!important;
+}
+
+.keywordtype {
+	color: #50CEAC!important;
+}
+
+.code {
+	color: #509CCE!important;
+}
+
+.comment {
+  color: #9B947D!important;
+}
+
+.charliteral {
+	color: #B0E686!important;;
+}
+
+.stringliteral {
+	color: #B0E686!important;
+}
+
+.fragment {
+	border: none!important;
+}
+
+div.dyncontent {
+	filter: brightness(0.85) invert() hue-rotate(160deg) saturate(1.5);
+}
+
+tr td iframe {
+	filter: brightness(0.85) invert() hue-rotate(160deg) saturate(1.5);
+}
+
+.memItemLeft {
+	background: #262626;
+}
+
+.memItemRight {
+	background: #262626;
+}
+
+.mdescLeft {
+	background: #262626;
+}
+
+.mdescRight {
+	background: #262626;
+	color: #B23E71;
+}
+
+.mdescRight a {
+	color: #728DC1!important;
+	font-weight: bold;
+}
+
+.memtitle {
+	border: none;
+	background: #1A1A1A;
+}
+
+.memname {
+	border: none;
+	background: #1A1A1A;
+  text-shadow:0 0px 0px;
+}
+
+.memproto {
+	border: none;
+	background: #1A1A1A;
+}
+
+.memdoc {
+	border: none;
+	background: #1A1A1A;
+}
+
+table.mlabels {
+	padding-right:1.5%;
+	color: #DDDDDD;
+}
+
+table.memname {
+	color: #DDDDDD;
+	padding:2;
+}
+
+.paramname {
+	color: #C13E74;
+}
+
+.mlabels-right .mlabels .mlabel {
+	background: #C13E74;
+	color: #1A1A1A;
+	font-weight: bold;
+	font-size: 100%;
+	border: none;
+}
+
+.groupheader {
+	color: white!important;
+	font-weight: bold;
+}

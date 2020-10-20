@@ -1,0 +1,13 @@
+<map id="D:/PathTracer/PathTracer/InterfaceGestion.h" name="D:/PathTracer/PathTracer/InterfaceGestion.h">
+<area shape="rect" id="node1" title="Defines functions that are used when drawing the interface." alt="" coords="295,5,464,47"/>
+<area shape="rect" id="node2" href="$_interface_8h.html" title="Defines some functions for the interface." alt="" coords="101,273,271,315"/>
+<area shape="rect" id="node5" href="$_interface_gestion_8cpp.html" title=" " alt="" coords="101,95,271,136"/>
+<area shape="rect" id="node6" href="$_object3_d_group_8h.html" title="Defines the Object3DGroup class and the functions around it." alt="" coords="295,95,464,136"/>
+<area shape="rect" id="node8" href="$_scene_8h.html" title="Defines the Scene class and the functions around it." alt="" coords="417,184,587,225"/>
+<area shape="rect" id="node10" href="$_picture_8h.html" title="Defines the Picture class and the functions around it." alt="" coords="540,95,709,136"/>
+<area shape="rect" id="node3" href="$_interface_8cpp.html" title=" " alt="" coords="5,363,175,404"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title=" " alt="" coords="199,363,368,404"/>
+<area shape="rect" id="node7" href="$_object3_d_group_8cpp.html" title=" " alt="" coords="224,184,393,225"/>
+<area shape="rect" id="node9" href="$_scene_8cpp.html" title=" " alt="" coords="417,273,587,315"/>
+<area shape="rect" id="node11" href="$_picture_8cpp.html" title=" " alt="" coords="611,184,780,225"/>
+</map>

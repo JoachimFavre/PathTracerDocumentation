@@ -1,0 +1,6 @@
+<map id="Material" name="Material">
+<area shape="rect" id="node1" title="Abstrat class that models a material." alt="" coords="165,5,233,32"/>
+<area shape="rect" id="node2" href="$class_diffuse_material.html" title="Models a diffuse material." alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$class_refractive_material.html" title="Models a refractive material." alt="" coords="137,80,261,107"/>
+<area shape="rect" id="node4" href="$class_specular_material.html" title="Models a specular material." alt="" coords="285,80,403,107"/>
+</map>
