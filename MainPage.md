@@ -1,6 +1,6 @@
 # Main Page
-### Summary
-This is a C++ renderer using the Path Tracing algorithm I made throughout 2020 in the context of my *Travail de Maturité*. You can find the code on my [GitHub repository](https://github.com/JoachimFavre/PathTracer).
+### Introdcution
+This is a C++ renderer using the Path Tracing algorithm I made throughout 2020 in the context of my *Travail de Maturité*. You can find the code on a [GitHub repository](https://github.com/JoachimFavre/PathTracer). If you want to have the code behind this documentation, you can find it on another [GitHub repository](https://github.com/JoachimFavre/PathTracerDocumentation).
 
 
 ### Dependencies

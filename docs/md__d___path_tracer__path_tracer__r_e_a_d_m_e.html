@@ -66,36 +66,38 @@ $(function() {
 <div class="title">PathTracer </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>A C++ renderer using the Path Tracing algorithm made through 2020 in the context of my <em>Travail de Maturité</em>.</p>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
+Introduction</h1>
+<p>This is a C++ renderer using the Path Tracing algorithm I made throughout 2020 in the context of my <em>Travail de Maturité</em>. You can find the code documentation on <a href="https://joachimfavre.github.io/PathTracerDocumentation/">GitHub Pages</a>. The code for the documentation can be found on <a href="https://github.com/JoachimFavre/PathTracerDocumentation">another repository</a>.</p>
+<h1><a class="anchor" id="autotoc_md2"></a>
 Dependencies</h1>
-<h2><a class="anchor" id="autotoc_md2"></a>
+<h2><a class="anchor" id="autotoc_md3"></a>
 FBX SDK version 2020.1 by Autodesk</h2>
 <ul>
 <li><a href="https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0">Download</a> (use Runtime Library Option "MT")</li>
 <li><a href="https://help.autodesk.com/view/FBX/2020/ENU/">Documentation</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md4"></a>
 JSON for Modern C++ version 3.9.1 by nlohmann</h2>
 <ul>
 <li><a href="https://github.com/nlohmann/json">GitHub</a> (used examples from <a class="el" href="_r_e_a_d_m_e_8md.html">README.md</a>)</li>
 <li><a href="https://github.com/nlohmann/json/releases/tag/v3.9.1">Download</a> (using include.zip/single_include)</li>
 <li><a href="https://nlohmann.github.io/json/">Documentation</a></li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md5"></a>
 The CImg Library version 2.9.2 by David Tschumperlé</h2>
 <ul>
 <li><a href="http://cimg.eu/">Website</a></li>
 <li><a href="http://cimg.eu/download.shtml">Download</a> (put CImg.h in [your project directory]/CImg)</li>
 <li><a href="http://cimg.eu/reference/group__cimg__files__io.html">List of supported picture format</a></li>
 </ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 Visual Studio parametring</h1>
 <ul>
 <li>Make sure to follow the <a href="https://help.autodesk.com/view/FBX/2020/ENU/?guid=FBX_Developer_Help_getting_started_installing_and_configuring_configuring_the_fbx_sdk_for_wind_html">FBX SDK configuration tutorial</a> (using Runtime Library Option "MT")</li>
 <li>Assert that "Project Properties &gt; C/C++ &gt; Language &gt; Open MP Support" is yes (else multithreading will not work).</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Fbx file export from Blender</h1>
 <p>To export a FBX file from <a href="https://www.blender.org/">Blender</a>, make sure that:</p><ul>
 <li>Scale: 0.01</li>
