@@ -64,6 +64,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="class_object3_d-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Object3D Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -97,9 +98,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2b88078170c53e220a319e02a14ef5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_material.html">Material</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ac2b88078170c53e220a319e02a14ef5f">getMaterial</a> () const</td></tr>
 <tr class="memdesc:ac2b88078170c53e220a319e02a14ef5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the <a class="el" href="class_material.html" title="Abstrat class that models a material.">Material</a>.  <a href="class_object3_d.html#ac2b88078170c53e220a319e02a14ef5f">More...</a><br /></td></tr>
 <tr class="separator:ac2b88078170c53e220a319e02a14ef5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad230d2255be14116334d98d5ffb150b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3">getArea</a> () const</td></tr>
+<tr class="memdesc:ad230d2255be14116334d98d5ffb150b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for this object's area.  <a href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3">More...</a><br /></td></tr>
+<tr class="separator:ad230d2255be14116334d98d5ffb150b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3aee8b8a169ae898fe2ac80cabeab4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ac3aee8b8a169ae898fe2ac80cabeab4d">setMaterial</a> (<a class="el" href="class_material.html">Material</a> *material)</td></tr>
 <tr class="memdesc:ac3aee8b8a169ae898fe2ac80cabeab4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the <a class="el" href="class_material.html" title="Abstrat class that models a material.">Material</a>.  <a href="class_object3_d.html#ac3aee8b8a169ae898fe2ac80cabeab4d">More...</a><br /></td></tr>
 <tr class="separator:ac3aee8b8a169ae898fe2ac80cabeab4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba53c72fa949445d1ec7d2a869884f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#a9ba53c72fa949445d1ec7d2a869884f0">computeArea</a> ()=0</td></tr>
+<tr class="memdesc:a9ba53c72fa949445d1ec7d2a869884f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes this object area.  <a href="class_object3_d.html#a9ba53c72fa949445d1ec7d2a869884f0">More...</a><br /></td></tr>
+<tr class="separator:a9ba53c72fa949445d1ec7d2a869884f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad56df67670a7a9a151738b7db152d22b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_object3_d.html">Object3D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ad56df67670a7a9a151738b7db152d22b">deepCopy</a> () const =0</td></tr>
 <tr class="memdesc:ad56df67670a7a9a151738b7db152d22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a deep copy of this object.  <a href="class_object3_d.html#ad56df67670a7a9a151738b7db152d22b">More...</a><br /></td></tr>
 <tr class="separator:ad56df67670a7a9a151738b7db152d22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,6 +137,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeead20fb70797adf7f37c48749789f86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object3_d.html">Object3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#aeead20fb70797adf7f37c48749789f86">operator=</a> (const <a class="el" href="class_object3_d.html">Object3D</a> &amp;otherObject)</td></tr>
 <tr class="memdesc:aeead20fb70797adf7f37c48749789f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="class_object3_d.html#aeead20fb70797adf7f37c48749789f86">More...</a><br /></td></tr>
 <tr class="separator:aeead20fb70797adf7f37c48749789f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:abd9ede75ea47f8caad6dcd69d63fdf16"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16">area</a></td></tr>
+<tr class="memdesc:abd9ede75ea47f8caad6dcd69d63fdf16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the area of this object.  <a href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16">More...</a><br /></td></tr>
+<tr class="separator:abd9ede75ea47f8caad6dcd69d63fdf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for a three-dimentional object. </p>
@@ -263,6 +276,36 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9ba53c72fa949445d1ec7d2a869884f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba53c72fa949445d1ec7d2a869884f0">&#9670;&nbsp;</a></span>computeArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object3D::computeArea </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes this object area. </p>
+<p>Modifies <a class="el" href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16" title="Stores the area of this object.">Object3D::area</a>. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16" title="Stores the area of this object.">Object3D::area</a>, <a class="el" href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3" title="Getter for this object&#39;s area.">Object3D::getArea()</a> </dd></dl>
+
+<p>Implemented in <a class="el" href="class_triangle.html#ac92be3977550f799a3f29db1a92195f7">Triangle</a>, and <a class="el" href="class_sphere.html#a520afd99269b561df39bf39ffdb54b38">Sphere</a>.</p>
+
+</div>
+</div>
 <a id="ad56df67670a7a9a151738b7db152d22b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad56df67670a7a9a151738b7db152d22b">&#9670;&nbsp;</a></span>deepCopy()</h2>
 
@@ -290,6 +333,27 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to a deeply copied version of this object. </dd></dl>
 
 <p>Implemented in <a class="el" href="class_triangle.html#a9a5247996295e6677f9d7141882a9d14">Triangle</a>, and <a class="el" href="class_sphere.html#a8bef3d1495a328e287625f14dc0a5c2d">Sphere</a>.</p>
+
+</div>
+</div>
+<a id="ad230d2255be14116334d98d5ffb150b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad230d2255be14116334d98d5ffb150b3">&#9670;&nbsp;</a></span>getArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object3D::getArea </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for this object's area. </p>
+<dl class="section return"><dt>Returns</dt><dd>This object's area. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16" title="Stores the area of this object.">Object3D::area</a>, <a class="el" href="class_object3_d.html#a9ba53c72fa949445d1ec7d2a869884f0" title="Computes this object area.">Object3D::computeArea()</a> </dd></dl>
 
 </div>
 </div>
@@ -599,6 +663,32 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abd9ede75ea47f8caad6dcd69d63fdf16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd9ede75ea47f8caad6dcd69d63fdf16">&#9670;&nbsp;</a></span>area</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object3D::area</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores the area of this object. </p>
+<p>It is computed every time the object coordinates are modified. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3" title="Getter for this object&#39;s area.">Object3D::getArea()</a>, <a class="el" href="class_object3_d.html#a9ba53c72fa949445d1ec7d2a869884f0" title="Computes this object area.">Object3D::computeArea()</a> </dd></dl>
 
 </div>
 </div>

@@ -99,9 +99,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6085483d01d8a1948a2e52e76d49cf9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_unit_vec3_d.html">DoubleUnitVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_specular_material.html#a6085483d01d8a1948a2e52e76d49cf9b">getNewDirection</a> (const <a class="el" href="class_ray.html">Ray</a> &amp;previousRay, const <a class="el" href="class_double_unit_vec3_d.html">DoubleUnitVec3D</a> &amp;normal, double(*<a class="el" href="_interface_gestion_8h.html#a3e66b87ab993025e0246b1b05932064a">randomDouble</a>)()) const</td></tr>
 <tr class="memdesc:a6085483d01d8a1948a2e52e76d49cf9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the new ray direction.  <a href="class_specular_material.html#a6085483d01d8a1948a2e52e76d49cf9b">More...</a><br /></td></tr>
 <tr class="separator:a6085483d01d8a1948a2e52e76d49cf9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd36f4771d4372bc77ff58cbc423b23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_specular_material.html#a8cd36f4771d4372bc77ff58cbc423b23">computeCurrentColour</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;recursiveColour, double angleNewDirectionNormal) const</td></tr>
-<tr class="memdesc:a8cd36f4771d4372bc77ff58cbc423b23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the new colour.  <a href="class_specular_material.html#a8cd36f4771d4372bc77ff58cbc423b23">More...</a><br /></td></tr>
-<tr class="separator:a8cd36f4771d4372bc77ff58cbc423b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9833e7daa723731b1c55e80600926eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_specular_material.html#a9833e7daa723731b1c55e80600926eb1">computeCurrentColour</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;recursiveColour, double angleNewDirectionNormal, bool nextEventEstimation=false) const</td></tr>
+<tr class="memdesc:a9833e7daa723731b1c55e80600926eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the new colour.  <a href="class_specular_material.html#a9833e7daa723731b1c55e80600926eb1">More...</a><br /></td></tr>
+<tr class="separator:a9833e7daa723731b1c55e80600926eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51002ab38dc2778e1c8aed591625956a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_specular_material.html#a51002ab38dc2778e1c8aed591625956a">worksWithNextEventEstimation</a> () const</td></tr>
 <tr class="memdesc:a51002ab38dc2778e1c8aed591625956a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether this material works with next event estimation.  <a href="class_specular_material.html#a51002ab38dc2778e1c8aed591625956a">More...</a><br /></td></tr>
 <tr class="separator:a51002ab38dc2778e1c8aed591625956a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,8 +187,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8cd36f4771d4372bc77ff58cbc423b23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cd36f4771d4372bc77ff58cbc423b23">&#9670;&nbsp;</a></span>computeCurrentColour()</h2>
+<a id="a9833e7daa723731b1c55e80600926eb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9833e7daa723731b1c55e80600926eb1">&#9670;&nbsp;</a></span>computeCurrentColour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +206,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>angleNewDirectionNormal</em>&#160;</td>
+          <td class="paramname"><em>angleNewDirectionNormal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nextEventEstimation</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -226,12 +232,13 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">recursiveColour</td><td>The colour recursively obtained. </td></tr>
     <tr><td class="paramname">angleNewDirectionNormal</td><td>The cosine of the angle between the direction of the next ray and the normal at the intersection. </td></tr>
+    <tr><td class="paramname">nextEventEstimation</td><td>Whether the colour is obtained using the next event estimation algorithm. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The new colour. </dd></dl>
 
-<p>Implements <a class="el" href="class_material.html#a8f17a39db868bea7d52223c59db88d41">Material</a>.</p>
+<p>Implements <a class="el" href="class_material.html#afb0b777daebb87286bda206a621a0184">Material</a>.</p>
 
 </div>
 </div>

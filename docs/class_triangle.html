@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a64d5c2783bdf1e13f4dc21142e8e47aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle.html#a64d5c2783bdf1e13f4dc21142e8e47aa">setVertex3</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vertex)</td></tr>
 <tr class="memdesc:a64d5c2783bdf1e13f4dc21142e8e47aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the third vertex.  <a href="class_triangle.html#a64d5c2783bdf1e13f4dc21142e8e47aa">More...</a><br /></td></tr>
 <tr class="separator:a64d5c2783bdf1e13f4dc21142e8e47aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92be3977550f799a3f29db1a92195f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle.html#ac92be3977550f799a3f29db1a92195f7">computeArea</a> ()</td></tr>
+<tr class="memdesc:ac92be3977550f799a3f29db1a92195f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes this triangle's area.  <a href="class_triangle.html#ac92be3977550f799a3f29db1a92195f7">More...</a><br /></td></tr>
+<tr class="separator:ac92be3977550f799a3f29db1a92195f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a5247996295e6677f9d7141882a9d14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object3_d.html">Object3D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_triangle.html#a9a5247996295e6677f9d7141882a9d14">deepCopy</a> () const</td></tr>
 <tr class="memdesc:a9a5247996295e6677f9d7141882a9d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a deep copy of this object.  <a href="class_triangle.html#a9a5247996295e6677f9d7141882a9d14">More...</a><br /></td></tr>
 <tr class="separator:a9a5247996295e6677f9d7141882a9d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,12 +160,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2b88078170c53e220a319e02a14ef5f inherit pub_methods_class_object3_d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_material.html">Material</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ac2b88078170c53e220a319e02a14ef5f">getMaterial</a> () const</td></tr>
 <tr class="memdesc:ac2b88078170c53e220a319e02a14ef5f inherit pub_methods_class_object3_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the <a class="el" href="class_material.html" title="Abstrat class that models a material.">Material</a>.  <a href="class_object3_d.html#ac2b88078170c53e220a319e02a14ef5f">More...</a><br /></td></tr>
 <tr class="separator:ac2b88078170c53e220a319e02a14ef5f inherit pub_methods_class_object3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad230d2255be14116334d98d5ffb150b3 inherit pub_methods_class_object3_d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3">getArea</a> () const</td></tr>
+<tr class="memdesc:ad230d2255be14116334d98d5ffb150b3 inherit pub_methods_class_object3_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for this object's area.  <a href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3">More...</a><br /></td></tr>
+<tr class="separator:ad230d2255be14116334d98d5ffb150b3 inherit pub_methods_class_object3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3aee8b8a169ae898fe2ac80cabeab4d inherit pub_methods_class_object3_d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#ac3aee8b8a169ae898fe2ac80cabeab4d">setMaterial</a> (<a class="el" href="class_material.html">Material</a> *material)</td></tr>
 <tr class="memdesc:ac3aee8b8a169ae898fe2ac80cabeab4d inherit pub_methods_class_object3_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the <a class="el" href="class_material.html" title="Abstrat class that models a material.">Material</a>.  <a href="class_object3_d.html#ac3aee8b8a169ae898fe2ac80cabeab4d">More...</a><br /></td></tr>
 <tr class="separator:ac3aee8b8a169ae898fe2ac80cabeab4d inherit pub_methods_class_object3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeead20fb70797adf7f37c48749789f86 inherit pub_methods_class_object3_d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object3_d.html">Object3D</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#aeead20fb70797adf7f37c48749789f86">operator=</a> (const <a class="el" href="class_object3_d.html">Object3D</a> &amp;otherObject)</td></tr>
 <tr class="memdesc:aeead20fb70797adf7f37c48749789f86 inherit pub_methods_class_object3_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="class_object3_d.html#aeead20fb70797adf7f37c48749789f86">More...</a><br /></td></tr>
 <tr class="separator:aeead20fb70797adf7f37c48749789f86 inherit pub_methods_class_object3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_object3_d"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_object3_d')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_object3_d.html">Object3D</a></td></tr>
+<tr class="memitem:abd9ede75ea47f8caad6dcd69d63fdf16 inherit pro_attribs_class_object3_d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16">area</a></td></tr>
+<tr class="memdesc:abd9ede75ea47f8caad6dcd69d63fdf16 inherit pro_attribs_class_object3_d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the area of this object.  <a href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16">More...</a><br /></td></tr>
+<tr class="separator:abd9ede75ea47f8caad6dcd69d63fdf16 inherit pro_attribs_class_object3_d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A triangle defined by its three vertices. </p>
@@ -300,6 +313,36 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The distance between the ray origin and the intersection. Returns -1 if the ray does not intersect with the object. </dd></dl>
 
 <p>Implements <a class="el" href="class_object3_d.html#af89bc307949883203c74b631e74832ee">Object3D</a>.</p>
+
+</div>
+</div>
+<a id="ac92be3977550f799a3f29db1a92195f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac92be3977550f799a3f29db1a92195f7">&#9670;&nbsp;</a></span>computeArea()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Triangle::computeArea </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes this triangle's area. </p>
+<p>Modifies <a class="el" href="class_object3_d.html#abd9ede75ea47f8caad6dcd69d63fdf16" title="Stores the area of this object.">Object3D::area</a>. It uses the formula A = 0.5 * ||edge1 x edge2||. </p>
+
+<p>Implements <a class="el" href="class_object3_d.html#a9ba53c72fa949445d1ec7d2a869884f0">Object3D</a>.</p>
 
 </div>
 </div>
