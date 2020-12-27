@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['max_5fcolour_5fvalue_490',['MAX_COLOUR_VALUE',['../class_picture.html#a2b49d106120c3a24268c6f04871e2c01',1,'Picture']]],
-  ['max_5flength_5fstring_5ffrom_5fuser_491',['MAX_LENGTH_STRING_FROM_USER',['../_interface_gestion_8h.html#a4d006800bb78c3f10d521331288f3d78',1,'InterfaceGestion.h']]]
+  ['kdtreenode_543',['kdTreeNode',['../struct_k_d_tree_node_1_1_intersection.html#ab5610b831e4c3d872cc3efcda5c40a13',1,'KDTreeNode::Intersection']]]
 ];

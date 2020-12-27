@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['normalise_417',['normalise',['../class_double_vec3_d.html#a144b74056f0e9e0daf74c7e04a68ebd7',1,'DoubleVec3D']]]
+  ['main_461',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['material_462',['Material',['../class_material.html#a647945ea5f7ee9b7a39418e67dfa5aad',1,'Material::Material(DoubleVec3D emittance=0)'],['../class_material.html#ac0731e51ea0d30bf45ddec3fe761062e',1,'Material::Material(const Material &amp;material)']]],
+  ['merge_463',['merge',['../class_object3_d_group.html#a33b04501e5233625850f773f0ff31ca9',1,'Object3DGroup']]],
+  ['modify_464',['modify',['../class_object3_d_group.html#a5e523832cda27bd033c082b396f1f406',1,'Object3DGroup::modify()'],['../class_picture.html#a274ae16ac0daea80c2ab1fa27e5cd01b',1,'Picture::modify()']]]
 ];

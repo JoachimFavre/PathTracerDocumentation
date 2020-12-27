@@ -74,26 +74,23 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the <a class="el" href="class_picture.html" title="Stores luminance for every pixel.">Picture</a> class and the functions around it.  
+<p>Defines the <a class="el" href="class_picture.html" title="Stores radiance for every pixel.">Picture</a> class and the functions around it.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
-<code>#include &lt;chrono&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
-<code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
 <code>#include &quot;CImg/CImg.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="_double_vec3_d_8h_source.html">DoubleVec3D.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_interface_gestion_8h_source.html">InterfaceGestion.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Picture.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_picture_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_picture_8h__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_picture_8h__dep__incl.svg" width="470" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_picture_8h__dep__incl.svg" width="470" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="_picture_8h_source.html">Go to the source code of this file.</a></p>
@@ -101,26 +98,26 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_picture.html">Picture</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores luminance for every pixel.  <a href="class_picture.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores radiance for every pixel.  <a href="class_picture.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aae2c2f47a44e2bbf6a44864a0a9c7dff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#aae2c2f47a44e2bbf6a44864a0a9c7dff">toneMapping</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;luminance, double middleGray)</td></tr>
-<tr class="memdesc:aae2c2f47a44e2bbf6a44864a0a9c7dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concerts a luminance to a colour value.  <a href="_picture_8h.html#aae2c2f47a44e2bbf6a44864a0a9c7dff">More...</a><br /></td></tr>
-<tr class="separator:aae2c2f47a44e2bbf6a44864a0a9c7dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ec48072c23f2d41fd87cfa09cf7945"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#a68ec48072c23f2d41fd87cfa09cf7945">toneMapping</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;radiance, double middleGrey)</td></tr>
+<tr class="memdesc:a68ec48072c23f2d41fd87cfa09cf7945"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a radiance to a colour value.  <a href="_picture_8h.html#a68ec48072c23f2d41fd87cfa09cf7945">More...</a><br /></td></tr>
+<tr class="separator:a68ec48072c23f2d41fd87cfa09cf7945"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a61d35ebe49e4ff03be822bc2327e8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#a4a61d35ebe49e4ff03be822bc2327e8a">getColourMovingAverage</a> (const std::vector&lt; std::vector&lt; <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &gt;&gt; &amp;pixelValues, unsigned int pixelX, unsigned int pixelY, unsigned int size)</td></tr>
 <tr class="memdesc:a4a61d35ebe49e4ff03be822bc2327e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the value of a pixel when having applied a moving average.  <a href="_picture_8h.html#a4a61d35ebe49e4ff03be822bc2327e8a">More...</a><br /></td></tr>
 <tr class="separator:a4a61d35ebe49e4ff03be822bc2327e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab84dd6b19bf97f570877cc77f9345b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#ab84dd6b19bf97f570877cc77f9345b5a">to_json</a> (<a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, const <a class="el" href="class_picture.html">Picture</a> &amp;picture)</td></tr>
+<tr class="memitem:ab84dd6b19bf97f570877cc77f9345b5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#ab84dd6b19bf97f570877cc77f9345b5a">to_json</a> (<a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, const <a class="el" href="class_picture.html">Picture</a> &amp;picture)</td></tr>
 <tr class="memdesc:ab84dd6b19bf97f570877cc77f9345b5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to json.  <a href="_picture_8h.html#ab84dd6b19bf97f570877cc77f9345b5a">More...</a><br /></td></tr>
 <tr class="separator:ab84dd6b19bf97f570877cc77f9345b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa866d9aec0f41c7ccfea8387a4f658fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_picture.html">Picture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#aa866d9aec0f41c7ccfea8387a4f658fb">importPictureFromJson</a> (const <a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j)</td></tr>
+<tr class="memitem:aa866d9aec0f41c7ccfea8387a4f658fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_picture.html">Picture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_picture_8h.html#aa866d9aec0f41c7ccfea8387a4f658fb">importPictureFromJson</a> (const <a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j)</td></tr>
 <tr class="memdesc:aa866d9aec0f41c7ccfea8387a4f658fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a picture out of json.  <a href="_picture_8h.html#aa866d9aec0f41c7ccfea8387a4f658fb">More...</a><br /></td></tr>
 <tr class="separator:aa866d9aec0f41c7ccfea8387a4f658fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines the <a class="el" href="class_picture.html" title="Stores luminance for every pixel.">Picture</a> class and the functions around it. </p>
+<div class="textblock"><p>Defines the <a class="el" href="class_picture.html" title="Stores radiance for every pixel.">Picture</a> class and the functions around it. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a4a61d35ebe49e4ff03be822bc2327e8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a61d35ebe49e4ff03be822bc2327e8a">&#9670;&nbsp;</a></span>getColourMovingAverage()</h2>
@@ -163,7 +160,7 @@ Functions</h2></td></tr>
 <p>Computes the value of a pixel when having applied a moving average. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixelValues</td><td>The values of all pixels (can be luminance or colour). </td></tr>
+    <tr><td class="paramname">pixelValues</td><td>The values of all pixels (can be radiance or colour value, depending whether you first use the toneMapping function or not). </td></tr>
     <tr><td class="paramname">pixelX</td><td>The <em>x</em> coordinate of the pixel. </td></tr>
     <tr><td class="paramname">pixelY</td><td>the <em>y</em> coordinate of the pixel. </td></tr>
     <tr><td class="paramname">size</td><td>The size of the moving average. </td></tr>
@@ -183,7 +180,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_picture.html">Picture</a> importPictureFromJson </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
           <td class="paramname"><em>j</em></td><td>)</td>
           <td></td>
         </tr>
@@ -210,7 +207,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void to_json </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
           <td class="paramname"><em>j</em>, </td>
         </tr>
         <tr>
@@ -239,8 +236,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aae2c2f47a44e2bbf6a44864a0a9c7dff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae2c2f47a44e2bbf6a44864a0a9c7dff">&#9670;&nbsp;</a></span>toneMapping()</h2>
+<a id="a68ec48072c23f2d41fd87cfa09cf7945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ec48072c23f2d41fd87cfa09cf7945">&#9670;&nbsp;</a></span>toneMapping()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,13 +246,13 @@ Functions</h2></td></tr>
           <td class="memname"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> toneMapping </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;&#160;</td>
-          <td class="paramname"><em>luminance</em>, </td>
+          <td class="paramname"><em>radiance</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>middleGray</em>&#160;</td>
+          <td class="paramname"><em>middleGrey</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -265,11 +262,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Concerts a luminance to a colour value. </p>
+<p>Converts a radiance to a colour value. </p>
 <p>This is a very naive tone mapping. See my TM's report for more explanations. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">luminance</td><td>The luminance we want to convert. </td></tr>
-    <tr><td class="paramname">middleGray</td><td>The luminance value that corresponds to the middle-gray. </td></tr>
+    <tr><td class="paramname">radiance</td><td>The radiance we want to convert. </td></tr>
+    <tr><td class="paramname">middleGrey</td><td>The radiance value that corresponds to the middle-grey. </td></tr>
   </table>
   </dd>
 </dl>
@@ -280,7 +277,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <hr class="footer">
 <address class="footer"><small>
-Made by Joachim Favre — Classroom 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
+Made by Joachim Favre — Group 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
 <br>
 Documentation automatically generated by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.20
 </small>

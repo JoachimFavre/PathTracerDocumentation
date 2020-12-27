@@ -68,8 +68,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">DoubleVec3D.h File Reference</div>  </div>
@@ -78,19 +76,18 @@ $(function() {
 
 <p>Defines the <a class="el" href="class_double_vec3_d.html" title="A three-dimensional vector using double values.">DoubleVec3D</a> class and the functions around it.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;nlohmann/json.hpp&quot;</code><br />
-<code>#include &lt;fbxsdk.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_interface_gestion_8h_source.html">InterfaceGestion.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DoubleVec3D.h:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__incl.svg" width="422" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="_double_vec3_d_8h_source.html">Go to the source code of this file.</a></p>
@@ -100,16 +97,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A three-dimensional vector using double values.  <a href="class_double_vec3_d.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a525335710b53cb064ca56b936120431e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#a525335710b53cb064ca56b936120431e">_USE_MATH_DEFINES</a></td></tr>
-<tr class="separator:a525335710b53cb064ca56b936120431e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ab701e3ac61a85b337ec5c1abaad6742d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> = nlohmann::json</td></tr>
-<tr class="separator:ab701e3ac61a85b337ec5c1abaad6742d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -143,46 +130,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#a6d0f51918da2c1191f6a9eb45ee5c402">length</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
 <tr class="memdesc:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Norm of the vector.  <a href="_double_vec3_d_8h.html#a6d0f51918da2c1191f6a9eb45ee5c402">More...</a><br /></td></tr>
 <tr class="separator:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64df3d039b73d8378ff09f0e88b4cb15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#a64df3d039b73d8378ff09f0e88b4cb15">to_json</a> (<a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
+<tr class="memitem:a64df3d039b73d8378ff09f0e88b4cb15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#a64df3d039b73d8378ff09f0e88b4cb15">to_json</a> (<a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
 <tr class="memdesc:a64df3d039b73d8378ff09f0e88b4cb15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to json.  <a href="_double_vec3_d_8h.html#a64df3d039b73d8378ff09f0e88b4cb15">More...</a><br /></td></tr>
 <tr class="separator:a64df3d039b73d8378ff09f0e88b4cb15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59e9b5ff548c51e63ac3796823380ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#aa59e9b5ff548c51e63ac3796823380ee">from_json</a> (const <a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
+<tr class="memitem:aa59e9b5ff548c51e63ac3796823380ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#aa59e9b5ff548c51e63ac3796823380ee">from_json</a> (const <a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
 <tr class="memdesc:aa59e9b5ff548c51e63ac3796823380ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion from json.  <a href="_double_vec3_d_8h.html#aa59e9b5ff548c51e63ac3796823380ee">More...</a><br /></td></tr>
 <tr class="separator:aa59e9b5ff548c51e63ac3796823380ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Defines the <a class="el" href="class_double_vec3_d.html" title="A three-dimensional vector using double values.">DoubleVec3D</a> class and the functions around it. </p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a525335710b53cb064ca56b936120431e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a525335710b53cb064ca56b936120431e">&#9670;&nbsp;</a></span>_USE_MATH_DEFINES</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define _USE_MATH_DEFINES</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ab701e3ac61a85b337ec5c1abaad6742d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab701e3ac61a85b337ec5c1abaad6742d">&#9670;&nbsp;</a></span>json</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> =  nlohmann::json</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a932ac3a22d77261a7c601200aef23f77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a932ac3a22d77261a7c601200aef23f77">&#9670;&nbsp;</a></span>crossProd()</h2>
 
@@ -268,7 +225,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void from_json </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
           <td class="paramname"><em>j</em>, </td>
         </tr>
         <tr>
@@ -593,7 +550,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void to_json </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="_double_vec3_d_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;&#160;</td>
           <td class="paramname"><em>j</em>, </td>
         </tr>
         <tr>
@@ -624,7 +581,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <hr class="footer">
 <address class="footer"><small>
-Made by Joachim Favre — Classroom 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
+Made by Joachim Favre — Group 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
 <br>
 Documentation automatically generated by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.20
 </small>

@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['normalise_145',['normalise',['../class_double_vec3_d.html#a144b74056f0e9e0daf74c7e04a68ebd7',1,'DoubleVec3D']]],
-  ['normalised_146',['normalised',['../class_double_vec3_d.html#aa5cbc740ac157c4165fbf8d94b000b43',1,'DoubleVec3D']]]
+  ['main_20page_155',['Main Page',['../index.html',1,'']]],
+  ['main_156',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
+  ['main_2ecpp_157',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['mainpage_2emd_158',['MainPage.md',['../_main_page_8md.html',1,'']]],
+  ['material_159',['Material',['../class_material.html',1,'Material'],['../class_material.html#a647945ea5f7ee9b7a39418e67dfa5aad',1,'Material::Material(DoubleVec3D emittance=0)'],['../class_material.html#ac0731e51ea0d30bf45ddec3fe761062e',1,'Material::Material(const Material &amp;material)']]],
+  ['material_2ecpp_160',['Material.cpp',['../_material_8cpp.html',1,'']]],
+  ['material_2eh_161',['Material.h',['../_material_8h.html',1,'']]],
+  ['max_5fcolour_5fvalue_162',['MAX_COLOUR_VALUE',['../class_picture.html#a2b49d106120c3a24268c6f04871e2c01',1,'Picture']]],
+  ['max_5flength_5fstring_5ffrom_5fuser_163',['MAX_LENGTH_STRING_FROM_USER',['../_interface_gestion_8h.html#a4d006800bb78c3f10d521331288f3d78',1,'InterfaceGestion.h']]],
+  ['merge_164',['merge',['../class_object3_d_group.html#a33b04501e5233625850f773f0ff31ca9',1,'Object3DGroup']]],
+  ['modify_165',['modify',['../class_object3_d_group.html#a5e523832cda27bd033c082b396f1f406',1,'Object3DGroup::modify()'],['../class_picture.html#a274ae16ac0daea80c2ab1fa27e5cd01b',1,'Picture::modify()']]]
 ];

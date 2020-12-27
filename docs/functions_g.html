@@ -65,6 +65,9 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_g"></a>- g -</h3><ul>
+<li>getAlbedo()
+: <a class="el" href="class_diffuse_material.html#adccdb173e0aeef664d8cd294247f9529">DiffuseMaterial</a>
+</li>
 <li>getArea()
 : <a class="el" href="class_object3_d.html#ad230d2255be14116334d98d5ffb150b3">Object3D</a>
 </li>
@@ -80,8 +83,11 @@ $(function() {
 , <a class="el" href="class_sphere.html#aa1413c8d17c6ff1ba19c1776cd3f0071">Sphere</a>
 , <a class="el" href="class_triangle.html#aba077c4e8f9704ac6e1dd2139f850af7">Triangle</a>
 </li>
-<li>getColour()
-: <a class="el" href="class_diffuse_material.html#af8e333dd243f9a6d73a927f2c97b21d3">DiffuseMaterial</a>
+<li>getChildGreater()
+: <a class="el" href="class_k_d_tree_node.html#acb79229f476345640f07885509427fa9">KDTreeNode</a>
+</li>
+<li>getChildSmaller()
+: <a class="el" href="class_k_d_tree_node.html#a7fe54a546b2d2491e4e76a33230bda08">KDTreeNode</a>
 </li>
 <li>getColumn0()
 : <a class="el" href="class_double_matrix33.html#a2a780c5a0d80e5a59e3c212c600a12b9">DoubleMatrix33</a>
@@ -91,6 +97,9 @@ $(function() {
 </li>
 <li>getColumn2()
 : <a class="el" href="class_double_matrix33.html#af26bdb31426f838dcb21c98a87ddded0">DoubleMatrix33</a>
+</li>
+<li>getDepth()
+: <a class="el" href="class_k_d_tree_node.html#a54bb57e8c55cfaa5f2148dc5465ca43d">KDTreeNode</a>
 </li>
 <li>getDescription()
 : <a class="el" href="class_diffuse_material.html#ad136a63717eb9a6959bbe46096cf6af8">DiffuseMaterial</a>
@@ -113,6 +122,21 @@ $(function() {
 <li>getHeight()
 : <a class="el" href="class_picture.html#a6817e2af1277bbfc92280a30a631c165">Picture</a>
 </li>
+<li>getIntersectionBackward()
+: <a class="el" href="class_k_d_tree_node.html#a7f69ff259ee3148960b772a27b2146c3">KDTreeNode</a>
+</li>
+<li>getIntersectionForward()
+: <a class="el" href="class_k_d_tree_node.html#aa6f21a07cbc6bdcec7b45bbedcaff7b1">KDTreeNode</a>
+</li>
+<li>getKDMaxDepth()
+: <a class="el" href="class_scene.html#aa214149ef3fe9b07a47b647f0b47a766">Scene</a>
+</li>
+<li>getKDMaxObjectNumber()
+: <a class="el" href="class_scene.html#a25d3a49eaad491d6077a798207ed3e01">Scene</a>
+</li>
+<li>getKDTree()
+: <a class="el" href="class_scene.html#a76fb8b1665f62e3f217c5b6bd75f8bc0">Scene</a>
+</li>
 <li>getLamps()
 : <a class="el" href="class_scene.html#ad467c23c7af369c7fbe156305917ef36">Scene</a>
 </li>
@@ -124,20 +148,29 @@ $(function() {
 <li>getMaterial()
 : <a class="el" href="class_object3_d.html#ac2b88078170c53e220a319e02a14ef5f">Object3D</a>
 </li>
-<li>getMaxDepth()
-: <a class="el" href="class_scene.html#a1a6c888c5054eacbefc421205d650757">Scene</a>
+<li>getMaxCoord()
+: <a class="el" href="class_k_d_tree_node.html#a3c64f2bf8f6f6c52d6e5ec448e0d77a0">KDTreeNode</a>
+, <a class="el" href="class_object3_d.html#afb98597efb42ab783ce228aba9a6dea8">Object3D</a>
+, <a class="el" href="class_sphere.html#a1b31defa4999aff6c6a6673294a66630">Sphere</a>
+, <a class="el" href="class_triangle.html#a7a0d47678ba23c74ccfdb6ca23ea0779">Triangle</a>
 </li>
 <li>getMinBounces()
 : <a class="el" href="class_scene.html#af6df6e28644a91eff549784294f598e8">Scene</a>
+</li>
+<li>getMinCoord()
+: <a class="el" href="class_k_d_tree_node.html#a754ace6ae201278df4cfe09b8d117859">KDTreeNode</a>
+, <a class="el" href="class_object3_d.html#a4861a1de60b073f98426b8adb6754dfa">Object3D</a>
+, <a class="el" href="class_sphere.html#a007b4ecdc55b7f85c6b12c9c315ff888">Sphere</a>
+, <a class="el" href="class_triangle.html#a923b5ac49ba9429b1f6ac77de8e8b2fa">Triangle</a>
 </li>
 <li>getName()
 : <a class="el" href="class_object3_d_group.html#a90fe4d9218c3e48283606edc1c5b693a">Object3DGroup</a>
 </li>
 <li>getNewDirection()
-: <a class="el" href="class_diffuse_material.html#ab5ffd69911d175fd9bd34183f68657e9">DiffuseMaterial</a>
-, <a class="el" href="class_material.html#a4cb86964b9eff580a2547e5361fdf501">Material</a>
-, <a class="el" href="class_refractive_material.html#a0b8f3995e36be042d5087de87d8dcb5a">RefractiveMaterial</a>
-, <a class="el" href="class_specular_material.html#a6085483d01d8a1948a2e52e76d49cf9b">SpecularMaterial</a>
+: <a class="el" href="class_diffuse_material.html#add8cedb37dd3f4bca535fcdc8f3e77ab">DiffuseMaterial</a>
+, <a class="el" href="class_material.html#a63437bdd7169c98df03e80e15655714b">Material</a>
+, <a class="el" href="class_refractive_material.html#a3dce92068c9c8b7a5690461ff4fcc3f1">RefractiveMaterial</a>
+, <a class="el" href="class_specular_material.html#a8c4591da90fce2b490301231b89e85d4">SpecularMaterial</a>
 </li>
 <li>getNextEventEstimation()
 : <a class="el" href="class_scene.html#adfcbed2741bcb68047ab13821b62ea4e">Scene</a>
@@ -157,7 +190,8 @@ $(function() {
 : <a class="el" href="class_scene.html#a0c8a7d2f6615d53eb19ef820a96ec5b5">Scene</a>
 </li>
 <li>getObjects()
-: <a class="el" href="class_object3_d_group.html#afbd033b2b78d4f29842a529eaf2a22ba">Object3DGroup</a>
+: <a class="el" href="class_k_d_tree_node.html#a724961eb251aa1601649c2b287ff5242">KDTreeNode</a>
+, <a class="el" href="class_object3_d_group.html#afbd033b2b78d4f29842a529eaf2a22ba">Object3DGroup</a>
 , <a class="el" href="class_scene.html#acaa8593cde7a8961cf218f267f072bf5">Scene</a>
 </li>
 <li>getObjectsGroups()
@@ -170,6 +204,9 @@ $(function() {
 : <a class="el" href="class_perspective_camera.html#a12a805b0bbf93eca757e33f53a921232">PerspectiveCamera</a>
 , <a class="el" href="class_ray.html#a19adc8790f5b11ed0a970a829848b596">Ray</a>
 </li>
+<li>getParent()
+: <a class="el" href="class_k_d_tree_node.html#a81beeea2dd56db3c57d0da8fa7b7a340">KDTreeNode</a>
+</li>
 <li>getPixels()
 : <a class="el" href="class_picture.html#aeae97fb546fc51d4ef31605a40f7324a">Picture</a>
 </li>
@@ -177,9 +214,9 @@ $(function() {
 : <a class="el" href="class_sphere.html#af6ef9e5fb40ff59eab5db09f8fbaeac7">Sphere</a>
 </li>
 <li>getRandomPoint()
-: <a class="el" href="class_object3_d.html#aac98533a4fa613e53cbcf7c884345241">Object3D</a>
-, <a class="el" href="class_sphere.html#a4131d59e8ea6dc0f54f9d5bb46a8114c">Sphere</a>
-, <a class="el" href="class_triangle.html#ab7da3d18881239b4a6133db56f0a5a0a">Triangle</a>
+: <a class="el" href="class_object3_d.html#a3db9f6fd0b029019f0c4912df42e6ee5">Object3D</a>
+, <a class="el" href="class_sphere.html#a3edb960cb0d4e6cf3907c6efbcc3764f">Sphere</a>
+, <a class="el" href="class_triangle.html#a2f099fc6285e6375509441b0af698e0a">Triangle</a>
 </li>
 <li>getRayGoingThrough()
 : <a class="el" href="class_perspective_camera.html#a81dfc8236d48b968db1145a2588c70aa">PerspectiveCamera</a>
@@ -254,7 +291,7 @@ $(function() {
 </div><!-- contents -->
 <hr class="footer">
 <address class="footer"><small>
-Made by Joachim Favre — Classroom 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
+Made by Joachim Favre — Group 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
 <br>
 Documentation automatically generated by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.20
 </small>

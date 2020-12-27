@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_perspective_camera.html" title="Models a perspective camera." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node1" href="$class_object3_d.html" title="Abstract class for a three&#45;dimentional object." alt="" coords="5,31,81,57"/>
+<area shape="rect" id="node2" href="$class_sphere.html" title="A sphere described by its center and its raidus." alt="" coords="131,5,194,32"/>
+<area shape="rect" id="node3" href="$class_triangle.html" title="A triangle defined by its three vertices." alt="" coords="129,56,196,83"/>
 </map>

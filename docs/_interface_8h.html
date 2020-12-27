@@ -77,20 +77,18 @@ $(function() {
 
 <p>Defines some functions for the interface.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;iomanip&gt;</code><br />
-<code>#include &quot;<a class="el" href="_interface_gestion_8h_source.html">InterfaceGestion.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_scene_8h_source.html">Scene.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_perspective_camera_8h_source.html">PerspectiveCamera.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_object3_d_group_8h_source.html">Object3DGroup.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_scene_8h_source.html">Scene.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Interface.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_interface_8h__dep__incl.svg" width="374" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_interface_8h__dep__incl.svg" width="374" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="_interface_8h_source.html">Go to the source code of this file.</a></p>
@@ -117,6 +115,9 @@ Functions</h2></td></tr>
 <tr class="memitem:abc9fb40c4db3303c4fcd9dffb79a0eab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_8h.html#abc9fb40c4db3303c4fcd9dffb79a0eab">displayCommands</a> ()</td></tr>
 <tr class="memdesc:abc9fb40c4db3303c4fcd9dffb79a0eab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the available command.  <a href="_interface_8h.html#abc9fb40c4db3303c4fcd9dffb79a0eab">More...</a><br /></td></tr>
 <tr class="separator:abc9fb40c4db3303c4fcd9dffb79a0eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06b7356266c9c96e639b31d2837d356"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_8h.html#ab06b7356266c9c96e639b31d2837d356">printAll</a> ()</td></tr>
+<tr class="memdesc:ab06b7356266c9c96e639b31d2837d356"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the whole page.  <a href="_interface_8h.html#ab06b7356266c9c96e639b31d2837d356">More...</a><br /></td></tr>
+<tr class="separator:ab06b7356266c9c96e639b31d2837d356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4171a161c7c6d81c111749da9949f29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_8h.html#ab4171a161c7c6d81c111749da9949f29">initInterface</a> ()</td></tr>
 <tr class="memdesc:ab4171a161c7c6d81c111749da9949f29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the infinite loop of the interface.  <a href="_interface_8h.html#ab4171a161c7c6d81c111749da9949f29">More...</a><br /></td></tr>
 <tr class="separator:ab4171a161c7c6d81c111749da9949f29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -242,6 +243,26 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ab06b7356266c9c96e639b31d2837d356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06b7356266c9c96e639b31d2837d356">&#9670;&nbsp;</a></span>printAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints the whole page. </p>
+<p>Clears the page, prints the header, information and the available commands. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_gestion_8cpp.html#a96efa021dd80171030e753c18a4c4160" title="Clears the console and shows the header.">clearScreenPrintHeader()</a>, <a class="el" href="class_scene.html#a5efdec1ca3bf0f48e9eb1a5134e698ca" title="Prints the parameters page.">Scene::displayParametersPage()</a>, <a class="el" href="class_scene.html#a15995436805b32321faa5a5860ae82b9" title="Prints the objects page.">Scene::displayObjectsPage()</a>, <a class="el" href="_interface_8h.html#abc9fb40c4db3303c4fcd9dffb79a0eab" title="Prints the available command.">displayCommands()</a> </dd></dl>
+
+</div>
+</div>
 <a id="ad6e2369954e757567d13d079a542a2ac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6e2369954e757567d13d079a542a2ac">&#9670;&nbsp;</a></span>receiveAndExecuteGeneralCommands()</h2>
 
@@ -258,7 +279,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Receives and executes the general commands. </p>
-<p>Asks a command to the user. If it is general to both main pages (exit, for example), executes it, else, calls <a class="el" href="_interface_8h.html#ac0b7ed4f4409a1f3ea229ddb62735008" title="Executes a command specific to the parameters page.">executeParametersCommands()</a> or exercuteObjectsCommands(). </p>
+<p>Asks a command to the user. If it is general to both main pages (exit, for example), executes it, else, calls <a class="el" href="_interface_8h.html#ac0b7ed4f4409a1f3ea229ddb62735008" title="Executes a command specific to the parameters page.">executeParametersCommands()</a> or <a class="el" href="_interface_8h.html#a952a5acd941004fb07f801a4e0363d9a" title="Executes a command specific to the objects page.">executeObjectsCommands()</a>. </p>
 
 </div>
 </div>
@@ -306,7 +327,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <hr class="footer">
 <address class="footer"><small>
-Made by Joachim Favre — Classroom 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
+Made by Joachim Favre — Group 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
 <br>
 Documentation automatically generated by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.20
 </small>

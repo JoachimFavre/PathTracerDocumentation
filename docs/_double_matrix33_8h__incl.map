@@ -1,8 +1,12 @@
 <map id="D:/PathTracer/PathTracer/DoubleMatrix33.h" name="D:/PathTracer/PathTracer/DoubleMatrix33.h">
-<area shape="rect" id="node1" title="Defines the DoubleMatrix33 class and the functions around it." alt="" coords="109,5,278,47"/>
-<area shape="rect" id="node2" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="137,95,249,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,169,77,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="102,169,165,196"/>
-<area shape="rect" id="node5" title=" " alt="" coords="189,169,320,196"/>
-<area shape="rect" id="node6" title=" " alt="" coords="345,169,415,196"/>
+<area shape="rect" id="node1" title="Defines the DoubleMatrix33 class and the functions around it." alt="" coords="222,5,391,47"/>
+<area shape="rect" id="node2" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="251,95,363,121"/>
+<area shape="rect" id="node3" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="243,169,370,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,244,67,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="91,244,157,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="181,244,246,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="271,244,343,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="367,244,430,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="455,244,585,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="610,244,681,271"/>
 </map>

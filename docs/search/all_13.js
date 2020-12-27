@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_7eobject3d_243',['~Object3D',['../class_object3_d.html#a73b016a1aa7eb3be3c49671f3054565d',1,'Object3D']]],
-  ['_7eobject3dgroup_244',['~Object3DGroup',['../class_object3_d_group.html#ab422590b286f8b069d41c80b0d36f6c5',1,'Object3DGroup']]],
-  ['_7epicture_245',['~Picture',['../class_picture.html#a277f070f83063fa0922d2c1de8889a58',1,'Picture']]]
+  ['workswithnexteventestimation_266',['worksWithNextEventEstimation',['../class_diffuse_material.html#a1897782c81a5513d9ffca92a1985a823',1,'DiffuseMaterial::worksWithNextEventEstimation()'],['../class_material.html#ac607b42652934e19ccff5c6d4bf99065',1,'Material::worksWithNextEventEstimation()'],['../class_refractive_material.html#af4a99f7e37c05ce8839125b09ceae3f3',1,'RefractiveMaterial::worksWithNextEventEstimation()'],['../class_specular_material.html#a51002ab38dc2778e1c8aed591625956a',1,'SpecularMaterial::worksWithNextEventEstimation()']]],
+  ['writetofile_267',['writeToFile',['../class_picture.html#af004079bf22a1a0ad54ed95d3daecc93',1,'Picture']]]
 ];

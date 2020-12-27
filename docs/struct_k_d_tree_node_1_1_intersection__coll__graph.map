@@ -1,0 +1,5 @@
+<map id="KDTreeNode::Intersection" name="KDTreeNode::Intersection">
+<area shape="rect" id="node1" title="A struct binding a pointer to an Object3D, a distance, and a pointer to a KDTreeNode." alt="" coords="13,95,183,121"/>
+<area shape="rect" id="node2" href="$class_object3_d.html" title="Abstract class for a three&#45;dimentional object." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node3" href="$class_k_d_tree_node.html" title="A node of a k&#45;d tree." alt="" coords="105,5,200,32"/>
+</map>

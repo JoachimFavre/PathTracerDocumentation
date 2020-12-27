@@ -76,7 +76,8 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Interface.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -93,6 +94,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a5a71a3461db89617a55cadde5c2b040e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_8cpp.html#a5a71a3461db89617a55cadde5c2b040e">executeObjectsCommands</a> (char command)</td></tr>
 <tr class="memdesc:a5a71a3461db89617a55cadde5c2b040e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a command specific to the objects page.  <a href="_interface_8cpp.html#a5a71a3461db89617a55cadde5c2b040e">More...</a><br /></td></tr>
 <tr class="separator:a5a71a3461db89617a55cadde5c2b040e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a831d22daf03f4e8dccb5270f55ed2d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_8cpp.html#a831d22daf03f4e8dccb5270f55ed2d3f">printAll</a> ()</td></tr>
+<tr class="memdesc:a831d22daf03f4e8dccb5270f55ed2d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the whole page.  <a href="_interface_8cpp.html#a831d22daf03f4e8dccb5270f55ed2d3f">More...</a><br /></td></tr>
+<tr class="separator:a831d22daf03f4e8dccb5270f55ed2d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab274bf03f43e0b934ba5a1d8efc0a8d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_8cpp.html#ab274bf03f43e0b934ba5a1d8efc0a8d4">initInterface</a> ()</td></tr>
 <tr class="memdesc:ab274bf03f43e0b934ba5a1d8efc0a8d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Starts the infinite loop of the interface.  <a href="_interface_8cpp.html#ab274bf03f43e0b934ba5a1d8efc0a8d4">More...</a><br /></td></tr>
 <tr class="separator:ab274bf03f43e0b934ba5a1d8efc0a8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +181,26 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a831d22daf03f4e8dccb5270f55ed2d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a831d22daf03f4e8dccb5270f55ed2d3f">&#9670;&nbsp;</a></span>printAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">printAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints the whole page. </p>
+<p>Clears the page, prints the header, information and the available commands. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_gestion_8cpp.html#a96efa021dd80171030e753c18a4c4160" title="Clears the console and shows the header.">clearScreenPrintHeader()</a>, <a class="el" href="class_scene.html#a5efdec1ca3bf0f48e9eb1a5134e698ca" title="Prints the parameters page.">Scene::displayParametersPage()</a>, <a class="el" href="class_scene.html#a15995436805b32321faa5a5860ae82b9" title="Prints the objects page.">Scene::displayObjectsPage()</a>, <a class="el" href="_interface_8h.html#abc9fb40c4db3303c4fcd9dffb79a0eab" title="Prints the available command.">displayCommands()</a> </dd></dl>
+
+</div>
+</div>
 <a id="a4046ecae322155b9a87150ce33e7616c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4046ecae322155b9a87150ce33e7616c">&#9670;&nbsp;</a></span>receiveAndExecuteGeneralCommands()</h2>
 
@@ -193,14 +217,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Receives and executes the general commands. </p>
-<p>Asks a command to the user. If it is general to both main pages (exit, for example), executes it, else, calls <a class="el" href="_interface_8h.html#ac0b7ed4f4409a1f3ea229ddb62735008" title="Executes a command specific to the parameters page.">executeParametersCommands()</a> or exercuteObjectsCommands(). </p>
+<p>Asks a command to the user. If it is general to both main pages (exit, for example), executes it, else, calls <a class="el" href="_interface_8h.html#ac0b7ed4f4409a1f3ea229ddb62735008" title="Executes a command specific to the parameters page.">executeParametersCommands()</a> or <a class="el" href="_interface_8h.html#a952a5acd941004fb07f801a4e0363d9a" title="Executes a command specific to the objects page.">executeObjectsCommands()</a>. </p>
 
 </div>
 </div>
 </div><!-- contents -->
 <hr class="footer">
 <address class="footer"><small>
-Made by Joachim Favre — Classroom 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
+Made by Joachim Favre — Group 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
 <br>
 Documentation automatically generated by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.20
 </small>

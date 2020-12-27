@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Stores luminance for every pixel.  
+<p>Stores radiance for every pixel.  
  <a href="class_picture.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_picture_8h_source.html">Picture.h</a>&gt;</code></p>
@@ -111,9 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab4f22fe48da3b7d2ca684ffa05c4ed47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_picture.html#ab4f22fe48da3b7d2ca684ffa05c4ed47">setRenderTime</a> (double renderTime)</td></tr>
 <tr class="memdesc:ab4f22fe48da3b7d2ca684ffa05c4ed47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the render time.  <a href="class_picture.html#ab4f22fe48da3b7d2ca684ffa05c4ed47">More...</a><br /></td></tr>
 <tr class="separator:ab4f22fe48da3b7d2ca684ffa05c4ed47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad784e5de83850fb3a45e5d3df841cf4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_picture.html#ad784e5de83850fb3a45e5d3df841cf4e">writeToFile</a> (double middleGray, std::string fileName, unsigned int movingAverage=0) const</td></tr>
-<tr class="memdesc:ad784e5de83850fb3a45e5d3df841cf4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes this as a picture file.  <a href="class_picture.html#ad784e5de83850fb3a45e5d3df841cf4e">More...</a><br /></td></tr>
-<tr class="separator:ad784e5de83850fb3a45e5d3df841cf4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af004079bf22a1a0ad54ed95d3daecc93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_picture.html#af004079bf22a1a0ad54ed95d3daecc93">writeToFile</a> (double middleGrey, std::string fileName, unsigned int movingAverage=0) const</td></tr>
+<tr class="memdesc:af004079bf22a1a0ad54ed95d3daecc93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes this as a picture file.  <a href="class_picture.html#af004079bf22a1a0ad54ed95d3daecc93">More...</a><br /></td></tr>
+<tr class="separator:af004079bf22a1a0ad54ed95d3daecc93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a32ea143e2dfd243dea2e3c6b5c545d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_picture.html#a7a32ea143e2dfd243dea2e3c6b5c545d">printAll</a> () const</td></tr>
+<tr class="memdesc:a7a32ea143e2dfd243dea2e3c6b5c545d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the whole page.  <a href="class_picture.html#a7a32ea143e2dfd243dea2e3c6b5c545d">More...</a><br /></td></tr>
+<tr class="separator:a7a32ea143e2dfd243dea2e3c6b5c545d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a274ae16ac0daea80c2ab1fa27e5cd01b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_picture.html#a274ae16ac0daea80c2ab1fa27e5cd01b">modify</a> ()</td></tr>
 <tr class="memdesc:a274ae16ac0daea80c2ab1fa27e5cd01b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interactive modification of this picture.  <a href="class_picture.html#a274ae16ac0daea80c2ab1fa27e5cd01b">More...</a><br /></td></tr>
 <tr class="separator:a274ae16ac0daea80c2ab1fa27e5cd01b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,7 +128,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a2b49d106120c3a24268c6f04871e2c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Stores luminance for every pixel. </p>
+<div class="textblock"><p>Stores radiance for every pixel. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8995e51ea021e90aaa42bb44a51d2b39"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8995e51ea021e90aaa42bb44a51d2b39">&#9670;&nbsp;</a></span>Picture() <span class="overload">[1/3]</span></h2>
@@ -317,7 +320,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter for the pixels. </p>
-<dl class="section return"><dt>Returns</dt><dd>A std::vector of std::vector that contains the luminance at each pixel. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A std::vector of std::vector that contains the radiance at each pixel. </dd></dl>
 
 </div>
 </div>
@@ -377,7 +380,27 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Interactive modification of this picture. </p>
-<p>This is a page on its own. It allows the user to write the picture under different names, different middle-gray values and different moving average size. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_picture.html#ad784e5de83850fb3a45e5d3df841cf4e" title="Writes this as a picture file.">writeToFile()</a>, <a class="el" href="_picture_8cpp.html#ac831bdbb5479769feac8e85c4e4a45f7" title="Concerts a luminance to a colour value.">toneMapping()</a>, <a class="el" href="_picture_8cpp.html#a10730ecc491d9872f3c39539603be0d4" title="Computes the value of a pixel when having applied a moving average.">getColourMovingAverage()</a> </dd></dl>
+<p>This is a page on its own. It allows the user to write the picture under different names, different middle-grey values and different moving average size. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_picture.html#af004079bf22a1a0ad54ed95d3daecc93" title="Writes this as a picture file.">writeToFile()</a>, <a class="el" href="_picture_8cpp.html#adaaf0fb35eca44b166f0f30bb02bcbed" title="Converts a radiance to a colour value.">toneMapping()</a>, <a class="el" href="_picture_8cpp.html#a10730ecc491d9872f3c39539603be0d4" title="Computes the value of a pixel when having applied a moving average.">getColourMovingAverage()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a7a32ea143e2dfd243dea2e3c6b5c545d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a32ea143e2dfd243dea2e3c6b5c545d">&#9670;&nbsp;</a></span>printAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Picture::printAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints the whole page. </p>
+<p>Clears the page, prints the header, information and the available commands. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_gestion_8cpp.html#a96efa021dd80171030e753c18a4c4160" title="Clears the console and shows the header.">clearScreenPrintHeader()</a> </dd></dl>
 
 </div>
 </div>
@@ -451,8 +474,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad784e5de83850fb3a45e5d3df841cf4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad784e5de83850fb3a45e5d3df841cf4e">&#9670;&nbsp;</a></span>writeToFile()</h2>
+<a id="af004079bf22a1a0ad54ed95d3daecc93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af004079bf22a1a0ad54ed95d3daecc93">&#9670;&nbsp;</a></span>writeToFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,7 +484,7 @@ Static Public Attributes</h2></td></tr>
           <td class="memname">Picture::writeToFile </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>middleGray</em>, </td>
+          <td class="paramname"><em>middleGrey</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -486,13 +509,13 @@ Static Public Attributes</h2></td></tr>
 <p>Writes this as a picture file. </p>
 <p>Uses the CImg library. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">middleGray</td><td>The middle-gray value that will be used for the <a class="el" href="_picture_8cpp.html#ac831bdbb5479769feac8e85c4e4a45f7" title="Concerts a luminance to a colour value.">toneMapping()</a> function. </td></tr>
+    <tr><td class="paramname">middleGrey</td><td>The middle-grey value that will be used for the <a class="el" href="_picture_8cpp.html#adaaf0fb35eca44b166f0f30bb02bcbed" title="Converts a radiance to a colour value.">toneMapping()</a> function. </td></tr>
     <tr><td class="paramname">fileName</td><td>The path to the file where we want to write this picture. If it is "-", it will give a very nice bugged result. This could be easily fixed, but it is very fun and purely nondestructive. </td></tr>
     <tr><td class="paramname">movingAverage</td><td>The size of the moving average (see <a class="el" href="_picture_8cpp.html#a10730ecc491d9872f3c39539603be0d4" title="Computes the value of a pixel when having applied a moving average.">getColourMovingAverage()</a>). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_picture_8cpp.html#ac831bdbb5479769feac8e85c4e4a45f7" title="Concerts a luminance to a colour value.">toneMapping()</a>, <a class="el" href="_picture_8cpp.html#a10730ecc491d9872f3c39539603be0d4" title="Computes the value of a pixel when having applied a moving average.">getColourMovingAverage()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_picture_8cpp.html#adaaf0fb35eca44b166f0f30bb02bcbed" title="Converts a radiance to a colour value.">toneMapping()</a>, <a class="el" href="_picture_8cpp.html#a10730ecc491d9872f3c39539603be0d4" title="Computes the value of a pixel when having applied a moving average.">getColourMovingAverage()</a> </dd></dl>
 
 </div>
 </div>
@@ -518,7 +541,7 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The maximum value that will be used to write a colour in a file. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_picture_8cpp.html#ac831bdbb5479769feac8e85c4e4a45f7" title="Concerts a luminance to a colour value.">toneMapping()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_picture_8cpp.html#adaaf0fb35eca44b166f0f30bb02bcbed" title="Converts a radiance to a colour value.">toneMapping()</a> </dd></dl>
 
 </div>
 </div>
@@ -529,7 +552,7 @@ Static Public Attributes</h2></td></tr>
 </div><!-- contents -->
 <hr class="footer">
 <address class="footer"><small>
-Made by Joachim Favre — Classroom 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
+Made by Joachim Favre — Group 401bi — <a href="https://edu.ge.ch/chavanne-base/chavanne2">CEC André-Chavanne</a>
 <br>
 Documentation automatically generated by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.20
 </small>

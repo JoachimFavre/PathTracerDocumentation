@@ -1,0 +1,12 @@
+digraph "KDTreeNode::Intersection"
+{
+ // INTERACTIVE_SVG=YES
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="KDTreeNode::Intersection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="A struct binding a pointer to an Object3D, a distance, and a pointer to a KDTreeNode."];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node2 [label="Object3D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object3_d.html",tooltip="Abstract class for a three-dimentional object."];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" kdTreeNode" ,fontname="Helvetica"];
+  Node3 [label="KDTreeNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_k_d_tree_node.html",tooltip="A node of a k-d tree."];
+}

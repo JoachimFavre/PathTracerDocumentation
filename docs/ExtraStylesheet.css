@@ -233,7 +233,7 @@ div.fragment {
 }
 
 .preprocessor {
-  color: #518000!important;
+  color: #9B947D!important;
 }
 
 .keyword {
@@ -248,8 +248,13 @@ div.fragment {
 	color: #509CCE!important;
 }
 
+code {
+	color: #D69D76!important;
+	font-family: consolas!important;
+}
+
 .comment {
-  color: #9B947D!important;
+  color: #518000!important;
 }
 
 .charliteral {
@@ -327,6 +332,11 @@ table.memname {
 
 .paramname {
 	color: #C13E74;
+}
+
+.paramname code{
+	color: #D69D76;
+	font-family: consolas;
 }
 
 .mlabels-right .mlabels .mlabel {
