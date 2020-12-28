@@ -248,8 +248,8 @@ div.fragment {
 	color: #509CCE!important;
 }
 
-code {
-	color: #D69D76!important;
+p code {
+	color: #D69D76;
 	font-family: consolas!important;
 }
 
@@ -335,7 +335,6 @@ table.memname {
 }
 
 .paramname code{
-	color: #D69D76;
 	font-family: consolas;
 }
 

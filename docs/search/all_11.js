@@ -38,13 +38,14 @@ var searchData=
   ['setvertex1_249',['setVertex1',['../class_triangle.html#a3d0a54fe570f22831c83073d7974674b',1,'Triangle']]],
   ['setvertex2_250',['setVertex2',['../class_triangle.html#a14fd09e94b212a1a3ca589895980c46b',1,'Triangle']]],
   ['setvertex3_251',['setVertex3',['../class_triangle.html#a64d5c2783bdf1e13f4dc21142e8e47aa',1,'Triangle']]],
-  ['smallestrendertime4pictbackup_252',['smallestRenderTime4PictBackup',['../_interface_8h.html#a666d0caa92d64a31a005f43247bce827',1,'Interface.h']]],
-  ['specularmaterial_253',['SpecularMaterial',['../class_specular_material.html',1,'SpecularMaterial'],['../class_specular_material.html#a44156acd9f0d69f108870099c3ae48ef',1,'SpecularMaterial::SpecularMaterial(DoubleVec3D emittance=0)'],['../class_specular_material.html#a5a614a2f30c386aa6031fe2fdf38b3ad',1,'SpecularMaterial::SpecularMaterial(const SpecularMaterial &amp;material)']]],
-  ['specularmaterial_2ecpp_254',['SpecularMaterial.cpp',['../_specular_material_8cpp.html',1,'']]],
-  ['specularmaterial_2eh_255',['SpecularMaterial.h',['../_specular_material_8h.html',1,'']]],
-  ['sphere_256',['Sphere',['../class_sphere.html',1,'Sphere'],['../class_sphere.html#a890a63ff583cb88e7ec4e840b4ef5eb9',1,'Sphere::Sphere()'],['../class_sphere.html#a399886cbe2c92479f020eab2989673d2',1,'Sphere::Sphere(const DoubleVec3D &amp;center, double radius, Material *material)'],['../class_sphere.html#ac709ee1b1f5cda5ba9604ade44ea6fdf',1,'Sphere::Sphere(const Sphere &amp;sphere)']]],
-  ['sphere_2ecpp_257',['Sphere.cpp',['../_sphere_8cpp.html',1,'']]],
-  ['sphere_2eh_258',['Sphere.h',['../_sphere_8h.html',1,'']]],
-  ['split_259',['split',['../_object3_d_group_8cpp.html#af4b898a0c76f4880fd1db6feb7bd3f5a',1,'split(std::vector&lt; Object3DGroup &gt; groups):&#160;Object3DGroup.cpp'],['../_object3_d_group_8h.html#ac204b3c50d389706cdd10faf9b2ec12d',1,'split(std::vector&lt; Object3DGroup &gt; groups):&#160;Object3DGroup.cpp']]],
-  ['star_5fsplitter_260',['STAR_SPLITTER',['../_interface_gestion_8h.html#a75c891f6edff1ff777e3f3f289d92a7f',1,'InterfaceGestion.h']]]
+  ['showcmdcursor_252',['showCMDCursor',['../_interface_gestion_8cpp.html#a1e4fc62632716e0e163f5eb15c713404',1,'showCMDCursor(bool show):&#160;InterfaceGestion.cpp'],['../_interface_gestion_8h.html#a76f753883261d9647c928607fc7e7075',1,'showCMDCursor(bool show):&#160;InterfaceGestion.cpp']]],
+  ['smallestrendertime4pictbackup_253',['smallestRenderTime4PictBackup',['../_interface_8h.html#a666d0caa92d64a31a005f43247bce827',1,'Interface.h']]],
+  ['specularmaterial_254',['SpecularMaterial',['../class_specular_material.html',1,'SpecularMaterial'],['../class_specular_material.html#a44156acd9f0d69f108870099c3ae48ef',1,'SpecularMaterial::SpecularMaterial(DoubleVec3D emittance=0)'],['../class_specular_material.html#a5a614a2f30c386aa6031fe2fdf38b3ad',1,'SpecularMaterial::SpecularMaterial(const SpecularMaterial &amp;material)']]],
+  ['specularmaterial_2ecpp_255',['SpecularMaterial.cpp',['../_specular_material_8cpp.html',1,'']]],
+  ['specularmaterial_2eh_256',['SpecularMaterial.h',['../_specular_material_8h.html',1,'']]],
+  ['sphere_257',['Sphere',['../class_sphere.html',1,'Sphere'],['../class_sphere.html#a890a63ff583cb88e7ec4e840b4ef5eb9',1,'Sphere::Sphere()'],['../class_sphere.html#a399886cbe2c92479f020eab2989673d2',1,'Sphere::Sphere(const DoubleVec3D &amp;center, double radius, Material *material)'],['../class_sphere.html#ac709ee1b1f5cda5ba9604ade44ea6fdf',1,'Sphere::Sphere(const Sphere &amp;sphere)']]],
+  ['sphere_2ecpp_258',['Sphere.cpp',['../_sphere_8cpp.html',1,'']]],
+  ['sphere_2eh_259',['Sphere.h',['../_sphere_8h.html',1,'']]],
+  ['split_260',['split',['../_object3_d_group_8cpp.html#af4b898a0c76f4880fd1db6feb7bd3f5a',1,'split(std::vector&lt; Object3DGroup &gt; groups):&#160;Object3DGroup.cpp'],['../_object3_d_group_8h.html#ac204b3c50d389706cdd10faf9b2ec12d',1,'split(std::vector&lt; Object3DGroup &gt; groups):&#160;Object3DGroup.cpp']]],
+  ['star_5fsplitter_261',['STAR_SPLITTER',['../_interface_gestion_8h.html#a75c891f6edff1ff777e3f3f289d92a7f',1,'InterfaceGestion.h']]]
 ];

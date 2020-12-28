@@ -1,13 +1,13 @@
 <map id="D:/PathTracer/PathTracer/Object3D.cpp" name="D:/PathTracer/PathTracer/Object3D.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="166,5,335,47"/>
-<area shape="rect" id="node2" href="$_object3_d_8h.html" title="Defines the Object3D class and the functions around it." alt="" coords="207,95,294,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="169,169,223,196"/>
-<area shape="rect" id="node4" href="$_diffuse_material_8h.html" title="Defines the DiffuseMaterial class." alt="" coords="247,169,366,196"/>
-<area shape="rect" id="node5" href="$_material_8h.html" title="Defines the Material class and the functions around it." alt="" coords="267,244,346,271"/>
-<area shape="rect" id="node6" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="279,319,335,345"/>
-<area shape="rect" id="node7" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="251,468,363,495"/>
-<area shape="rect" id="node16" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and the functions around it." alt="" coords="293,393,427,420"/>
-<area shape="rect" id="node8" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="243,543,370,569"/>
+<area shape="rect" id="node1" title=" " alt="" coords="211,5,381,47"/>
+<area shape="rect" id="node2" href="$_object3_d_8h.html" title="Defines the Object3D class and the functions around it." alt="" coords="253,95,339,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="214,169,269,196"/>
+<area shape="rect" id="node4" href="$_diffuse_material_8h.html" title="Defines the DiffuseMaterial class." alt="" coords="293,169,411,196"/>
+<area shape="rect" id="node5" href="$_material_8h.html" title="Defines the Material class and the functions around it." alt="" coords="313,244,391,271"/>
+<area shape="rect" id="node6" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="324,319,380,345"/>
+<area shape="rect" id="node7" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="296,468,408,495"/>
+<area shape="rect" id="node17" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and the functions around it." alt="" coords="338,393,473,420"/>
+<area shape="rect" id="node8" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,543,415,569"/>
 <area shape="rect" id="node9" title=" " alt="" coords="5,617,67,644"/>
 <area shape="rect" id="node10" title=" " alt="" coords="91,617,157,644"/>
 <area shape="rect" id="node11" title=" " alt="" coords="181,617,246,644"/>
@@ -15,4 +15,5 @@
 <area shape="rect" id="node13" title=" " alt="" coords="367,617,430,644"/>
 <area shape="rect" id="node14" title=" " alt="" coords="455,617,585,644"/>
 <area shape="rect" id="node15" title=" " alt="" coords="610,617,681,644"/>
+<area shape="rect" id="node16" title=" " alt="" coords="705,617,788,644"/>
 </map>

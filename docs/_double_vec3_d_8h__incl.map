@@ -1,6 +1,6 @@
 <map id="D:/PathTracer/PathTracer/DoubleVec3D.h" name="D:/PathTracer/PathTracer/DoubleVec3D.h">
-<area shape="rect" id="node1" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="222,5,391,47"/>
-<area shape="rect" id="node2" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="243,95,370,121"/>
+<area shape="rect" id="node1" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="267,5,437,47"/>
+<area shape="rect" id="node2" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,95,415,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,169,67,196"/>
 <area shape="rect" id="node4" title=" " alt="" coords="91,169,157,196"/>
 <area shape="rect" id="node5" title=" " alt="" coords="181,169,246,196"/>
@@ -8,4 +8,5 @@
 <area shape="rect" id="node7" title=" " alt="" coords="367,169,430,196"/>
 <area shape="rect" id="node8" title=" " alt="" coords="455,169,585,196"/>
 <area shape="rect" id="node9" title=" " alt="" coords="610,169,681,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="705,169,788,196"/>
 </map>

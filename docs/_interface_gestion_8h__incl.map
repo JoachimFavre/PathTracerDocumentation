@@ -1,5 +1,5 @@
 <map id="D:/PathTracer/PathTracer/InterfaceGestion.h" name="D:/PathTracer/PathTracer/InterfaceGestion.h">
-<area shape="rect" id="node1" title="Defines functions that are used when drawing the interface." alt="" coords="222,5,391,47"/>
+<area shape="rect" id="node1" title="Defines functions that are used when drawing the interface." alt="" coords="267,5,437,47"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,95,67,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="91,95,157,121"/>
 <area shape="rect" id="node4" title=" " alt="" coords="181,95,246,121"/>
@@ -7,4 +7,5 @@
 <area shape="rect" id="node6" title=" " alt="" coords="367,95,430,121"/>
 <area shape="rect" id="node7" title=" " alt="" coords="455,95,585,121"/>
 <area shape="rect" id="node8" title=" " alt="" coords="610,95,681,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="705,95,788,121"/>
 </map>
