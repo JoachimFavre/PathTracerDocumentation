@@ -1,12 +1,12 @@
 <map id="D:/PathTracer/PathTracer/Triangle.h" name="D:/PathTracer/PathTracer/Triangle.h">
 <area shape="rect" id="node1" title="Defines the Triangle class." alt="" coords="211,5,381,47"/>
-<area shape="rect" id="node2" href="$_object3_d_8h.html" title="Defines the Object3D class and the functions around it." alt="" coords="253,95,339,121"/>
+<area shape="rect" id="node2" href="$_object3_d_8h.html" title="Defines the Object3D class and some functions around it." alt="" coords="253,95,339,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="214,169,269,196"/>
 <area shape="rect" id="node4" href="$_diffuse_material_8h.html" title="Defines the DiffuseMaterial class." alt="" coords="293,169,411,196"/>
-<area shape="rect" id="node5" href="$_material_8h.html" title="Defines the Material class and the functions around it." alt="" coords="313,244,391,271"/>
+<area shape="rect" id="node5" href="$_material_8h.html" title="Defines the Material class and some functions around it." alt="" coords="313,244,391,271"/>
 <area shape="rect" id="node6" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="324,319,380,345"/>
-<area shape="rect" id="node7" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="296,468,408,495"/>
-<area shape="rect" id="node17" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and the functions around it." alt="" coords="338,393,473,420"/>
+<area shape="rect" id="node7" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and some functions around it." alt="" coords="296,468,408,495"/>
+<area shape="rect" id="node17" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and some functions around it." alt="" coords="338,393,473,420"/>
 <area shape="rect" id="node8" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,543,415,569"/>
 <area shape="rect" id="node9" title=" " alt="" coords="5,617,67,644"/>
 <area shape="rect" id="node10" title=" " alt="" coords="91,617,157,644"/>

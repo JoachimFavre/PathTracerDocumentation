@@ -1,4 +1,4 @@
 <map id="Sphere" name="Sphere">
-<area shape="rect" id="node1" title="A sphere described by its center and its raidus." alt="" coords="12,80,75,107"/>
+<area shape="rect" id="node1" title="A sphere described by its center and its radius." alt="" coords="12,80,75,107"/>
 <area shape="rect" id="node2" href="$class_object3_d.html" title="Abstract class for a three&#45;dimentional object." alt="" coords="5,5,81,32"/>
 </map>

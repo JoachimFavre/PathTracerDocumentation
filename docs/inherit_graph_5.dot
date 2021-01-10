@@ -7,7 +7,7 @@ digraph "Graphical Class Hierarchy"
   rankdir="LR";
   Node0 [label="Object3D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object3_d.html",tooltip="Abstract class for a three-dimentional object."];
   Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="Sphere",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sphere.html",tooltip="A sphere described by its center and its raidus."];
+  Node1 [label="Sphere",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sphere.html",tooltip="A sphere described by its center and its radius."];
   Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="Triangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_triangle.html",tooltip="A triangle defined by its three vertices."];
 }

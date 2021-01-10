@@ -67,16 +67,16 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">InterfaceCreation.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Defines functions that are used to interactively create 3D objects and materials.  
+<p>Defines functions that are used to ask for values to the user, and to interactively create 3D objects and materials.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_interface_gestion_8h_source.html">InterfaceGestion.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_diffuse_material_8h_source.html">DiffuseMaterial.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="_diffuse_material_8h_source.html">DiffuseMaterial.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_refractive_material_8h_source.html">RefractiveMaterial.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_specular_material_8h_source.html">SpecularMaterial.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_triangle_8h_source.html">Triangle.h</a>&quot;</code><br />
@@ -84,22 +84,45 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for InterfaceCreation.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_creation_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_creation_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_interface_creation_8h__dep__incl.svg" width="663" height="410"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_interface_creation_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="_interface_creation_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9aab22253cadd8cd22d6fdb8a85cfa0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a9aab22253cadd8cd22d6fdb8a85cfa0e">getXYZDoubleVec3DFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#acd3511825c819a789ff9afe28aad5207">PROMPT</a>)</td></tr>
+<tr class="memitem:ae2d3c9b2ea9c3e0a67ba364c091a4fe9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9">getStringFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:ae2d3c9b2ea9c3e0a67ba364c091a4fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a string from the user.  <a href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9">More...</a><br /></td></tr>
+<tr class="separator:ae2d3c9b2ea9c3e0a67ba364c091a4fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4f06e968e6647aaf89153763be86fb6"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#af4f06e968e6647aaf89153763be86fb6">getLowerCaseCharFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:af4f06e968e6647aaf89153763be86fb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a lowercase character from the user.  <a href="_interface_creation_8h.html#af4f06e968e6647aaf89153763be86fb6">More...</a><br /></td></tr>
+<tr class="separator:af4f06e968e6647aaf89153763be86fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407f61395585a9da849404c51ea73dd6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a407f61395585a9da849404c51ea73dd6">getIntFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:a407f61395585a9da849404c51ea73dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an integer from the user.  <a href="_interface_creation_8h.html#a407f61395585a9da849404c51ea73dd6">More...</a><br /></td></tr>
+<tr class="separator:a407f61395585a9da849404c51ea73dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a330dbb1bdc78604820483da4765f49de"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a330dbb1bdc78604820483da4765f49de">getUnsignedIntFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:a330dbb1bdc78604820483da4765f49de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a positive integer from the user.  <a href="_interface_creation_8h.html#a330dbb1bdc78604820483da4765f49de">More...</a><br /></td></tr>
+<tr class="separator:a330dbb1bdc78604820483da4765f49de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba6a5d05d5209375041463077cd25d68"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#aba6a5d05d5209375041463077cd25d68">getDoubleFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:aba6a5d05d5209375041463077cd25d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a number from the user.  <a href="_interface_creation_8h.html#aba6a5d05d5209375041463077cd25d68">More...</a><br /></td></tr>
+<tr class="separator:aba6a5d05d5209375041463077cd25d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23425e49439d97865af68c553bf23b71"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a23425e49439d97865af68c553bf23b71">getPositiveDoubleFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:a23425e49439d97865af68c553bf23b71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a positive number from the user.  <a href="_interface_creation_8h.html#a23425e49439d97865af68c553bf23b71">More...</a><br /></td></tr>
+<tr class="separator:a23425e49439d97865af68c553bf23b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601540ef68d0c628056eac67c00c9b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a601540ef68d0c628056eac67c00c9b9d">getBoolFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
+<tr class="memdesc:a601540ef68d0c628056eac67c00c9b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a boolean from the user.  <a href="_interface_creation_8h.html#a601540ef68d0c628056eac67c00c9b9d">More...</a><br /></td></tr>
+<tr class="separator:a601540ef68d0c628056eac67c00c9b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aab22253cadd8cd22d6fdb8a85cfa0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a9aab22253cadd8cd22d6fdb8a85cfa0e">getXYZDoubleVec3DFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
 <tr class="memdesc:a9aab22253cadd8cd22d6fdb8a85cfa0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a vector from the user.  <a href="_interface_creation_8h.html#a9aab22253cadd8cd22d6fdb8a85cfa0e">More...</a><br /></td></tr>
 <tr class="separator:a9aab22253cadd8cd22d6fdb8a85cfa0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af77ae56bcbe9f567b7906cf7ed5960d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#af77ae56bcbe9f567b7906cf7ed5960d1">getRGBDoubleVec3DFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#acd3511825c819a789ff9afe28aad5207">PROMPT</a>)</td></tr>
+<tr class="memitem:af77ae56bcbe9f567b7906cf7ed5960d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_double_vec3_d.html">DoubleVec3D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#af77ae56bcbe9f567b7906cf7ed5960d1">getRGBDoubleVec3DFromUser</a> (std::string question=&quot;&quot;, std::string prompt=<a class="el" href="_interface_gestion_8h.html#a35310dfd5c721eff41efbb5aa1232a98">PROMPT</a>)</td></tr>
 <tr class="memdesc:af77ae56bcbe9f567b7906cf7ed5960d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a vector with only positive coordinates from the user.  <a href="_interface_creation_8h.html#af77ae56bcbe9f567b7906cf7ed5960d1">More...</a><br /></td></tr>
 <tr class="separator:af77ae56bcbe9f567b7906cf7ed5960d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e35c9e971d14387162d949aa8b2681a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_material.html">Material</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a0e35c9e971d14387162d949aa8b2681a">createDiffuseMaterial</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;emittance)</td></tr>
@@ -115,7 +138,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a2197a8e975a8a75b007712f29f2f1f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interactive creation of a <a class="el" href="class_material.html" title="Abstrat class that models a material.">Material</a>.  <a href="_interface_creation_8h.html#a2197a8e975a8a75b007712f29f2f1f21">More...</a><br /></td></tr>
 <tr class="separator:a2197a8e975a8a75b007712f29f2f1f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0309bc36200ef626b22b06f6d353f8f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object3_d.html">Object3D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7">createSphere</a> (<a class="el" href="class_material.html">Material</a> *material)</td></tr>
-<tr class="memdesc:a0309bc36200ef626b22b06f6d353f8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interactive creation of a <a class="el" href="class_sphere.html" title="A sphere described by its center and its raidus.">Sphere</a>.  <a href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7">More...</a><br /></td></tr>
+<tr class="memdesc:a0309bc36200ef626b22b06f6d353f8f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interactive creation of a <a class="el" href="class_sphere.html" title="A sphere described by its center and its radius.">Sphere</a>.  <a href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7">More...</a><br /></td></tr>
 <tr class="separator:a0309bc36200ef626b22b06f6d353f8f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70473eb9686f25b616781ab8bd490aa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object3_d.html">Object3D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a70473eb9686f25b616781ab8bd490aa7">createTriangle</a> (<a class="el" href="class_material.html">Material</a> *material)</td></tr>
 <tr class="memdesc:a70473eb9686f25b616781ab8bd490aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interactive creation of a <a class="el" href="class_triangle.html" title="A triangle defined by its three vertices.">Triangle</a>.  <a href="_interface_creation_8h.html#a70473eb9686f25b616781ab8bd490aa7">More...</a><br /></td></tr>
@@ -135,9 +158,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a036caadf5435b2f6b09fa254bac83ab0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_object3_d.html">Object3D</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a036caadf5435b2f6b09fa254bac83ab0">importObject3DFromJson</a> (const <a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j)</td></tr>
 <tr class="memdesc:a036caadf5435b2f6b09fa254bac83ab0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_object3_d.html" title="Abstract class for a three-dimentional object.">Object3D</a> conversion from json.  <a href="_interface_creation_8h.html#a036caadf5435b2f6b09fa254bac83ab0">More...</a><br /></td></tr>
 <tr class="separator:a036caadf5435b2f6b09fa254bac83ab0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a6a88a9c222fe3cfff6dc8fc662fba4cc"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a6a88a9c222fe3cfff6dc8fc662fba4cc">POSITIVE_DOUBLE_INFO</a> = &quot;(positive number)&quot;</td></tr>
+<tr class="memdesc:a6a88a9c222fe3cfff6dc8fc662fba4cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information that is printed when asking a postive double to the user.  <a href="_interface_creation_8h.html#a6a88a9c222fe3cfff6dc8fc662fba4cc">More...</a><br /></td></tr>
+<tr class="separator:a6a88a9c222fe3cfff6dc8fc662fba4cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f29437f30baeb1b14e6b2efcff8eedb"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a3f29437f30baeb1b14e6b2efcff8eedb">POSITIVE_INT_INFO</a> = &quot;(positive integer)&quot;</td></tr>
+<tr class="memdesc:a3f29437f30baeb1b14e6b2efcff8eedb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information that is printed when asking a postive integer to the user.  <a href="_interface_creation_8h.html#a3f29437f30baeb1b14e6b2efcff8eedb">More...</a><br /></td></tr>
+<tr class="separator:a3f29437f30baeb1b14e6b2efcff8eedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f13c9e10d133ad605bb76b95069e034"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_interface_creation_8h.html#a7f13c9e10d133ad605bb76b95069e034">BOOL_INFO</a> = &quot;(True=T=true=t / False=F=false=f)&quot;</td></tr>
+<tr class="memdesc:a7f13c9e10d133ad605bb76b95069e034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Information that is printed when asking a boolean to the user.  <a href="_interface_creation_8h.html#a7f13c9e10d133ad605bb76b95069e034">More...</a><br /></td></tr>
+<tr class="separator:a7f13c9e10d133ad605bb76b95069e034"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines functions that are used to interactively create 3D objects and materials. </p>
+<div class="textblock"><p>Defines functions that are used to ask for values to the user, and to interactively create 3D objects and materials. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a0e35c9e971d14387162d949aa8b2681a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e35c9e971d14387162d949aa8b2681a">&#9670;&nbsp;</a></span>createDiffuseMaterial()</h2>
@@ -163,6 +198,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the created diffuse material. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#aa7b828f83cf0d881b89cc1a6716b1d67" title="Interactive creation of a RefractiveMaterial.">createRefractiveMaterial()</a>, <a class="el" href="_interface_creation_8h.html#ae82618cb3a4f68d67abd8ef12b409e1d" title="Interactive creation of a SpecularMaterial.">createSpecularMaterial()</a>, <a class="el" href="_interface_creation_8h.html#a2197a8e975a8a75b007712f29f2f1f21" title="Interactive creation of a Material.">createMaterial()</a> </dd></dl>
 
 </div>
 </div>
@@ -182,7 +218,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Interactive creation of a <a class="el" href="class_material.html" title="Abstrat class that models a material.">Material</a>. </p>
-<p>Gets the main parameters of a material, and calls <a class="el" href="_interface_creation_8h.html#a0e35c9e971d14387162d949aa8b2681a" title="Interactive creation of a DiffuseMaterial.">createDiffuseMaterial()</a>, <a class="el" href="_interface_creation_8h.html#aa7b828f83cf0d881b89cc1a6716b1d67" title="Interactive creation of a RefractiveMaterial.">createRefractiveMaterial()</a> or <a class="el" href="_interface_creation_8h.html#ae82618cb3a4f68d67abd8ef12b409e1d" title="Interactive creation of a SpecularMaterial.">createSpecularMaterial()</a>. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the created material. </dd></dl>
+<p>Gets the main parameters of a material, and then calls <a class="el" href="_interface_creation_8h.html#a0e35c9e971d14387162d949aa8b2681a" title="Interactive creation of a DiffuseMaterial.">createDiffuseMaterial()</a>, <a class="el" href="_interface_creation_8h.html#aa7b828f83cf0d881b89cc1a6716b1d67" title="Interactive creation of a RefractiveMaterial.">createRefractiveMaterial()</a> or <a class="el" href="_interface_creation_8h.html#ae82618cb3a4f68d67abd8ef12b409e1d" title="Interactive creation of a SpecularMaterial.">createSpecularMaterial()</a>. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the created material. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a0e35c9e971d14387162d949aa8b2681a" title="Interactive creation of a DiffuseMaterial.">createDiffuseMaterial()</a>, <a class="el" href="_interface_creation_8h.html#aa7b828f83cf0d881b89cc1a6716b1d67" title="Interactive creation of a RefractiveMaterial.">createRefractiveMaterial()</a>, <a class="el" href="_interface_creation_8h.html#ae82618cb3a4f68d67abd8ef12b409e1d" title="Interactive creation of a SpecularMaterial.">createSpecularMaterial()</a> </dd></dl>
 
 </div>
@@ -203,7 +239,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Interactive creation of an <a class="el" href="class_object3_d.html" title="Abstract class for a three-dimentional object.">Object3D</a>. </p>
-<p>Gets the main parameters of an object, and calls <a class="el" href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7" title="Interactive creation of a Sphere.">createSphere()</a> or <a class="el" href="_interface_creation_8h.html#a70473eb9686f25b616781ab8bd490aa7" title="Interactive creation of a Triangle.">createTriangle()</a>. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the created object. </dd></dl>
+<p>Gets the main parameters of an object, and then calls <a class="el" href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7" title="Interactive creation of a Sphere.">createSphere()</a> or <a class="el" href="_interface_creation_8h.html#a70473eb9686f25b616781ab8bd490aa7" title="Interactive creation of a Triangle.">createTriangle()</a>. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the created object. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7" title="Interactive creation of a Sphere.">createSphere()</a>, <a class="el" href="_interface_creation_8h.html#a70473eb9686f25b616781ab8bd490aa7" title="Interactive creation of a Triangle.">createTriangle()</a> </dd></dl>
 
 </div>
@@ -232,6 +268,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the created refractive material. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a0e35c9e971d14387162d949aa8b2681a" title="Interactive creation of a DiffuseMaterial.">createDiffuseMaterial()</a>, <a class="el" href="_interface_creation_8h.html#ae82618cb3a4f68d67abd8ef12b409e1d" title="Interactive creation of a SpecularMaterial.">createSpecularMaterial()</a>, <a class="el" href="_interface_creation_8h.html#a2197a8e975a8a75b007712f29f2f1f21" title="Interactive creation of a Material.">createMaterial()</a> </dd></dl>
 
 </div>
 </div>
@@ -259,6 +296,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the created specular material. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a0e35c9e971d14387162d949aa8b2681a" title="Interactive creation of a DiffuseMaterial.">createDiffuseMaterial()</a>, <a class="el" href="_interface_creation_8h.html#aa7b828f83cf0d881b89cc1a6716b1d67" title="Interactive creation of a RefractiveMaterial.">createRefractiveMaterial()</a>, <a class="el" href="_interface_creation_8h.html#a2197a8e975a8a75b007712f29f2f1f21" title="Interactive creation of a Material.">createMaterial()</a> </dd></dl>
 
 </div>
 </div>
@@ -278,7 +316,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Interactive creation of a <a class="el" href="class_sphere.html" title="A sphere described by its center and its raidus.">Sphere</a>. </p>
+<p>Interactive creation of a <a class="el" href="class_sphere.html" title="A sphere described by its center and its radius.">Sphere</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">material</td><td>The material of this sphere. </td></tr>
@@ -286,6 +324,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the created sphere. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a70473eb9686f25b616781ab8bd490aa7" title="Interactive creation of a Triangle.">createTriangle()</a>, <a class="el" href="_interface_creation_8h.html#a8dd0048f161a4317a306c57c7c5d6f29" title="Interactive creation of an Object3D.">createObject3D()</a> </dd></dl>
 
 </div>
 </div>
@@ -313,6 +352,202 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the created triangle. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a0309bc36200ef626b22b06f6d353f8f7" title="Interactive creation of a Sphere.">createSphere()</a>, <a class="el" href="_interface_creation_8h.html#a8dd0048f161a4317a306c57c7c5d6f29" title="Interactive creation of an Object3D.">createObject3D()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a601540ef68d0c628056eac67c00c9b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a601540ef68d0c628056eac67c00c9b9d">&#9670;&nbsp;</a></span>getBoolFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool getBoolFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a boolean from the user. </p>
+<p>Uses the <a class="el" href="_interface_creation_8h.html#af4f06e968e6647aaf89153763be86fb6" title="Gets a lowercase character from the user.">getLowerCaseCharFromUser()</a> method. Will continue to ask the question until the user gives 't' or 'f'. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The boolean the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#af4f06e968e6647aaf89153763be86fb6" title="Gets a lowercase character from the user.">getLowerCaseCharFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="aba6a5d05d5209375041463077cd25d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba6a5d05d5209375041463077cd25d68">&#9670;&nbsp;</a></span>getDoubleFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double getDoubleFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a number from the user. </p>
+<p>Uses the <a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a> method. Will continue to ask the question until the user gives a string that can be converted to a double. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The double the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a>, <a class="el" href="_interface_creation_8h.html#a23425e49439d97865af68c553bf23b71" title="Gets a positive number from the user.">getPositiveDoubleFromUser()</a>, <a class="el" href="_interface_creation_8h.html#a9aab22253cadd8cd22d6fdb8a85cfa0e" title="Gets a vector from the user.">getXYZDoubleVec3DFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a407f61395585a9da849404c51ea73dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a407f61395585a9da849404c51ea73dd6">&#9670;&nbsp;</a></span>getIntFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getIntFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets an integer from the user. </p>
+<p>Uses the <a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a> method. Will continue to ask the question until the user gives a string that can be converted to an int. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The integer the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a>, <a class="el" href="_interface_creation_8h.html#a330dbb1bdc78604820483da4765f49de" title="Gets a positive integer from the user.">getUnsignedIntFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="af4f06e968e6647aaf89153763be86fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4f06e968e6647aaf89153763be86fb6">&#9670;&nbsp;</a></span>getLowerCaseCharFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char getLowerCaseCharFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a lowercase character from the user. </p>
+<p>Uses the <a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a> method and takes the first character of this string. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The character the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a>, <a class="el" href="_interface_creation_8h.html#a601540ef68d0c628056eac67c00c9b9d" title="Gets a boolean from the user.">getBoolFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a23425e49439d97865af68c553bf23b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23425e49439d97865af68c553bf23b71">&#9670;&nbsp;</a></span>getPositiveDoubleFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double getPositiveDoubleFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a positive number from the user. </p>
+<p>Uses the <a class="el" href="_interface_creation_8h.html#aba6a5d05d5209375041463077cd25d68" title="Gets a number from the user.">getDoubleFromUser()</a> method. Will continue to ask the question until the user gives a positive double. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The postive double the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#aba6a5d05d5209375041463077cd25d68" title="Gets a number from the user.">getDoubleFromUser()</a>, <a class="el" href="_interface_creation_8h.html#af77ae56bcbe9f567b7906cf7ed5960d1" title="Gets a vector with only positive coordinates from the user.">getRGBDoubleVec3DFromUser()</a> </dd></dl>
 
 </div>
 </div>
@@ -343,7 +578,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets a vector with only positive coordinates from the user. </p>
-<p>Uses three times the <a class="el" href="_interface_gestion_8cpp.html#a617c27458b96ae757c7161c0080ed674" title="Gets a positive number from the user.">getPositiveDoubleFromUser()</a> method. Adds "r ", "g " or "b " before the prompt, to show the user which coordinates he or she is giving. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses three times the <a class="el" href="_interface_creation_8h.html#a23425e49439d97865af68c553bf23b71" title="Gets a positive number from the user.">getPositiveDoubleFromUser()</a> method. Adds "r ", "g " or "b " before the prompt, to show the user which component he or she is giving. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
     <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
@@ -351,7 +586,85 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vector the user gave. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_gestion_8cpp.html#a617c27458b96ae757c7161c0080ed674" title="Gets a positive number from the user.">getPositiveDoubleFromUser()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a23425e49439d97865af68c553bf23b71" title="Gets a positive number from the user.">getPositiveDoubleFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="ae2d3c9b2ea9c3e0a67ba364c091a4fe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2d3c9b2ea9c3e0a67ba364c091a4fe9">&#9670;&nbsp;</a></span>getStringFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string getStringFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a string from the user. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The string the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#af4f06e968e6647aaf89153763be86fb6" title="Gets a lowercase character from the user.">getLowerCaseCharFromUser()</a>, <a class="el" href="_interface_creation_8h.html#a407f61395585a9da849404c51ea73dd6" title="Gets an integer from the user.">getIntFromUser()</a>, <a class="el" href="_interface_creation_8h.html#ae2d3c9b2ea9c3e0a67ba364c091a4fe9" title="Gets a string from the user.">getStringFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a330dbb1bdc78604820483da4765f49de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a330dbb1bdc78604820483da4765f49de">&#9670;&nbsp;</a></span>getUnsignedIntFromUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int getUnsignedIntFromUser </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>question</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>prompt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a positive integer from the user. </p>
+<p>Uses the <a class="el" href="_interface_creation_8h.html#a407f61395585a9da849404c51ea73dd6" title="Gets an integer from the user.">getIntFromUser()</a> method. Will continue to ask the question until the user gives a positive integer. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
+    <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The postive integer the user gave. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a407f61395585a9da849404c51ea73dd6" title="Gets an integer from the user.">getIntFromUser()</a> </dd></dl>
 
 </div>
 </div>
@@ -382,7 +695,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets a vector from the user. </p>
-<p>Uses three times the <a class="el" href="_interface_gestion_8cpp.html#affc1ed234c78a51f9bf14a0b6335ffe6" title="Gets a number from the user.">getDoubleFromUser()</a> method. Adds "x ", "y " or "z " before the prompt, to show the user which coordinates he or she is giving. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses three times the <a class="el" href="_interface_creation_8h.html#aba6a5d05d5209375041463077cd25d68" title="Gets a number from the user.">getDoubleFromUser()</a> method. Adds "x ", "y " or "z " before the prompt, to show the user which coordinates he or she is giving. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">question</td><td>The question that will be asked to the user. </td></tr>
     <tr><td class="paramname">prompt</td><td>The prompt that will be used to show the user that he or she can write something. </td></tr>
@@ -390,7 +703,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vector the user gave. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_gestion_8cpp.html#affc1ed234c78a51f9bf14a0b6335ffe6" title="Gets a number from the user.">getDoubleFromUser()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#aba6a5d05d5209375041463077cd25d68" title="Gets a number from the user.">getDoubleFromUser()</a> </dd></dl>
 
 </div>
 </div>
@@ -418,6 +731,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the material stored in the json. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a5ef49375f05f6e7d35f8aadd3575025a" title="Material conversion to json.">to_json(json&amp; j, const Material&amp; mat)</a> </dd></dl>
 
 </div>
 </div>
@@ -445,6 +759,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to the object stored in the json. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a794a60f7d331f8cf5a2a7287468f705f" title="Object3D conversion to json.">to_json(json&amp; j, const Object3D&amp; obj)</a> </dd></dl>
 
 </div>
 </div>
@@ -482,6 +797,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a77ae49bfd07d32985951ff51a779f4c0" title="Material conversion from json.">importMaterialFromJson()</a> </dd></dl>
 
 </div>
 </div>
@@ -519,6 +835,59 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a036caadf5435b2f6b09fa254bac83ab0" title="Object3D conversion from json.">importObject3DFromJson()</a> </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a7f13c9e10d133ad605bb76b95069e034"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f13c9e10d133ad605bb76b95069e034">&#9670;&nbsp;</a></span>BOOL_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string BOOL_INFO = &quot;(True=T=true=t / False=F=false=f)&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Information that is printed when asking a boolean to the user. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a6a88a9c222fe3cfff6dc8fc662fba4cc" title="Information that is printed when asking a postive double to the user.">POSITIVE_DOUBLE_INFO</a>, <a class="el" href="_interface_creation_8h.html#a3f29437f30baeb1b14e6b2efcff8eedb" title="Information that is printed when asking a postive integer to the user.">POSITIVE_INT_INFO</a>, <a class="el" href="_interface_creation_8h.html#a601540ef68d0c628056eac67c00c9b9d" title="Gets a boolean from the user.">getBoolFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a6a88a9c222fe3cfff6dc8fc662fba4cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a88a9c222fe3cfff6dc8fc662fba4cc">&#9670;&nbsp;</a></span>POSITIVE_DOUBLE_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string POSITIVE_DOUBLE_INFO = &quot;(positive number)&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Information that is printed when asking a postive double to the user. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a3f29437f30baeb1b14e6b2efcff8eedb" title="Information that is printed when asking a postive integer to the user.">POSITIVE_INT_INFO</a>, <a class="el" href="_interface_creation_8h.html#a7f13c9e10d133ad605bb76b95069e034" title="Information that is printed when asking a boolean to the user.">BOOL_INFO</a>, <a class="el" href="_interface_creation_8h.html#a23425e49439d97865af68c553bf23b71" title="Gets a positive number from the user.">getPositiveDoubleFromUser()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a3f29437f30baeb1b14e6b2efcff8eedb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f29437f30baeb1b14e6b2efcff8eedb">&#9670;&nbsp;</a></span>POSITIVE_INT_INFO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string POSITIVE_INT_INFO = &quot;(positive integer)&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Information that is printed when asking a postive integer to the user. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8h.html#a6a88a9c222fe3cfff6dc8fc662fba4cc" title="Information that is printed when asking a postive double to the user.">POSITIVE_DOUBLE_INFO</a>, <a class="el" href="_interface_creation_8h.html#a7f13c9e10d133ad605bb76b95069e034" title="Information that is printed when asking a boolean to the user.">BOOL_INFO</a>, <a class="el" href="_interface_creation_8h.html#a330dbb1bdc78604820483da4765f49de" title="Gets a positive integer from the user.">getUnsignedIntFromUser()</a> </dd></dl>
 
 </div>
 </div>

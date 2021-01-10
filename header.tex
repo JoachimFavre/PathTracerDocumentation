@@ -151,17 +151,23 @@
 \renewcommand{\numberline}[1]{#1~}
 %===== C O N T E N T S =====
 
+% Modify params style
+\newcolumntype{m}{>{\bfseries$\qquad$}l}
+\renewcommand{\hline}{}
+\renewcommand{\arraystretch}{1.5}
+
 \renewenvironment{DoxyParams}[2][]{%https://tex.stackexchange.com/a/42331
 {
 
 \hspace{-6pt}\bfseries\fontseries{bc}\selectfont\color{darkgray} $\ \ $ #2}
 
 
-\tabularx{\textwidth}{|r|X|l|l|} \hline
+\tabularx{\textwidth}{m X l l} \hline
 }
 {
 \endtabularx
 }
+% (end modification params style)
 
 \begin{document}
 \raggedbottom

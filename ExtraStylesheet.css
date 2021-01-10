@@ -277,6 +277,10 @@ tr td iframe {
 	filter: brightness(0.85) invert() hue-rotate(160deg) saturate(1.5);
 }
 
+.contents center iframe {
+	filter: brightness(0.85) invert() hue-rotate(160deg) saturate(1.5);
+}
+
 .memItemLeft {
 	background: #262626;
 }

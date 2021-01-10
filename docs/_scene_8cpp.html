@@ -76,24 +76,28 @@ $(function() {
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Scene.cpp:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_scene_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_scene_8cpp__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afa3dbf1aa4af1eee060f87cf8eb7653f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_scene_8cpp.html#afa3dbf1aa4af1eee060f87cf8eb7653f">displayRenderingProgression</a> (unsigned int numberPixelXAlreadyComputed, unsigned int pictureWidth, double loopBeginningTime)</td></tr>
-<tr class="memdesc:afa3dbf1aa4af1eee060f87cf8eb7653f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the progression information.  <a href="_scene_8cpp.html#afa3dbf1aa4af1eee060f87cf8eb7653f">More...</a><br /></td></tr>
-<tr class="separator:afa3dbf1aa4af1eee060f87cf8eb7653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee556ffb8e186e373bb6eb4c8d1c6e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_scene_8cpp.html#acee556ffb8e186e373bb6eb4c8d1c6e5">importTrianglesFromFbxNode</a> (FbxNode *node, <a class="el" href="class_material.html">Material</a> *material, std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt; &amp;objects)</td></tr>
+<tr class="memdesc:acee556ffb8e186e373bb6eb4c8d1c6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports recursively all triangles present in a FBXNode.  <a href="_scene_8cpp.html#acee556ffb8e186e373bb6eb4c8d1c6e5">More...</a><br /></td></tr>
+<tr class="separator:acee556ffb8e186e373bb6eb4c8d1c6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d57ca55dfdd1817dce06ed8b3caa8a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_scene_8cpp.html#a5d57ca55dfdd1817dce06ed8b3caa8a1">displayRenderingProgression</a> (unsigned int numberPixelXAlreadyComputed, unsigned int pictureWidth, double loopBeginningTime)</td></tr>
+<tr class="memdesc:a5d57ca55dfdd1817dce06ed8b3caa8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the progression information.  <a href="_scene_8cpp.html#a5d57ca55dfdd1817dce06ed8b3caa8a1">More...</a><br /></td></tr>
+<tr class="separator:a5d57ca55dfdd1817dce06ed8b3caa8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="afa3dbf1aa4af1eee060f87cf8eb7653f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa3dbf1aa4af1eee060f87cf8eb7653f">&#9670;&nbsp;</a></span>displayRenderingProgression()</h2>
+<a id="a5d57ca55dfdd1817dce06ed8b3caa8a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d57ca55dfdd1817dce06ed8b3caa8a1">&#9670;&nbsp;</a></span>displayRenderingProgression()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">displayRenderingProgression </td>
+          <td class="memname">void displayRenderingProgression </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>numberPixelXAlreadyComputed</em>, </td>
@@ -123,11 +127,57 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">numberPixelXAlreadyComputed</td><td>The <em>x</em> coordinate of the pixel we are currently treating. </td></tr>
     <tr><td class="paramname">pictureWidth</td><td>The width of the picture we are rendering. </td></tr>
-    <tr><td class="paramname">loopBeginningTime</td><td>The number of seconds between 01/01/1970 and the beginning of the render. </td></tr>
+    <tr><td class="paramname">loopBeginningTime</td><td>The number of seconds between 1st January 1970 and the beginning of the render. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd>render() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#afa524ca9c2b5f986d998a62fc0f8ddfb" title="Start the render of the picture.">Scene::render()</a> </dd></dl>
+
+</div>
+</div>
+<a id="acee556ffb8e186e373bb6eb4c8d1c6e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee556ffb8e186e373bb6eb4c8d1c6e5">&#9670;&nbsp;</a></span>importTrianglesFromFbxNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool importTrianglesFromFbxNode </td>
+          <td>(</td>
+          <td class="paramtype">FbxNode *&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_material.html">Material</a> *&#160;</td>
+          <td class="paramname"><em>material</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>objects</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Imports recursively all triangles present in a FBXNode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>The node from which we want to import the mesh. </td></tr>
+    <tr><td class="paramname">material</td><td>The material with which the triangles will be instanciated. </td></tr>
+    <tr><td class="paramname">objects</td><td>A reference to a vector of objects in which the triangles will be added. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>The material is always deeply copied when instanciating a triangle. Do not forget to delete it after calling this method. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a6f2ef1451cb66d3cea3244ee42059262" title="Imports a fbx file as triangles.">Scene::importFBXFile()</a> </dd></dl>
 
 </div>
 </div>

@@ -74,18 +74,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the <a class="el" href="class_double_vec3_d.html" title="A three-dimensional vector using double values.">DoubleVec3D</a> class and the functions around it.  
+<p>Defines the <a class="el" href="class_double_vec3_d.html" title="A three-dimensional vector using double values.">DoubleVec3D</a> class and some functions around it.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="_interface_gestion_8h_source.html">InterfaceGestion.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DoubleVec3D.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__incl.svg" width="100%" height="451"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_vec3_d_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="_double_vec3_d_8h_source.html">Go to the source code of this file.</a></p>
@@ -126,7 +128,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7a03aca1fae329b572b527e72e4b6f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dot product.  <a href="_double_vec3_d_8h.html#a7a03aca1fae329b572b527e72e4b6f56">More...</a><br /></td></tr>
 <tr class="separator:a7a03aca1fae329b572b527e72e4b6f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#a6d0f51918da2c1191f6a9eb45ee5c402">length</a> (const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
-<tr class="memdesc:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Norm of the vector.  <a href="_double_vec3_d_8h.html#a6d0f51918da2c1191f6a9eb45ee5c402">More...</a><br /></td></tr>
+<tr class="memdesc:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives the norm of the vector.  <a href="_double_vec3_d_8h.html#a6d0f51918da2c1191f6a9eb45ee5c402">More...</a><br /></td></tr>
 <tr class="separator:a6d0f51918da2c1191f6a9eb45ee5c402"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64df3d039b73d8378ff09f0e88b4cb15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_double_vec3_d_8h.html#a64df3d039b73d8378ff09f0e88b4cb15">to_json</a> (<a class="el" href="_interface_gestion_8h.html#ab701e3ac61a85b337ec5c1abaad6742d">json</a> &amp;j, const <a class="el" href="class_double_vec3_d.html">DoubleVec3D</a> &amp;vec)</td></tr>
 <tr class="memdesc:a64df3d039b73d8378ff09f0e88b4cb15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to json.  <a href="_double_vec3_d_8h.html#a64df3d039b73d8378ff09f0e88b4cb15">More...</a><br /></td></tr>
@@ -136,7 +138,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa59e9b5ff548c51e63ac3796823380ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines the <a class="el" href="class_double_vec3_d.html" title="A three-dimensional vector using double values.">DoubleVec3D</a> class and the functions around it. </p>
+<div class="textblock"><p>Defines the <a class="el" href="class_double_vec3_d.html" title="A three-dimensional vector using double values.">DoubleVec3D</a> class and some functions around it. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a932ac3a22d77261a7c601200aef23f77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a932ac3a22d77261a7c601200aef23f77">&#9670;&nbsp;</a></span>crossProd()</h2>
@@ -165,9 +167,9 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Cross product. </p>
-<p>A cross prodct gives a third vector, orthogonal to the two previous. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>A cross prodct gives a third vector, orthogonal to the two previous. Its length is given by the area of the parallelogram drawn by vec1 and vec2. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vec1</td><td>The fisrt vector for the product. </td></tr>
+    <tr><td class="paramname">vec1</td><td>The first vector for the product. </td></tr>
     <tr><td class="paramname">vec2</td><td>The second vector for the product. </td></tr>
   </table>
   </dd>
@@ -211,6 +213,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The dot product between vec1 and vec2. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_double_vec3_d_8h.html#a6d0f51918da2c1191f6a9eb45ee5c402" title="Gives the norm of the vector.">length()</a> </dd></dl>
 
 </div>
 </div>
@@ -267,7 +270,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Norm of the vector. </p>
+<p>Gives the norm of the vector. </p>
 <p>Uses the <a class="el" href="_double_vec3_d_8h.html#a7a03aca1fae329b572b527e72e4b6f56" title="Dot product.">dotProd()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td>The vector from which the norm will be computed. </td></tr>
@@ -275,6 +278,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The norm of this vector. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_double_vec3_d_8h.html#a7a03aca1fae329b572b527e72e4b6f56" title="Dot product.">dotProd()</a> </dd></dl>
 
 </div>
 </div>
@@ -305,7 +309,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Multiplication by a scalar operator (commutative). </p>
-<p>Uses the operator*=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_vec3_d.html#aa8af63634305332a862a4edc4f647316" title="Multiplication by a scalar operator.">DoubleVec3D::operator*=()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td>The vector that will get multiplied. </td></tr>
     <tr><td class="paramname">val</td><td>The scalar that will multiply the vector. </td></tr>
@@ -313,7 +317,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vector multiplied by the scalar. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator*=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_vec3_d.html#aa8af63634305332a862a4edc4f647316" title="Multiplication by a scalar operator.">DoubleVec3D::operator*=()</a>, <a class="el" href="_double_vec3_d_8h.html#a447343cb0ff3d6833a3fb82486be1731" title="Multiplication by a scalar operator (commutative).">operator*(const DoubleVec3D&amp; vec, const double&amp; val)</a> </dd></dl>
 
 </div>
 </div>
@@ -344,7 +348,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Multiplication by a scalar operator (commutative). </p>
-<p>Uses the operator*=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_vec3_d.html#aa8af63634305332a862a4edc4f647316" title="Multiplication by a scalar operator.">DoubleVec3D::operator*=()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td>The vector that will get multiplied. </td></tr>
     <tr><td class="paramname">val</td><td>The scalar that will multiply the vector. </td></tr>
@@ -352,7 +356,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vector multiplied by the scalar. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator*=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_vec3_d.html#aa8af63634305332a862a4edc4f647316" title="Multiplication by a scalar operator.">DoubleVec3D::operator*=()</a>, <a class="el" href="_double_vec3_d_8h.html#a4a04f6d511bb9da947b06d3805703167" title="Multiplication by a scalar operator (commutative).">operator*(const double&amp; val, const DoubleVec3D&amp; vec)</a> </dd></dl>
 
 </div>
 </div>
@@ -383,7 +387,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sum operator. </p>
-<p>Uses the operator+=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_vec3_d.html#ad54bbf321a847877afe75297d9ee7149" title="Sum operator.">DoubleVec3D::operator+=()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec1</td><td>The first vector for the sum. </td></tr>
     <tr><td class="paramname">vec2</td><td>The second vector for the sum. </td></tr>
@@ -391,7 +395,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The sum of the two vectors. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator+=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_vec3_d.html#ad54bbf321a847877afe75297d9ee7149" title="Sum operator.">DoubleVec3D::operator+=()</a> </dd></dl>
 
 </div>
 </div>
@@ -412,14 +416,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Unary minus operator. </p>
-<p>Uses the operator*=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_vec3_d.html#aa8af63634305332a862a4edc4f647316" title="Multiplication by a scalar operator.">DoubleVec3D::operator*=()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td>The vector that will be inversed. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The inverse of vec. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator*=(), operator-=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_vec3_d.html#aa8af63634305332a862a4edc4f647316" title="Multiplication by a scalar operator.">DoubleVec3D::operator*=()</a>, <a class="el" href="class_double_vec3_d.html#abf8317e78b3caeceb2cc059b8769eeaf" title="Difference operator.">DoubleVec3D::operator-=()</a>, <a class="el" href="_double_vec3_d_8h.html#a0167e9304db4b76a70943e31a07403c2" title="Difference operator.">operator-(const DoubleVec3D&amp; vec1, const DoubleVec3D&amp; vec2)</a> </dd></dl>
 
 </div>
 </div>
@@ -450,7 +454,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Difference operator. </p>
-<p>Uses the operator-=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_vec3_d.html#abf8317e78b3caeceb2cc059b8769eeaf" title="Difference operator.">DoubleVec3D::operator-=()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec1</td><td>The first vector for the difference. </td></tr>
     <tr><td class="paramname">vec2</td><td>The second vector for the difference. </td></tr>
@@ -458,7 +462,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The difference between vec1 and vec2. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator-=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_vec3_d.html#abf8317e78b3caeceb2cc059b8769eeaf" title="Difference operator.">DoubleVec3D::operator-=()</a>, <a class="el" href="_double_vec3_d_8h.html#a051353cb2f9e1764ac28c5f3f5167c76" title="Unary minus operator.">operator-(const DoubleVec3D&amp; vec)</a> </dd></dl>
 
 </div>
 </div>
@@ -489,7 +493,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Division by a scalar operator. </p>
-<p>Uses the operator/=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_vec3_d.html#a78e0b0482015abafd3999b6c6fad7c9e" title="Division by a scalar operator.">DoubleVec3D::operator/=()</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vec</td><td>The vector that will get divided. </td></tr>
     <tr><td class="paramname">val</td><td>The scalar that will divide the vector. </td></tr>
@@ -497,7 +501,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The vector divided by the scalar. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator/=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_vec3_d.html#a78e0b0482015abafd3999b6c6fad7c9e" title="Division by a scalar operator.">DoubleVec3D::operator/=()</a> </dd></dl>
 
 </div>
 </div>

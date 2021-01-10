@@ -1,13 +1,14 @@
 var searchData=
 [
-  ['importfbx_448',['importFBX',['../class_scene.html#a5511e3991a36989c1408895600fede10',1,'Scene']]],
-  ['importmaterialfromjson_449',['importMaterialFromJson',['../_interface_creation_8cpp.html#ad12ea7a53a87256e2a8da7b1c2aab19a',1,'importMaterialFromJson(const json &amp;j):&#160;InterfaceCreation.cpp'],['../_interface_creation_8h.html#a77ae49bfd07d32985951ff51a779f4c0',1,'importMaterialFromJson(const json &amp;j):&#160;InterfaceCreation.cpp']]],
-  ['importobject3dfromjson_450',['importObject3DFromJson',['../_interface_creation_8cpp.html#abad31a3a3e0e5e651caa3b5f263d3d0a',1,'importObject3DFromJson(const json &amp;j):&#160;InterfaceCreation.cpp'],['../_interface_creation_8h.html#a036caadf5435b2f6b09fa254bac83ab0',1,'importObject3DFromJson(const json &amp;j):&#160;InterfaceCreation.cpp']]],
-  ['importpicturefromjson_451',['importPictureFromJson',['../_picture_8cpp.html#a024eb40ce6c40fcc93b0a8178b9a2cba',1,'importPictureFromJson(const json &amp;j):&#160;Picture.cpp'],['../_picture_8h.html#aa866d9aec0f41c7ccfea8387a4f658fb',1,'importPictureFromJson(const json &amp;j):&#160;Picture.cpp']]],
-  ['initinterface_452',['initInterface',['../_interface_8cpp.html#ab274bf03f43e0b934ba5a1d8efc0a8d4',1,'initInterface():&#160;Interface.cpp'],['../_interface_8h.html#ab4171a161c7c6d81c111749da9949f29',1,'initInterface():&#160;Interface.cpp']]],
-  ['intersection_453',['Intersection',['../struct_k_d_tree_node_1_1_intersection.html#ae393e317da414c750250757f197fc09d',1,'KDTreeNode::Intersection']]],
-  ['intersectiondistance_454',['intersectionDistance',['../class_k_d_tree_node.html#a6e06a3f2e0a49f6366842d1ffa829a17',1,'KDTreeNode']]],
-  ['isin_455',['isIn',['../class_k_d_tree_node.html#a614b527ab1d70c9e8ce41487f30dff06',1,'KDTreeNode']]],
-  ['isnormalised_456',['isNormalised',['../class_double_vec3_d.html#a6473fb5de721e86d2bd6e8b59e558440',1,'DoubleVec3D']]],
-  ['iszero_457',['isZero',['../class_double_vec3_d.html#a255917c4ab53e03f0d9536bf2853e20b',1,'DoubleVec3D']]]
+  ['importfbxfile_475',['importFBXFile',['../class_scene.html#a6f2ef1451cb66d3cea3244ee42059262',1,'Scene']]],
+  ['importmaterialfromjson_476',['importMaterialFromJson',['../_interface_creation_8cpp.html#aff34761eed95f3c47ea5658e2010e244',1,'importMaterialFromJson(const json &amp;j):&#160;InterfaceCreation.cpp'],['../_interface_creation_8h.html#a77ae49bfd07d32985951ff51a779f4c0',1,'importMaterialFromJson(const json &amp;j):&#160;InterfaceCreation.cpp']]],
+  ['importobject3dfromjson_477',['importObject3DFromJson',['../_interface_creation_8cpp.html#a863c5bd0e304297b5b53d77edca40d96',1,'importObject3DFromJson(const json &amp;j):&#160;InterfaceCreation.cpp'],['../_interface_creation_8h.html#a036caadf5435b2f6b09fa254bac83ab0',1,'importObject3DFromJson(const json &amp;j):&#160;InterfaceCreation.cpp']]],
+  ['importpicturefromjson_478',['importPictureFromJson',['../_picture_8cpp.html#aa866d9aec0f41c7ccfea8387a4f658fb',1,'importPictureFromJson(const json &amp;j):&#160;Picture.cpp'],['../_picture_8h.html#aa866d9aec0f41c7ccfea8387a4f658fb',1,'importPictureFromJson(const json &amp;j):&#160;Picture.cpp']]],
+  ['importtrianglesfromfbxnode_479',['importTrianglesFromFbxNode',['../_scene_8cpp.html#acee556ffb8e186e373bb6eb4c8d1c6e5',1,'importTrianglesFromFbxNode(FbxNode *node, Material *material, std::vector&lt; Object3D * &gt; &amp;objects):&#160;Scene.cpp'],['../_scene_8h.html#acee556ffb8e186e373bb6eb4c8d1c6e5',1,'importTrianglesFromFbxNode(FbxNode *node, Material *material, std::vector&lt; Object3D * &gt; &amp;objects):&#160;Scene.cpp']]],
+  ['initinterface_480',['initInterface',['../_interface_8cpp.html#ab4171a161c7c6d81c111749da9949f29',1,'initInterface():&#160;Interface.cpp'],['../_interface_8h.html#ab4171a161c7c6d81c111749da9949f29',1,'initInterface():&#160;Interface.cpp']]],
+  ['intersection_481',['Intersection',['../struct_k_d_tree_node_1_1_intersection.html#ae393e317da414c750250757f197fc09d',1,'KDTreeNode::Intersection']]],
+  ['intersectiondistance_482',['intersectionDistance',['../class_k_d_tree_node.html#a791ac6e82d9dc7dc3b1f1cfb869099a6',1,'KDTreeNode']]],
+  ['isin_483',['isIn',['../class_k_d_tree_node.html#a1deb08db26760bf2e9cafa47ae34894c',1,'KDTreeNode']]],
+  ['isnormalised_484',['isNormalised',['../class_double_vec3_d.html#abd177db8ee8eddeaccf6adc33fc1f07a',1,'DoubleVec3D']]],
+  ['iszero_485',['isZero',['../class_double_vec3_d.html#af3af497978dc235f49d785b640e3ec63',1,'DoubleVec3D']]]
 ];

@@ -83,7 +83,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="_material_8h.html" target="_top" xlink:title="Defines the Material class and the functions around it.">
+<g id="a_node3"><a xlink:href="_material_8h.html" target="_top" xlink:title="Defines the Material class and some functions around it.">
 <polygon fill="white" stroke="black" points="230.5,-280.5 230.5,-299.5 289.5,-299.5 289.5,-280.5 230.5,-280.5"/>
 <text text-anchor="middle" x="260" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">Material.h</text>
 </a>
@@ -113,7 +113,7 @@ var sectionId = 'dynsection-0';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and the functions around it.">
+<g id="a_node5"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and some functions around it.">
 <polygon fill="white" stroke="black" points="218,-112.5 218,-131.5 302,-131.5 302,-112.5 218,-112.5"/>
 <text text-anchor="middle" x="260" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleVec3D.h</text>
 </a>
@@ -128,7 +128,7 @@ var sectionId = 'dynsection-0';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and the functions around it.">
+<g id="a_node15"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and some functions around it.">
 <polygon fill="white" stroke="black" points="249.5,-168.5 249.5,-187.5 350.5,-187.5 350.5,-168.5 249.5,-168.5"/>
 <text text-anchor="middle" x="300" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleUnitVec3D.h</text>
 </a>

@@ -6,7 +6,7 @@ digraph "D:/PathTracer/PathTracer/Ray.h"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node1 [label="D:/PathTracer/PathTracer\l/Ray.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Defines the Ray class."];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="DoubleVec3D.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_double_vec3_d_8h.html",tooltip="Defines the DoubleVec3D class and the functions around it."];
+  Node2 [label="DoubleVec3D.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_double_vec3_d_8h.html",tooltip="Defines the DoubleVec3D class and some functions around it."];
   Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="InterfaceGestion.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_interface_gestion_8h.html",tooltip="Defines functions that are used when drawing the interface."];
   Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
@@ -26,6 +26,6 @@ digraph "D:/PathTracer/PathTracer/Ray.h"
   Node3 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node11 [label="windows.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
   Node1 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node12 [label="DoubleUnitVec3D.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_double_unit_vec3_d_8h.html",tooltip="Defines the DoubleUnitVec3D class and the functions around it."];
+  Node12 [label="DoubleUnitVec3D.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_double_unit_vec3_d_8h.html",tooltip="Defines the DoubleUnitVec3D class and some functions around it."];
   Node12 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

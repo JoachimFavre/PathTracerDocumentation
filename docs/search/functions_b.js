@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['normalise_464',['normalise',['../class_double_vec3_d.html#a144b74056f0e9e0daf74c7e04a68ebd7',1,'DoubleVec3D']]]
+  ['normalise_492',['normalise',['../class_double_vec3_d.html#a364ffbdd070d9df998be781c09156e91',1,'DoubleVec3D']]]
 ];

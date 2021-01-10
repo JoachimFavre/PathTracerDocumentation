@@ -1,25 +1,25 @@
 <map id="D:/PathTracer/PathTracer/KDTreeNode.cpp" name="D:/PathTracer/PathTracer/KDTreeNode.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="559,5,729,47"/>
-<area shape="rect" id="node2" href="$_k_d_tree_node_8h.html" title="Defines the KDTreeNode class and the functions around it." alt="" coords="591,95,697,121"/>
-<area shape="rect" id="node3" href="$_interface_creation_8h.html" title="Defines functions that are used to interactively create 3D objects and materials." alt="" coords="579,169,709,196"/>
-<area shape="rect" id="node4" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,767,415,793"/>
-<area shape="rect" id="node13" href="$_diffuse_material_8h.html" title="Defines the DiffuseMaterial class." alt="" coords="602,393,721,420"/>
-<area shape="rect" id="node18" href="$_refractive_material_8h.html" title="Defines the RefractiveMaterial class." alt="" coords="498,319,633,345"/>
-<area shape="rect" id="node19" href="$_specular_material_8h.html" title="Defines the SpecularMaterial class." alt="" coords="343,319,473,345"/>
-<area shape="rect" id="node20" href="$_triangle_8h.html" title="Defines the Triangle class." alt="" coords="709,244,787,271"/>
-<area shape="rect" id="node23" href="$_sphere_8h.html" title="Defines the Sphere class." alt="" coords="812,244,887,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,841,67,868"/>
-<area shape="rect" id="node6" title=" " alt="" coords="91,841,157,868"/>
-<area shape="rect" id="node7" title=" " alt="" coords="181,841,246,868"/>
-<area shape="rect" id="node8" title=" " alt="" coords="271,841,343,868"/>
-<area shape="rect" id="node9" title=" " alt="" coords="367,841,430,868"/>
-<area shape="rect" id="node10" title=" " alt="" coords="455,841,585,868"/>
-<area shape="rect" id="node11" title=" " alt="" coords="610,841,681,868"/>
-<area shape="rect" id="node12" title=" " alt="" coords="705,841,788,868"/>
-<area shape="rect" id="node14" href="$_material_8h.html" title="Defines the Material class and the functions around it." alt="" coords="483,468,562,495"/>
-<area shape="rect" id="node15" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="483,543,539,569"/>
-<area shape="rect" id="node16" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="349,692,461,719"/>
-<area shape="rect" id="node17" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and the functions around it." alt="" coords="443,617,578,644"/>
-<area shape="rect" id="node21" href="$_object3_d_8h.html" title="Defines the Object3D class and the functions around it." alt="" coords="719,319,806,345"/>
-<area shape="rect" id="node22" title=" " alt="" coords="745,393,799,420"/>
+<area shape="rect" id="node1" title=" " alt="" coords="345,5,514,47"/>
+<area shape="rect" id="node2" href="$_k_d_tree_node_8h.html" title="Defines the KDTreeNode class and some functions around it." alt="" coords="376,95,483,121"/>
+<area shape="rect" id="node3" href="$_interface_creation_8h.html" title="Defines functions that are used to ask for values to the user, and to interactively create 3D objects..." alt="" coords="364,169,495,196"/>
+<area shape="rect" id="node4" href="$_diffuse_material_8h.html" title="Defines the DiffuseMaterial class." alt="" coords="293,393,411,420"/>
+<area shape="rect" id="node18" href="$_refractive_material_8h.html" title="Defines the RefractiveMaterial class." alt="" coords="527,319,662,345"/>
+<area shape="rect" id="node19" href="$_specular_material_8h.html" title="Defines the SpecularMaterial class." alt="" coords="184,319,315,345"/>
+<area shape="rect" id="node20" href="$_triangle_8h.html" title="Defines the Triangle class." alt="" coords="390,244,469,271"/>
+<area shape="rect" id="node23" href="$_sphere_8h.html" title="Defines the Sphere class." alt="" coords="493,244,568,271"/>
+<area shape="rect" id="node5" href="$_material_8h.html" title="Defines the Material class and some functions around it." alt="" coords="313,468,391,495"/>
+<area shape="rect" id="node6" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="324,543,380,569"/>
+<area shape="rect" id="node7" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and some functions around it." alt="" coords="296,692,408,719"/>
+<area shape="rect" id="node17" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and some functions around it." alt="" coords="338,617,473,644"/>
+<area shape="rect" id="node8" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,767,415,793"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,841,67,868"/>
+<area shape="rect" id="node10" title=" " alt="" coords="91,841,157,868"/>
+<area shape="rect" id="node11" title=" " alt="" coords="181,841,246,868"/>
+<area shape="rect" id="node12" title=" " alt="" coords="271,841,343,868"/>
+<area shape="rect" id="node13" title=" " alt="" coords="367,841,430,868"/>
+<area shape="rect" id="node14" title=" " alt="" coords="455,841,585,868"/>
+<area shape="rect" id="node15" title=" " alt="" coords="610,841,681,868"/>
+<area shape="rect" id="node16" title=" " alt="" coords="705,841,788,868"/>
+<area shape="rect" id="node21" href="$_object3_d_8h.html" title="Defines the Object3D class and some functions around it." alt="" coords="405,319,491,345"/>
+<area shape="rect" id="node22" title=" " alt="" coords="435,393,490,420"/>
 </map>

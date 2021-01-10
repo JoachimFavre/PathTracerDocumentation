@@ -1,8 +1,8 @@
 <map id="D:/PathTracer/PathTracer/Material.h" name="D:/PathTracer/PathTracer/Material.h">
-<area shape="rect" id="node1" title="Defines the Material class and the functions around it." alt="" coords="267,5,437,47"/>
+<area shape="rect" id="node1" title="Defines the Material class and some functions around it." alt="" coords="267,5,437,47"/>
 <area shape="rect" id="node2" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="324,95,380,121"/>
-<area shape="rect" id="node3" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="296,244,408,271"/>
-<area shape="rect" id="node13" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and the functions around it." alt="" coords="338,169,473,196"/>
+<area shape="rect" id="node3" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and some functions around it." alt="" coords="296,244,408,271"/>
+<area shape="rect" id="node13" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and some functions around it." alt="" coords="338,169,473,196"/>
 <area shape="rect" id="node4" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,319,415,345"/>
 <area shape="rect" id="node5" title=" " alt="" coords="5,393,67,420"/>
 <area shape="rect" id="node6" title=" " alt="" coords="91,393,157,420"/>

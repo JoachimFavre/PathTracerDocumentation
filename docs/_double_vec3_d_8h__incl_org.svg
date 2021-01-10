@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Defines the DoubleVec3D class and the functions around it.">
+<g id="a_node1"><a xlink:title="Defines the DoubleVec3D class and some functions around it.">
 <polygon fill="#bfbfbf" stroke="black" points="196.5,-112.5 196.5,-142.5 323.5,-142.5 323.5,-112.5 196.5,-112.5"/>
 <text text-anchor="start" x="204.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
 <text text-anchor="middle" x="260" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleVec3D.h</text>

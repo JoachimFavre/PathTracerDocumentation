@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1118;
+var viewWidth = 1225;
 var viewHeight = 843;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,684 +54,678 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>D:/PathTracer/PathTracer/InterfaceGestion.h</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-839 1113.5,-839 1113.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-839 1221,-839 1221,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Defines functions that are used when drawing the interface.">
-<polygon fill="#bfbfbf" stroke="black" points="540.5,-804.5 540.5,-834.5 667.5,-834.5 667.5,-804.5 540.5,-804.5"/>
-<text text-anchor="start" x="548.5" y="-822.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="604" y="-811.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceGestion.h</text>
+<polygon fill="#bfbfbf" stroke="black" points="302,-804.5 302,-834.5 429,-834.5 429,-804.5 302,-804.5"/>
+<text text-anchor="start" x="310" y="-822.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="365.5" y="-811.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceGestion.h</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and the functions around it.">
-<polygon fill="white" stroke="black" points="540.5,-737.5 540.5,-767.5 667.5,-767.5 667.5,-737.5 540.5,-737.5"/>
-<text text-anchor="start" x="548.5" y="-755.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="604" y="-744.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleVec3D.h</text>
+<g id="a_node2"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and some functions around it.">
+<polygon fill="white" stroke="black" points="230,-737.5 230,-767.5 357,-767.5 357,-737.5 230,-737.5"/>
+<text text-anchor="start" x="238" y="-755.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="293.5" y="-744.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleVec3D.h</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M604,-794.11C604,-785.15 604,-775.32 604,-767.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="600.5,-794.4 604,-804.4 607.5,-794.4 600.5,-794.4"/>
-</g>
-<!-- Node16 -->
-<g id="node16" class="node">
-<title>Node16</title>
-<g id="a_node16"><a xlink:href="_interface_creation_8h.html" target="_top" xlink:title="Defines functions that are used to interactively create 3D objects and materials.">
-<polygon fill="white" stroke="black" points="314.5,-268.5 314.5,-298.5 441.5,-298.5 441.5,-268.5 314.5,-268.5"/>
-<text text-anchor="start" x="322.5" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="378" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceCreation.h</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node16 -->
-<g id="edge47" class="edge">
-<title>Node1&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M529.9,-817.72C368.59,-814.02 0,-793.83 0,-686.5 0,-686.5 0,-686.5 0,-416.5 0,-350.72 206.58,-310.06 314.3,-293.33"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="530.15,-821.23 540.22,-817.94 530.3,-814.23 530.15,-821.23"/>
+<path fill="none" stroke="midnightblue" d="M342.35,-797.6C331.48,-787.78 318.8,-776.34 309.09,-767.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="340.11,-800.29 349.88,-804.4 344.8,-795.1 340.11,-800.29"/>
 </g>
 <!-- Node39 -->
 <g id="node39" class="node">
 <title>Node39</title>
 <g id="a_node39"><a xlink:href="_interface_gestion_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="685.5,-737.5 685.5,-767.5 812.5,-767.5 812.5,-737.5 685.5,-737.5"/>
-<text text-anchor="start" x="693.5" y="-755.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="749" y="-744.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceGestion.cpp</text>
+<polygon fill="white" stroke="black" points="375,-737.5 375,-767.5 502,-767.5 502,-737.5 375,-737.5"/>
+<text text-anchor="start" x="383" y="-755.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="438.5" y="-744.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceGestion.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node39 -->
-<g id="edge48" class="edge">
+<g id="edge47" class="edge">
 <title>Node1&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M644.67,-800.27C667.76,-789.92 696.24,-777.15 717.6,-767.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="643.16,-797.11 635.46,-804.4 646.02,-803.5 643.16,-797.11"/>
+<path fill="none" stroke="midnightblue" d="M388.97,-797.6C400,-787.78 412.84,-776.34 422.69,-767.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="386.48,-795.13 381.34,-804.4 391.14,-800.36 386.48,-795.13"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="_double_matrix33_8h.html" target="_top" xlink:title="Defines the DoubleMatrix33 class and the functions around it.">
-<polygon fill="white" stroke="black" points="903.5,-670.5 903.5,-700.5 1030.5,-700.5 1030.5,-670.5 903.5,-670.5"/>
-<text text-anchor="start" x="911.5" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="967" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleMatrix33.h</text>
+<g id="a_node3"><a xlink:href="_double_matrix33_8h.html" target="_top" xlink:title="Defines the DoubleMatrix33 class and some functions around it.">
+<polygon fill="white" stroke="black" points="92,-670.5 92,-700.5 219,-700.5 219,-670.5 92,-670.5"/>
+<text text-anchor="start" x="100" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="155.5" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleMatrix33.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M677.53,-736.76C774.71,-719.21 801.1,-718.17 895,-701 897.76,-700.5 900.58,-699.97 903.42,-699.43"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="676.79,-733.33 667.58,-738.57 678.04,-740.22 676.79,-733.33"/>
+<path fill="none" stroke="midnightblue" d="M254.5,-733.13C232.57,-722.8 205.63,-710.11 185.39,-700.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="253.02,-736.3 263.56,-737.4 256,-729.97 253.02,-736.3"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and the functions around it.">
-<polygon fill="white" stroke="black" points="613.5,-670.5 613.5,-700.5 740.5,-700.5 740.5,-670.5 613.5,-670.5"/>
-<text text-anchor="start" x="621.5" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="677" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleUnitVec3D.h</text>
+<g id="a_node10"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and some functions around it.">
+<polygon fill="white" stroke="black" points="276,-670.5 276,-700.5 403,-700.5 403,-670.5 276,-670.5"/>
+<text text-anchor="start" x="284" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="339.5" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleUnitVec3D.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node2&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M627.47,-730.6C638.5,-720.78 651.34,-709.34 661.19,-700.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="624.98,-728.13 619.84,-737.4 629.64,-733.36 624.98,-728.13"/>
+<path fill="none" stroke="midnightblue" d="M309.31,-729.16C316.02,-719.68 323.63,-708.92 329.54,-700.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="306.4,-727.21 303.48,-737.4 312.12,-731.26 306.4,-727.21"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="_ray_8h.html" target="_top" xlink:title="Defines the Ray class.">
-<polygon fill="white" stroke="black" points="464.5,-603.5 464.5,-633.5 591.5,-633.5 591.5,-603.5 464.5,-603.5"/>
-<text text-anchor="start" x="472.5" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="528" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Ray.h</text>
+<polygon fill="white" stroke="black" points="230,-603.5 230,-633.5 357,-633.5 357,-603.5 230,-603.5"/>
+<text text-anchor="start" x="238" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="293.5" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Ray.h</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node12 -->
 <g id="edge46" class="edge">
 <title>Node2&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M530.51,-743.7C503.5,-736.86 475.5,-724.22 459,-701 451.02,-689.77 452.77,-682.29 459,-670 467.06,-654.11 482.72,-642.02 497.09,-633.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="529.87,-747.14 540.4,-745.96 531.44,-740.32 529.87,-747.14"/>
+<path fill="none" stroke="midnightblue" d="M278.16,-728.54C273.45,-720.23 268.89,-710.53 266.5,-701 263.15,-687.64 263.15,-683.36 266.5,-670 269.79,-656.88 277.2,-643.45 283.43,-633.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="275.26,-730.51 283.43,-737.26 281.25,-726.89 275.26,-730.51"/>
 </g>
-<!-- Node36 -->
-<g id="node36" class="node">
-<title>Node36</title>
-<g id="a_node36"><a xlink:href="_double_vec3_d_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="468.5,-670.5 468.5,-700.5 595.5,-700.5 595.5,-670.5 468.5,-670.5"/>
-<text text-anchor="start" x="476.5" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="532" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleVec3D.cpp</text>
+<!-- Node38 -->
+<g id="node38" class="node">
+<title>Node38</title>
+<g id="a_node38"><a xlink:href="_double_vec3_d_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="421,-670.5 421,-700.5 548,-700.5 548,-670.5 421,-670.5"/>
+<text text-anchor="start" x="429" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="484.5" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleVec3D.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node36 -->
-<g id="edge42" class="edge">
-<title>Node2&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M580.85,-730.6C569.98,-720.78 557.3,-709.34 547.59,-700.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="578.61,-733.29 588.38,-737.4 583.3,-728.1 578.61,-733.29"/>
-</g>
-<!-- Node37 -->
-<g id="node37" class="node">
-<title>Node37</title>
-<g id="a_node37"><a xlink:href="_picture_8h.html" target="_top" xlink:title="Defines the Picture class and the functions around it.">
-<polygon fill="white" stroke="black" points="758.5,-670.5 758.5,-700.5 885.5,-700.5 885.5,-670.5 758.5,-670.5"/>
-<text text-anchor="start" x="766.5" y="-688.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="822" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Picture.h</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node37 -->
-<g id="edge43" class="edge">
-<title>Node2&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M660.75,-734.58C696.16,-724.02 741.2,-710.59 774.67,-700.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="659.62,-731.26 651.03,-737.48 661.62,-737.97 659.62,-731.26"/>
+<!-- Node2&#45;&gt;Node38 -->
+<g id="edge45" class="edge">
+<title>Node2&#45;&gt;Node38</title>
+<path fill="none" stroke="midnightblue" d="M344.65,-734.09C375.49,-723.6 414.25,-710.41 443.14,-700.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="343.28,-730.86 334.94,-737.4 345.54,-737.49 343.28,-730.86"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="_double_matrix33_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="982.5,-603.5 982.5,-633.5 1109.5,-633.5 1109.5,-603.5 982.5,-603.5"/>
-<text text-anchor="start" x="990.5" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="1046" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleMatrix33.cpp</text>
+<polygon fill="white" stroke="black" points="0,-603.5 0,-633.5 127,-633.5 127,-603.5 0,-603.5"/>
+<text text-anchor="start" x="8" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="63.5" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleMatrix33.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M992.06,-663.88C1004.06,-654.01 1018.13,-642.43 1028.89,-633.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="989.64,-661.34 984.14,-670.4 994.09,-666.75 989.64,-661.34"/>
+<path fill="none" stroke="midnightblue" d="M127.12,-664.45C112.97,-654.45 96.19,-642.6 83.42,-633.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="125.35,-667.48 135.54,-670.4 129.39,-661.77 125.35,-667.48"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="_scene_8h.html" target="_top" xlink:title="Defines the Scene class and the functions around it.">
-<polygon fill="white" stroke="black" points="778.5,-134.5 778.5,-164.5 905.5,-164.5 905.5,-134.5 778.5,-134.5"/>
-<text text-anchor="start" x="786.5" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="842" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Scene.h</text>
+<g id="a_node5"><a xlink:href="_scene_8h.html" target="_top" xlink:title="Defines the Scene class and some functions around it.">
+<polygon fill="white" stroke="black" points="290,-134.5 290,-164.5 417,-164.5 417,-134.5 290,-134.5"/>
+<text text-anchor="start" x="298" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="353.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Scene.h</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M963.14,-660.06C959.31,-633.62 954,-590.18 954,-552.5 954,-552.5 954,-552.5 954,-282.5 954,-228.7 899.24,-185.6 866.3,-164.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="959.73,-660.92 964.68,-670.29 966.66,-659.88 959.73,-660.92"/>
+<path fill="none" stroke="midnightblue" d="M155.5,-659.99C155.5,-633.49 155.5,-590 155.5,-552.5 155.5,-552.5 155.5,-552.5 155.5,-282.5 155.5,-216.6 232.36,-181.58 290.31,-164.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="152,-660.24 155.5,-670.24 159,-660.24 152,-660.24"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="_interface_8h.html" target="_top" xlink:title="Defines some functions for the interface.">
-<polygon fill="white" stroke="black" points="705.5,-67.5 705.5,-97.5 832.5,-97.5 832.5,-67.5 705.5,-67.5"/>
-<text text-anchor="start" x="713.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="769" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Interface.h</text>
+<polygon fill="white" stroke="black" points="218,-67.5 218,-97.5 345,-97.5 345,-67.5 218,-67.5"/>
+<text text-anchor="start" x="226" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="281.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Interface.h</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M818.53,-127.6C807.5,-117.78 794.66,-106.34 784.81,-97.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="816.36,-130.36 826.16,-134.4 821.02,-125.13 816.36,-130.36"/>
+<path fill="none" stroke="midnightblue" d="M330.35,-127.6C319.48,-117.78 306.8,-106.34 297.09,-97.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="328.11,-130.29 337.88,-134.4 332.8,-125.1 328.11,-130.29"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="_scene_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="850.5,-67.5 850.5,-97.5 977.5,-97.5 977.5,-67.5 850.5,-67.5"/>
-<text text-anchor="start" x="858.5" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="914" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Scene.cpp</text>
+<polygon fill="white" stroke="black" points="363,-67.5 363,-97.5 490,-97.5 490,-67.5 363,-67.5"/>
+<text text-anchor="start" x="371" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="426.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Scene.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M865.15,-127.6C876.02,-117.78 888.7,-106.34 898.41,-97.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="862.7,-125.1 857.62,-134.4 867.39,-130.29 862.7,-125.1"/>
+<path fill="none" stroke="midnightblue" d="M376.97,-127.6C388,-117.78 400.84,-106.34 410.69,-97.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="374.48,-125.13 369.34,-134.4 379.14,-130.36 374.48,-125.13"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="_interface_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="633.5,-0.5 633.5,-30.5 760.5,-30.5 760.5,-0.5 633.5,-0.5"/>
-<text text-anchor="start" x="641.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="697" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Interface.cpp</text>
+<polygon fill="white" stroke="black" points="146,-0.5 146,-30.5 273,-30.5 273,-0.5 146,-0.5"/>
+<text text-anchor="start" x="154" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="209.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Interface.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M745.85,-60.6C734.98,-50.78 722.3,-39.34 712.59,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="743.61,-63.29 753.38,-67.4 748.3,-58.1 743.61,-63.29"/>
+<path fill="none" stroke="midnightblue" d="M258.35,-60.6C247.48,-50.78 234.8,-39.34 225.09,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="256.11,-63.29 265.88,-67.4 260.8,-58.1 256.11,-63.29"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="main_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="778.5,-0.5 778.5,-30.5 905.5,-30.5 905.5,-0.5 778.5,-0.5"/>
-<text text-anchor="start" x="786.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="842" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/main.cpp</text>
+<polygon fill="white" stroke="black" points="291,-0.5 291,-30.5 418,-30.5 418,-0.5 291,-0.5"/>
+<text text-anchor="start" x="299" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="354.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">/main.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M792.47,-60.6C803.5,-50.78 816.34,-39.34 826.19,-30.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="789.98,-58.13 784.84,-67.4 794.64,-63.36 789.98,-58.13"/>
+<path fill="none" stroke="midnightblue" d="M304.97,-60.6C316,-50.78 328.84,-39.34 338.69,-30.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="302.48,-58.13 297.34,-67.4 307.14,-63.36 302.48,-58.13"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="_double_unit_vec3_d_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="613.5,-603.5 613.5,-633.5 740.5,-633.5 740.5,-603.5 613.5,-603.5"/>
-<text text-anchor="start" x="621.5" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="677" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleUnitVec3D.cpp</text>
+<polygon fill="white" stroke="black" points="375,-603.5 375,-633.5 502,-633.5 502,-603.5 375,-603.5"/>
+<text text-anchor="start" x="383" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="438.5" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DoubleUnitVec3D.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M677,-660.11C677,-651.15 677,-641.32 677,-633.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="673.5,-660.4 677,-670.4 680.5,-660.4 673.5,-660.4"/>
+<path fill="none" stroke="midnightblue" d="M369.61,-664.73C384.92,-654.68 403.19,-642.68 417.06,-633.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="367.42,-661.98 360.98,-670.4 371.26,-667.83 367.42,-661.98"/>
 </g>
 <!-- Node10&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node10&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M635.21,-666.27C611.48,-655.92 582.22,-643.15 560.27,-633.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="634.1,-669.61 644.67,-670.4 636.9,-663.19 634.1,-669.61"/>
+<path fill="none" stroke="midnightblue" d="M323.69,-662.16C316.98,-652.68 309.37,-641.92 303.46,-633.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="320.88,-664.26 329.52,-670.4 326.6,-660.21 320.88,-664.26"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="_material_8h.html" target="_top" xlink:title="Defines the Material class and the functions around it.">
-<polygon fill="white" stroke="black" points="318.5,-536.5 318.5,-566.5 445.5,-566.5 445.5,-536.5 318.5,-536.5"/>
-<text text-anchor="start" x="326.5" y="-554.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="382" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Material.h</text>
+<g id="a_node13"><a xlink:href="_material_8h.html" target="_top" xlink:title="Defines the Material class and some functions around it.">
+<polygon fill="white" stroke="black" points="604,-536.5 604,-566.5 731,-566.5 731,-536.5 604,-536.5"/>
+<text text-anchor="start" x="612" y="-554.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="667.5" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Material.h</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node12&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M487.05,-599.27C463.8,-588.92 435.13,-576.15 413.62,-566.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="485.76,-602.53 496.32,-603.4 488.61,-596.13 485.76,-602.53"/>
-</g>
-<!-- Node33 -->
-<g id="node33" class="node">
-<title>Node33</title>
-<g id="a_node33"><a xlink:href="_perspective_camera_8h.html" target="_top" xlink:title="Defines the PerspectiveCamera class.">
-<polygon fill="white" stroke="black" points="668.5,-536.5 668.5,-566.5 795.5,-566.5 795.5,-536.5 668.5,-536.5"/>
-<text text-anchor="start" x="676.5" y="-554.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="732" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PerspectiveCamera.h</text>
-</a>
-</g>
-</g>
-<!-- Node12&#45;&gt;Node33 -->
-<g id="edge38" class="edge">
-<title>Node12&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M581.96,-600.31C614.96,-589.79 656.66,-576.51 687.71,-566.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="580.48,-597.11 572.01,-603.48 582.6,-603.77 580.48,-597.11"/>
+<path fill="none" stroke="midnightblue" d="M367.07,-602.93C455.13,-586.89 545.2,-572.06 603.98,-562.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="366.39,-599.49 357.18,-604.73 367.65,-606.38 366.39,-599.49"/>
 </g>
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
-<g id="a_node35"><a xlink:href="_ray_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="464.5,-536.5 464.5,-566.5 591.5,-566.5 591.5,-536.5 464.5,-536.5"/>
-<text text-anchor="start" x="472.5" y="-554.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="528" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Ray.cpp</text>
+<g id="a_node35"><a xlink:href="_perspective_camera_8h.html" target="_top" xlink:title="Defines the PerspectiveCamera class.">
+<polygon fill="white" stroke="black" points="329,-536.5 329,-566.5 456,-566.5 456,-536.5 329,-536.5"/>
+<text text-anchor="start" x="337" y="-554.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="392.5" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PerspectiveCamera.h</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node35 -->
 <g id="edge41" class="edge">
 <title>Node12&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M528,-593.11C528,-584.15 528,-574.32 528,-566.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="524.5,-593.4 528,-603.4 531.5,-593.4 524.5,-593.4"/>
+<path fill="none" stroke="midnightblue" d="M323.61,-597.73C338.92,-587.68 357.19,-575.68 371.06,-566.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="321.42,-594.98 314.98,-603.4 325.26,-600.83 321.42,-594.98"/>
+</g>
+<!-- Node37 -->
+<g id="node37" class="node">
+<title>Node37</title>
+<g id="a_node37"><a xlink:href="_ray_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="184,-536.5 184,-566.5 311,-566.5 311,-536.5 184,-536.5"/>
+<text text-anchor="start" x="192" y="-554.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="247.5" y="-543.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Ray.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node12&#45;&gt;Node37 -->
+<g id="edge44" class="edge">
+<title>Node12&#45;&gt;Node37</title>
+<path fill="none" stroke="midnightblue" d="M277.69,-595.16C270.98,-585.68 263.37,-574.92 257.46,-566.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="274.88,-597.26 283.52,-603.4 280.6,-593.21 274.88,-597.26"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="_diffuse_material_8h.html" target="_top" xlink:title="Defines the DiffuseMaterial class.">
-<polygon fill="white" stroke="black" points="463.5,-469.5 463.5,-499.5 590.5,-499.5 590.5,-469.5 463.5,-469.5"/>
-<text text-anchor="start" x="471.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="527" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DiffuseMaterial.h</text>
+<polygon fill="white" stroke="black" points="749,-469.5 749,-499.5 876,-499.5 876,-469.5 749,-469.5"/>
+<text text-anchor="start" x="757" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="812.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DiffuseMaterial.h</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M422.67,-532.27C445.76,-521.92 474.24,-509.15 495.6,-499.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="421.16,-529.11 413.46,-536.4 424.02,-535.5 421.16,-529.11"/>
+<path fill="none" stroke="midnightblue" d="M708.17,-532.27C731.26,-521.92 759.74,-509.15 781.1,-499.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="706.66,-529.11 698.96,-536.4 709.52,-535.5 706.66,-529.11"/>
 </g>
-<!-- Node28 -->
-<g id="node28" class="node">
-<title>Node28</title>
-<g id="a_node28"><a xlink:href="_material_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="173.5,-469.5 173.5,-499.5 300.5,-499.5 300.5,-469.5 173.5,-469.5"/>
-<text text-anchor="start" x="181.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="237" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Material.cpp</text>
+<!-- Node30 -->
+<g id="node30" class="node">
+<title>Node30</title>
+<g id="a_node30"><a xlink:href="_material_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="894,-469.5 894,-499.5 1021,-499.5 1021,-469.5 894,-469.5"/>
+<text text-anchor="start" x="902" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="957.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Material.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node28 -->
-<g id="edge31" class="edge">
-<title>Node13&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M341.33,-532.27C318.24,-521.92 289.76,-509.15 268.4,-499.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="339.98,-535.5 350.54,-536.4 342.84,-529.11 339.98,-535.5"/>
-</g>
-<!-- Node29 -->
-<g id="node29" class="node">
-<title>Node29</title>
-<g id="a_node29"><a xlink:href="_refractive_material_8h.html" target="_top" xlink:title="Defines the RefractiveMaterial class.">
-<polygon fill="white" stroke="black" points="318.5,-469.5 318.5,-499.5 445.5,-499.5 445.5,-469.5 318.5,-469.5"/>
-<text text-anchor="start" x="326.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="382" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RefractiveMaterial.h</text>
-</a>
-</g>
-</g>
-<!-- Node13&#45;&gt;Node29 -->
-<g id="edge32" class="edge">
-<title>Node13&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M382,-526.11C382,-517.15 382,-507.32 382,-499.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="378.5,-526.4 382,-536.4 385.5,-526.4 378.5,-526.4"/>
+<!-- Node13&#45;&gt;Node30 -->
+<g id="edge34" class="edge">
+<title>Node13&#45;&gt;Node30</title>
+<path fill="none" stroke="midnightblue" d="M739.99,-534.25C787.52,-523.6 849.06,-509.81 894.54,-499.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="739.06,-530.87 730.07,-536.48 740.59,-537.7 739.06,-530.87"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="_specular_material_8h.html" target="_top" xlink:title="Defines the SpecularMaterial class.">
-<polygon fill="white" stroke="black" points="28.5,-469.5 28.5,-499.5 155.5,-499.5 155.5,-469.5 28.5,-469.5"/>
-<text text-anchor="start" x="36.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="92" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SpecularMaterial.h</text>
+<g id="a_node31"><a xlink:href="_refractive_material_8h.html" target="_top" xlink:title="Defines the RefractiveMaterial class.">
+<polygon fill="white" stroke="black" points="604,-469.5 604,-499.5 731,-499.5 731,-469.5 604,-469.5"/>
+<text text-anchor="start" x="612" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="667.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RefractiveMaterial.h</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node31 -->
 <g id="edge35" class="edge">
 <title>Node13&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M309.51,-534.25C261.98,-523.6 200.44,-509.81 154.96,-499.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="308.91,-537.7 319.43,-536.48 310.44,-530.87 308.91,-537.7"/>
+<path fill="none" stroke="midnightblue" d="M667.5,-526.11C667.5,-517.15 667.5,-507.32 667.5,-499.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="664,-526.4 667.5,-536.4 671,-526.4 664,-526.4"/>
+</g>
+<!-- Node33 -->
+<g id="node33" class="node">
+<title>Node33</title>
+<g id="a_node33"><a xlink:href="_specular_material_8h.html" target="_top" xlink:title="Defines the SpecularMaterial class.">
+<polygon fill="white" stroke="black" points="459,-469.5 459,-499.5 586,-499.5 586,-469.5 459,-469.5"/>
+<text text-anchor="start" x="467" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="522.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SpecularMaterial.h</text>
+</a>
+</g>
+</g>
+<!-- Node13&#45;&gt;Node33 -->
+<g id="edge38" class="edge">
+<title>Node13&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M626.83,-532.27C603.74,-521.92 575.26,-509.15 553.9,-499.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="625.48,-535.5 636.04,-536.4 628.34,-529.11 625.48,-535.5"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
 <g id="a_node15"><a xlink:href="_diffuse_material_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="434.5,-402.5 434.5,-432.5 561.5,-432.5 561.5,-402.5 434.5,-402.5"/>
-<text text-anchor="start" x="442.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="498" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DiffuseMaterial.cpp</text>
+<polygon fill="white" stroke="black" points="800,-402.5 800,-432.5 927,-432.5 927,-402.5 800,-402.5"/>
+<text text-anchor="start" x="808" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="863.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/DiffuseMaterial.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node14&#45;&gt;Node15 -->
 <g id="edge14" class="edge">
 <title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M516.51,-459.99C512.41,-450.8 507.85,-440.58 504.28,-432.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="513.44,-461.69 520.71,-469.4 519.83,-458.84 513.44,-461.69"/>
+<path fill="none" stroke="midnightblue" d="M829.8,-461.45C837.29,-451.9 845.84,-441 852.46,-432.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="826.99,-459.37 823.57,-469.4 832.49,-463.69 826.99,-459.37"/>
+</g>
+<!-- Node16 -->
+<g id="node16" class="node">
+<title>Node16</title>
+<g id="a_node16"><a xlink:href="_interface_creation_8h.html" target="_top" xlink:title="Defines functions that are used to ask for values to the user, and to interactively create 3D objects...">
+<polygon fill="white" stroke="black" points="689,-268.5 689,-298.5 816,-298.5 816,-268.5 689,-268.5"/>
+<text text-anchor="start" x="697" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="752.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceCreation.h</text>
+</a>
+</g>
 </g>
 <!-- Node14&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node14&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M475.74,-465.32C458.22,-457.34 439.42,-446.63 425,-433 400.12,-409.48 397.54,-398.57 387,-366 379.64,-343.25 378.06,-315.26 377.85,-298.7"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="474.74,-468.7 485.31,-469.47 477.53,-462.28 474.74,-468.7"/>
+<path fill="none" stroke="midnightblue" d="M801.9,-459.91C798.34,-451.51 794.51,-441.92 791.5,-433 775.14,-384.51 761.38,-325.22 755.53,-298.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="798.71,-461.34 805.9,-469.12 805.13,-458.55 798.71,-461.34"/>
 </g>
-<!-- Node22 -->
-<g id="node22" class="node">
-<title>Node22</title>
-<g id="a_node22"><a xlink:href="_object3_d_8h.html" target="_top" xlink:title="Defines the Object3D class and the functions around it.">
-<polygon fill="white" stroke="black" points="579.5,-402.5 579.5,-432.5 706.5,-432.5 706.5,-402.5 579.5,-402.5"/>
-<text text-anchor="start" x="587.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="643" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3D.h</text>
+<!-- Node24 -->
+<g id="node24" class="node">
+<title>Node24</title>
+<g id="a_node24"><a xlink:href="_object3_d_8h.html" target="_top" xlink:title="Defines the Object3D class and some functions around it.">
+<polygon fill="white" stroke="black" points="945,-402.5 945,-432.5 1072,-432.5 1072,-402.5 945,-402.5"/>
+<text text-anchor="start" x="953" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="1008.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3D.h</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node22 -->
-<g id="edge23" class="edge">
-<title>Node14&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M561.27,-464.3C579.42,-454.12 601.32,-441.85 617.88,-432.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="559.18,-461.45 552.17,-469.4 562.6,-467.56 559.18,-461.45"/>
+<!-- Node14&#45;&gt;Node24 -->
+<g id="edge26" class="edge">
+<title>Node14&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M864.58,-466.23C896.29,-455.71 936.28,-442.45 966.05,-432.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="863.42,-462.93 855.03,-469.4 865.62,-469.57 863.42,-462.93"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
 <g id="a_node17"><a xlink:href="_interface_creation_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="459.5,-201.5 459.5,-231.5 586.5,-231.5 586.5,-201.5 459.5,-201.5"/>
-<text text-anchor="start" x="467.5" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="523" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceCreation.cpp</text>
+<polygon fill="white" stroke="black" points="846,-201.5 846,-231.5 973,-231.5 973,-201.5 846,-201.5"/>
+<text text-anchor="start" x="854" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="909.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/InterfaceCreation.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node17 -->
 <g id="edge16" class="edge">
 <title>Node16&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M418.67,-264.27C441.76,-253.92 470.24,-241.15 491.6,-231.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="417.16,-261.11 409.46,-268.4 420.02,-267.5 417.16,-261.11"/>
+<path fill="none" stroke="midnightblue" d="M795.87,-264.54C820.99,-254.14 852.16,-241.24 875.5,-231.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="794.47,-261.34 786.57,-268.4 797.14,-267.8 794.47,-261.34"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="_k_d_tree_node_8h.html" target="_top" xlink:title="Defines the KDTreeNode class and the functions around it.">
-<polygon fill="white" stroke="black" points="314.5,-201.5 314.5,-231.5 441.5,-231.5 441.5,-201.5 314.5,-201.5"/>
-<text text-anchor="start" x="322.5" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="378" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/KDTreeNode.h</text>
+<g id="a_node18"><a xlink:href="_k_d_tree_node_8h.html" target="_top" xlink:title="Defines the KDTreeNode class and some functions around it.">
+<polygon fill="white" stroke="black" points="701,-201.5 701,-231.5 828,-231.5 828,-201.5 701,-201.5"/>
+<text text-anchor="start" x="709" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="764.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/KDTreeNode.h</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node18 -->
 <g id="edge17" class="edge">
 <title>Node16&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M378,-258.11C378,-249.15 378,-239.32 378,-231.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="374.5,-258.4 378,-268.4 381.5,-258.4 374.5,-258.4"/>
+<path fill="none" stroke="midnightblue" d="M756.95,-258.4C758.62,-249.37 760.46,-239.41 761.9,-231.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="753.48,-257.93 755.1,-268.4 760.36,-259.2 753.48,-257.93"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="_object3_d_group_8h.html" target="_top" xlink:title="Defines the Object3DGroup class and the functions around it.">
-<polygon fill="white" stroke="black" points="614.5,-201.5 614.5,-231.5 741.5,-231.5 741.5,-201.5 614.5,-201.5"/>
-<text text-anchor="start" x="622.5" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="678" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3DGroup.h</text>
+<g id="a_node20"><a xlink:href="_object3_d_group_8h.html" target="_top" xlink:title="Defines the Object3DGroup class and some functions around it.">
+<polygon fill="white" stroke="black" points="411,-201.5 411,-231.5 538,-231.5 538,-201.5 411,-201.5"/>
+<text text-anchor="start" x="419" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="474.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3DGroup.h</text>
 </a>
 </g>
 </g>
 <!-- Node16&#45;&gt;Node20 -->
 <g id="edge20" class="edge">
 <title>Node16&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M451.71,-266.53C501.61,-255.72 566.86,-241.58 614.47,-231.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="450.65,-263.18 441.62,-268.72 452.14,-270.02 450.65,-263.18"/>
+<path fill="none" stroke="midnightblue" d="M682.72,-266.19C637.2,-255.54 578.36,-241.78 534.85,-231.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="681.99,-269.61 692.52,-268.48 683.58,-262.79 681.99,-269.61"/>
+</g>
+<!-- Node22 -->
+<g id="node22" class="node">
+<title>Node22</title>
+<g id="a_node22"><a xlink:href="_picture_8h.html" target="_top" xlink:title="Defines the Picture class and some functions around it.">
+<polygon fill="white" stroke="black" points="556,-201.5 556,-231.5 683,-231.5 683,-201.5 556,-201.5"/>
+<text text-anchor="start" x="564" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="619.5" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Picture.h</text>
+</a>
+</g>
+</g>
+<!-- Node16&#45;&gt;Node22 -->
+<g id="edge23" class="edge">
+<title>Node16&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M714.63,-263.99C693.55,-253.69 667.72,-241.07 648.3,-231.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="713.12,-267.15 723.64,-268.4 716.19,-260.86 713.12,-267.15"/>
 </g>
 <!-- Node18&#45;&gt;Node5 -->
 <g id="edge19" class="edge">
 <title>Node18&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M451.7,-200.8C584.33,-179.9 620.23,-183.01 750,-165 759.13,-163.73 768.75,-162.31 778.2,-160.87"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="450.88,-197.39 441.55,-202.42 451.98,-204.3 450.88,-197.39"/>
+<path fill="none" stroke="midnightblue" d="M690.81,-200.78C573.11,-181.38 540.96,-184.09 426.5,-165 423.44,-164.49 420.31,-163.95 417.16,-163.38"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="690.5,-204.28 700.94,-202.47 691.65,-197.37 690.5,-204.28"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
 <g id="a_node19"><a xlink:href="_k_d_tree_node_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="314.5,-134.5 314.5,-164.5 441.5,-164.5 441.5,-134.5 314.5,-134.5"/>
-<text text-anchor="start" x="322.5" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="378" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/KDTreeNode.cpp</text>
+<polygon fill="white" stroke="black" points="725,-134.5 725,-164.5 852,-164.5 852,-134.5 725,-134.5"/>
+<text text-anchor="start" x="733" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="788.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/KDTreeNode.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node18&#45;&gt;Node19 -->
 <g id="edge18" class="edge">
 <title>Node18&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M378,-191.11C378,-182.15 378,-172.32 378,-164.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="374.5,-191.4 378,-201.4 381.5,-191.4 374.5,-191.4"/>
+<path fill="none" stroke="midnightblue" d="M773.18,-191.99C776.57,-182.8 780.35,-172.58 783.3,-164.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="769.89,-190.8 769.71,-201.4 776.45,-193.23 769.89,-190.8"/>
 </g>
 <!-- Node20&#45;&gt;Node5 -->
 <g id="edge22" class="edge">
 <title>Node20&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M722.96,-197.68C749.26,-187.26 782,-174.28 806.48,-164.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="721.59,-194.46 713.59,-201.4 724.17,-200.97 721.59,-194.46"/>
+<path fill="none" stroke="midnightblue" d="M439.27,-196.57C420.24,-186.35 397.13,-173.94 379.7,-164.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="437.78,-199.75 448.24,-201.4 441.09,-193.58 437.78,-199.75"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
 <g id="a_node21"><a xlink:href="_object3_d_group_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="614.5,-134.5 614.5,-164.5 741.5,-164.5 741.5,-134.5 614.5,-134.5"/>
-<text text-anchor="start" x="622.5" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="678" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3DGroup.cpp</text>
+<polygon fill="white" stroke="black" points="435,-134.5 435,-164.5 562,-164.5 562,-134.5 435,-134.5"/>
+<text text-anchor="start" x="443" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="498.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3DGroup.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
 <g id="edge21" class="edge">
 <title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M678,-191.11C678,-182.15 678,-172.32 678,-164.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="674.5,-191.4 678,-201.4 681.5,-191.4 674.5,-191.4"/>
+<path fill="none" stroke="midnightblue" d="M483.18,-191.99C486.57,-182.8 490.35,-172.58 493.3,-164.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.89,-190.8 479.71,-201.4 486.45,-193.23 479.89,-190.8"/>
+</g>
+<!-- Node22&#45;&gt;Node5 -->
+<g id="edge25" class="edge">
+<title>Node22&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M552.19,-199.05C508.7,-188.43 452.7,-174.74 411.25,-164.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="551.56,-202.5 562.11,-201.48 553.23,-195.7 551.56,-202.5"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="_object3_d_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="396.5,-335.5 396.5,-365.5 523.5,-365.5 523.5,-335.5 396.5,-335.5"/>
-<text text-anchor="start" x="404.5" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="460" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3D.cpp</text>
+<g id="a_node23"><a xlink:href="_picture_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="580,-134.5 580,-164.5 707,-164.5 707,-134.5 580,-134.5"/>
+<text text-anchor="start" x="588" y="-152.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="643.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Picture.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node22&#45;&gt;Node23 -->
 <g id="edge24" class="edge">
 <title>Node22&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M593.6,-398.96C564.13,-388.48 527.19,-375.37 499.63,-365.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="592.7,-402.35 603.29,-402.4 595.04,-395.75 592.7,-402.35"/>
-</g>
-<!-- Node24 -->
-<g id="node24" class="node">
-<title>Node24</title>
-<g id="a_node24"><a xlink:href="_sphere_8h.html" target="_top" xlink:title="Defines the Sphere class.">
-<polygon fill="white" stroke="black" points="686.5,-335.5 686.5,-365.5 813.5,-365.5 813.5,-335.5 686.5,-335.5"/>
-<text text-anchor="start" x="694.5" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="750" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Sphere.h</text>
-</a>
-</g>
-</g>
-<!-- Node22&#45;&gt;Node24 -->
-<g id="edge25" class="edge">
-<title>Node22&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M675.08,-397.02C691.73,-386.9 711.69,-374.77 726.83,-365.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="672.95,-394.21 666.22,-402.4 676.58,-400.2 672.95,-394.21"/>
-</g>
-<!-- Node26 -->
-<g id="node26" class="node">
-<title>Node26</title>
-<g id="a_node26"><a xlink:href="_triangle_8h.html" target="_top" xlink:title="Defines the Triangle class.">
-<polygon fill="white" stroke="black" points="541.5,-335.5 541.5,-365.5 668.5,-365.5 668.5,-335.5 541.5,-335.5"/>
-<text text-anchor="start" x="549.5" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="605" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Triangle.h</text>
-</a>
-</g>
-</g>
-<!-- Node22&#45;&gt;Node26 -->
-<g id="edge28" class="edge">
-<title>Node22&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M629.6,-393.58C624.14,-384.24 618.01,-373.75 613.23,-365.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="626.69,-395.53 634.75,-402.4 632.73,-392 626.69,-395.53"/>
-</g>
-<!-- Node24&#45;&gt;Node16 -->
-<g id="edge26" class="edge">
-<title>Node24&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M676.25,-334.89C589.06,-318.97 500.02,-304.19 441.67,-294.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="675.85,-338.38 686.32,-336.74 677.11,-331.49 675.85,-338.38"/>
+<path fill="none" stroke="midnightblue" d="M628.18,-191.99C631.57,-182.8 635.35,-172.58 638.3,-164.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="624.89,-190.8 624.71,-201.4 631.45,-193.23 624.89,-190.8"/>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="_sphere_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="686.5,-268.5 686.5,-298.5 813.5,-298.5 813.5,-268.5 686.5,-268.5"/>
-<text text-anchor="start" x="694.5" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="750" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Sphere.cpp</text>
+<g id="a_node25"><a xlink:href="_object3_d_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="945,-335.5 945,-365.5 1072,-365.5 1072,-335.5 945,-335.5"/>
+<text text-anchor="start" x="953" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="1008.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3D.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node25 -->
 <g id="edge27" class="edge">
 <title>Node24&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M750,-325.11C750,-316.15 750,-306.32 750,-298.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="746.5,-325.4 750,-335.4 753.5,-325.4 746.5,-325.4"/>
+<path fill="none" stroke="midnightblue" d="M1008.5,-392.11C1008.5,-383.15 1008.5,-373.32 1008.5,-365.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1005,-392.4 1008.5,-402.4 1012,-392.4 1005,-392.4"/>
+</g>
+<!-- Node26 -->
+<g id="node26" class="node">
+<title>Node26</title>
+<g id="a_node26"><a xlink:href="_sphere_8h.html" target="_top" xlink:title="Defines the Sphere class.">
+<polygon fill="white" stroke="black" points="800,-335.5 800,-365.5 927,-365.5 927,-335.5 800,-335.5"/>
+<text text-anchor="start" x="808" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="863.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Sphere.h</text>
+</a>
+</g>
+</g>
+<!-- Node24&#45;&gt;Node26 -->
+<g id="edge28" class="edge">
+<title>Node24&#45;&gt;Node26</title>
+<path fill="none" stroke="midnightblue" d="M967.83,-398.27C944.74,-387.92 916.26,-375.15 894.9,-365.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="966.48,-401.5 977.04,-402.4 969.34,-395.11 966.48,-401.5"/>
+</g>
+<!-- Node28 -->
+<g id="node28" class="node">
+<title>Node28</title>
+<g id="a_node28"><a xlink:href="_triangle_8h.html" target="_top" xlink:title="Defines the Triangle class.">
+<polygon fill="white" stroke="black" points="1090,-335.5 1090,-365.5 1217,-365.5 1217,-335.5 1090,-335.5"/>
+<text text-anchor="start" x="1098" y="-353.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="1153.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Triangle.h</text>
+</a>
+</g>
+</g>
+<!-- Node24&#45;&gt;Node28 -->
+<g id="edge31" class="edge">
+<title>Node24&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M1049.17,-398.27C1072.26,-387.92 1100.74,-375.15 1122.1,-365.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1047.66,-395.11 1039.96,-402.4 1050.52,-401.5 1047.66,-395.11"/>
 </g>
 <!-- Node26&#45;&gt;Node16 -->
 <g id="edge29" class="edge">
 <title>Node26&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M546.38,-332.71C509.44,-322.14 462.29,-308.63 427.28,-298.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="545.45,-336.09 556.02,-335.48 547.37,-329.36 545.45,-336.09"/>
+<path fill="none" stroke="midnightblue" d="M830.7,-330.3C813.34,-320.12 792.38,-307.85 776.54,-298.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="829.02,-333.36 839.41,-335.4 832.55,-327.32 829.02,-333.36"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="_triangle_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="541.5,-268.5 541.5,-298.5 668.5,-298.5 668.5,-268.5 541.5,-268.5"/>
-<text text-anchor="start" x="549.5" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="605" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Triangle.cpp</text>
+<g id="a_node27"><a xlink:href="_sphere_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="834,-268.5 834,-298.5 961,-298.5 961,-268.5 834,-268.5"/>
+<text text-anchor="start" x="842" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="897.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Sphere.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node27 -->
 <g id="edge30" class="edge">
 <title>Node26&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M605,-325.11C605,-316.15 605,-306.32 605,-298.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="601.5,-325.4 605,-335.4 608.5,-325.4 601.5,-325.4"/>
+<path fill="none" stroke="midnightblue" d="M875.64,-326.28C880.49,-317.02 885.91,-306.66 890.14,-298.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="872.41,-324.91 870.88,-335.4 878.61,-328.16 872.41,-324.91"/>
 </g>
-<!-- Node29&#45;&gt;Node16 -->
-<g id="edge33" class="edge">
-<title>Node29&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M312.16,-466.59C281.29,-457.56 249.95,-445.71 241,-433 202.84,-378.79 295.7,-323.68 346.92,-298.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="311.56,-470.06 322.14,-469.42 313.47,-463.32 311.56,-470.06"/>
+<!-- Node28&#45;&gt;Node16 -->
+<g id="edge32" class="edge">
+<title>Node28&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M1079.81,-334.77C966.51,-315.78 935.57,-317.66 825.5,-299 822.44,-298.48 819.32,-297.93 816.16,-297.36"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1079.49,-338.27 1089.93,-336.49 1080.66,-331.37 1079.49,-338.27"/>
 </g>
-<!-- Node30 -->
-<g id="node30" class="node">
-<title>Node30</title>
-<g id="a_node30"><a xlink:href="_refractive_material_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="250.5,-402.5 250.5,-432.5 377.5,-432.5 377.5,-402.5 250.5,-402.5"/>
-<text text-anchor="start" x="258.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="314" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RefractiveMaterial.cpp</text>
+<!-- Node29 -->
+<g id="node29" class="node">
+<title>Node29</title>
+<g id="a_node29"><a xlink:href="_triangle_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="1090,-268.5 1090,-298.5 1217,-298.5 1217,-268.5 1090,-268.5"/>
+<text text-anchor="start" x="1098" y="-286.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="1153.5" y="-275.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Triangle.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node29&#45;&gt;Node30 -->
-<g id="edge34" class="edge">
-<title>Node29&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M359.83,-462.31C349.63,-452.56 337.81,-441.26 328.73,-432.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="357.6,-465.02 367.25,-469.4 362.43,-459.96 357.6,-465.02"/>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge33" class="edge">
+<title>Node28&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M1153.5,-325.11C1153.5,-316.15 1153.5,-306.32 1153.5,-298.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="1150,-325.4 1153.5,-335.4 1157,-325.4 1150,-325.4"/>
 </g>
 <!-- Node31&#45;&gt;Node16 -->
 <g id="edge36" class="edge">
 <title>Node31&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M123.84,-463.74C136.87,-455.02 151.72,-444.21 164,-433 206.16,-394.52 200.48,-368.07 247,-335 270.04,-318.62 299.1,-306.71 323.99,-298.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="121.62,-461.01 115.18,-469.42 125.46,-466.87 121.62,-461.01"/>
+<path fill="none" stroke="midnightblue" d="M691.93,-462.07C700.15,-453.73 708.7,-443.62 714.5,-433 739.12,-387.93 748.22,-326.41 751.2,-298.86"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="689.32,-459.73 684.56,-469.2 694.18,-464.76 689.32,-459.73"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="_specular_material_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="28.5,-402.5 28.5,-432.5 155.5,-432.5 155.5,-402.5 28.5,-402.5"/>
-<text text-anchor="start" x="36.5" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="92" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SpecularMaterial.cpp</text>
+<g id="a_node32"><a xlink:href="_refractive_material_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="578,-402.5 578,-432.5 705,-432.5 705,-402.5 578,-402.5"/>
+<text text-anchor="start" x="586" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="641.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/RefractiveMaterial.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node32 -->
 <g id="edge37" class="edge">
 <title>Node31&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M92,-459.11C92,-450.15 92,-440.32 92,-432.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="88.5,-459.4 92,-469.4 95.5,-459.4 88.5,-459.4"/>
+<path fill="none" stroke="midnightblue" d="M658.1,-459.99C654.42,-450.8 650.33,-440.58 647.13,-432.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="654.89,-461.41 661.86,-469.4 661.39,-458.81 654.89,-461.41"/>
 </g>
-<!-- Node33&#45;&gt;Node5 -->
-<g id="edge40" class="edge">
-<title>Node33&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M735.18,-526.43C737.96,-509.79 742.86,-487.42 751,-469 773.48,-418.15 803.04,-418.27 822,-366 848.14,-293.94 845.32,-199.88 843.1,-164.64"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="731.7,-526.03 733.65,-536.44 738.62,-527.08 731.7,-526.03"/>
+<!-- Node33&#45;&gt;Node16 -->
+<g id="edge39" class="edge">
+<title>Node33&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M532.48,-459.74C540.62,-442.34 553.39,-418.9 569.5,-402 614.57,-354.73 682.3,-317.69 721.48,-298.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="529.13,-458.64 528.23,-469.2 535.52,-461.51 529.13,-458.64"/>
 </g>
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="_perspective_camera_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="760.5,-469.5 760.5,-499.5 887.5,-499.5 887.5,-469.5 760.5,-469.5"/>
-<text text-anchor="start" x="768.5" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="824" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PerspectiveCamera.cpp</text>
+<g id="a_node34"><a xlink:href="_specular_material_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="394,-402.5 394,-432.5 521,-432.5 521,-402.5 394,-402.5"/>
+<text text-anchor="start" x="402" y="-420.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="457.5" y="-409.5" font-family="Helvetica,sans-Serif" font-size="10.00">/SpecularMaterial.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node33&#45;&gt;Node34 -->
-<g id="edge39" class="edge">
+<g id="edge40" class="edge">
 <title>Node33&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M760.38,-530.45C774.53,-520.45 791.31,-508.6 804.08,-499.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="758.11,-527.77 751.96,-536.4 762.15,-533.48 758.11,-527.77"/>
+<path fill="none" stroke="midnightblue" d="M501.31,-462.31C491.56,-452.56 480.26,-441.26 471.58,-432.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="498.85,-464.8 508.4,-469.4 503.8,-459.85 498.85,-464.8"/>
 </g>
-<!-- Node37&#45;&gt;Node5 -->
-<g id="edge45" class="edge">
-<title>Node37&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M860.49,-665.16C873.14,-657.1 886.19,-646.63 895,-634 916.39,-603.32 916,-589.91 916,-552.5 916,-552.5 916,-552.5 916,-282.5 916,-234.42 878.19,-187.63 856.62,-164.85"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="858.62,-662.2 851.86,-670.36 862.23,-668.2 858.62,-662.2"/>
+<!-- Node35&#45;&gt;Node5 -->
+<g id="edge43" class="edge">
+<title>Node35&#45;&gt;Node5</title>
+<path fill="none" stroke="midnightblue" d="M384.6,-526.64C376.63,-500.43 365.5,-456.94 365.5,-418.5 365.5,-418.5 365.5,-418.5 365.5,-282.5 365.5,-239.47 359.1,-188.87 355.65,-164.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="381.34,-527.94 387.67,-536.43 388.01,-525.84 381.34,-527.94"/>
 </g>
-<!-- Node38 -->
-<g id="node38" class="node">
-<title>Node38</title>
-<g id="a_node38"><a xlink:href="_picture_8cpp.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="758.5,-603.5 758.5,-633.5 885.5,-633.5 885.5,-603.5 758.5,-603.5"/>
-<text text-anchor="start" x="766.5" y="-621.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
-<text text-anchor="middle" x="822" y="-610.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Picture.cpp</text>
+<!-- Node36 -->
+<g id="node36" class="node">
+<title>Node36</title>
+<g id="a_node36"><a xlink:href="_perspective_camera_8cpp.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="210,-469.5 210,-499.5 337,-499.5 337,-469.5 210,-469.5"/>
+<text text-anchor="start" x="218" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
+<text text-anchor="middle" x="273.5" y="-476.5" font-family="Helvetica,sans-Serif" font-size="10.00">/PerspectiveCamera.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node37&#45;&gt;Node38 -->
-<g id="edge44" class="edge">
-<title>Node37&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M822,-660.11C822,-651.15 822,-641.32 822,-633.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="818.5,-660.4 822,-670.4 825.5,-660.4 818.5,-660.4"/>
+<!-- Node35&#45;&gt;Node36 -->
+<g id="edge42" class="edge">
+<title>Node35&#45;&gt;Node36</title>
+<path fill="none" stroke="midnightblue" d="M357.85,-531.57C339.13,-521.35 316.41,-508.94 299.27,-499.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="356.22,-534.67 366.68,-536.4 359.58,-528.53 356.22,-534.67"/>
 </g>
 </g>
 </svg>

@@ -74,21 +74,23 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the <a class="el" href="class_picture.html" title="Stores radiance for every pixel.">Picture</a> class and the functions around it.  
+<p>Defines the <a class="el" href="class_picture.html" title="Stores radiance for every pixel.">Picture</a> class and some functions around it.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;iomanip&gt;</code><br />
 <code>#include &quot;CImg/CImg.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="_double_vec3_d_8h_source.html">DoubleVec3D.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_interface_creation_8h_source.html">InterfaceCreation.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Picture.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_picture_8h__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_picture_8h__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_picture_8h__dep__incl.svg" width="470" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_picture_8h__dep__incl.svg" width="470" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="_picture_8h_source.html">Go to the source code of this file.</a></p>
@@ -115,7 +117,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa866d9aec0f41c7ccfea8387a4f658fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines the <a class="el" href="class_picture.html" title="Stores radiance for every pixel.">Picture</a> class and the functions around it. </p>
+<div class="textblock"><p>Defines the <a class="el" href="class_picture.html" title="Stores radiance for every pixel.">Picture</a> class and some functions around it. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a4a61d35ebe49e4ff03be822bc2327e8a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a61d35ebe49e4ff03be822bc2327e8a">&#9670;&nbsp;</a></span>getColourMovingAverage()</h2>
@@ -166,6 +168,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The colour at that pixel after having applied the moving average. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_picture.html#a4aa30cb3c6cd78b6c81a1e2a1cbb6df9" title="Writes this as a picture file.">Picture::export2File()</a> </dd></dl>
 
 </div>
 </div>
@@ -269,6 +272,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The colour that has been computed. Each part of the colour (red, green or blue) range from 0 to MAX_COLOUR_VALUE. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_picture.html#a06888cea75ea9aabcdafdd2c996cdd2b" title="The maximum value that will be used to write a colour in a file.">Picture::MAX_COLOUR_VALUE</a>, <a class="el" href="class_picture.html#a4aa30cb3c6cd78b6c81a1e2a1cbb6df9" title="Writes this as a picture file.">Picture::export2File()</a> </dd></dl>
 
 </div>
 </div>

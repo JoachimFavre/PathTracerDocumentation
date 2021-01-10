@@ -74,18 +74,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the <a class="el" href="class_double_matrix33.html" title="A three-dimensional square matrix using doubles.">DoubleMatrix33</a> class and the functions around it.  
+<p>Defines the <a class="el" href="class_double_matrix33.html" title="A three-dimensional square matrix using doubles.">DoubleMatrix33</a> class and some functions around it.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="_double_vec3_d_8h_source.html">DoubleVec3D.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DoubleMatrix33.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_matrix33_8h__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_matrix33_8h__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="_double_matrix33_8h__dep__incl.svg" width="470" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="_double_matrix33_8h__dep__incl.svg" width="470" height="320"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 </div>
 <p><a href="_double_matrix33_8h_source.html">Go to the source code of this file.</a></p>
@@ -145,7 +147,7 @@ Functions</h2></td></tr>
 <tr class="separator:a60a9c5235949f3436ced7ca82ab71c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines the <a class="el" href="class_double_matrix33.html" title="A three-dimensional square matrix using doubles.">DoubleMatrix33</a> class and the functions around it. </p>
+<div class="textblock"><p>Defines the <a class="el" href="class_double_matrix33.html" title="A three-dimensional square matrix using doubles.">DoubleMatrix33</a> class and some functions around it. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a5ecb16ba5f49054592cab14b3606e9d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ecb16ba5f49054592cab14b3606e9d5">&#9670;&nbsp;</a></span>getRotationMatrixX()</h2>
@@ -526,7 +528,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The product between matrix1 and matrix2. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator*=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_matrix33.html#adf3aad4631263e1cf6c47d92bc288a31" title="Multiplication by a scalar operator.">DoubleMatrix33::operator*=(double val)</a> </dd></dl>
 
 </div>
 </div>
@@ -557,7 +559,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sum operator. </p>
-<p>Uses the operator+=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_matrix33.html#a107f84e43961b6a0b97dc33107d6dd5f" title="Sum operator.">DoubleMatrix33::operator+=(const DoubleMatrix33&amp; matrix)</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix1</td><td>The first matrix for the sum. </td></tr>
     <tr><td class="paramname">matrix2</td><td>The second matrix for the sum. </td></tr>
@@ -565,7 +567,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The sum of the two matrices. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator+=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_matrix33.html#a107f84e43961b6a0b97dc33107d6dd5f" title="Sum operator.">DoubleMatrix33::operator+=(const DoubleMatrix33&amp; matrix)</a> </dd></dl>
 
 </div>
 </div>
@@ -586,14 +588,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Unary minus operator. </p>
-<p>Uses the operator*=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_matrix33.html#adf3aad4631263e1cf6c47d92bc288a31" title="Multiplication by a scalar operator.">DoubleMatrix33::operator*=(double val)</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>The matrix that will be inversed. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The inverse of matrix. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator*=(), operator-=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_matrix33.html#adf3aad4631263e1cf6c47d92bc288a31" title="Multiplication by a scalar operator.">DoubleMatrix33::operator*=(double val)</a>, <a class="el" href="class_double_matrix33.html#a7879eed8ecdb9d44188f9012b8d3a93e" title="Difference operator.">DoubleMatrix33::operator-=(const DoubleMatrix33&amp; matrix)</a> </dd></dl>
 
 </div>
 </div>
@@ -624,7 +626,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Difference operator. </p>
-<p>Uses the operator-=() method. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Uses the <a class="el" href="class_double_matrix33.html#a7879eed8ecdb9d44188f9012b8d3a93e" title="Difference operator.">DoubleMatrix33::operator-=(const DoubleMatrix33&amp; matrix)</a> method. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">matrix1</td><td>The first matrix for the difference. </td></tr>
     <tr><td class="paramname">matrix2</td><td>The second matrix for the difference. </td></tr>
@@ -632,7 +634,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The difference between matrix1 and matrix2. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>operator-=() </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_double_matrix33.html#a7879eed8ecdb9d44188f9012b8d3a93e" title="Difference operator.">DoubleMatrix33::operator-=(const DoubleMatrix33&amp; matrix)</a> </dd></dl>
 
 </div>
 </div>

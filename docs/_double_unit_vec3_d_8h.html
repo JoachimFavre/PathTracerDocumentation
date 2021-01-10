@@ -74,18 +74,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Defines the <a class="el" href="class_double_unit_vec3_d.html" title="A three-dimensional unit vector using doubles.">DoubleUnitVec3D</a> class and the functions around it.  
+<p>Defines the <a class="el" href="class_double_unit_vec3_d.html" title="A three-dimensional unit vector using doubles.">DoubleUnitVec3D</a> class and some functions around it.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="_double_vec3_d_8h_source.html">DoubleVec3D.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for DoubleUnitVec3D.h:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_unit_vec3_d_8h__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_unit_vec3_d_8h__incl.svg" width="100%" height="507"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_unit_vec3_d_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="_double_unit_vec3_d_8h__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 </div>
 <p><a href="_double_unit_vec3_d_8h_source.html">Go to the source code of this file.</a></p>
@@ -106,7 +108,7 @@ Functions</h2></td></tr>
 <tr class="separator:ad3cebd56427b4036d72ef8ca737f2c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Defines the <a class="el" href="class_double_unit_vec3_d.html" title="A three-dimensional unit vector using doubles.">DoubleUnitVec3D</a> class and the functions around it. </p>
+<div class="textblock"><p>Defines the <a class="el" href="class_double_unit_vec3_d.html" title="A three-dimensional unit vector using doubles.">DoubleUnitVec3D</a> class and some functions around it. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a4604770529eac7fd5ff2f9ff983893da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4604770529eac7fd5ff2f9ff983893da">&#9670;&nbsp;</a></span>operator-()</h2>
@@ -151,7 +153,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generates a random unit vector on a sphere. </p>
-<dl class="section return"><dt>Returns</dt><dd>A random unit vector on a sphere. </dd></dl>
+<p>Every vector has the same probability to show up. We can combine this function with a dot product between the resulting vector and a normal to a surface. If we inverse the vector when the dot product is negative, then we get a random vector on a unit hemisphere. </p><dl class="section return"><dt>Returns</dt><dd>A random unit vector on a sphere. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_sphere.html#aac6ca324f7add5411b4e559278f89b11" title="Computes a random point on the object.">Sphere::getRandomPoint()</a> </dd></dl>
 
 </div>
 </div>

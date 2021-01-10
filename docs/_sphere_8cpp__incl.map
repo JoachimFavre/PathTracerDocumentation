@@ -1,13 +1,13 @@
 <map id="D:/PathTracer/PathTracer/Sphere.cpp" name="D:/PathTracer/PathTracer/Sphere.cpp">
 <area shape="rect" id="node1" title=" " alt="" coords="211,5,381,47"/>
 <area shape="rect" id="node2" href="$_sphere_8h.html" title="Defines the Sphere class." alt="" coords="259,95,333,121"/>
-<area shape="rect" id="node3" href="$_object3_d_8h.html" title="Defines the Object3D class and the functions around it." alt="" coords="253,169,339,196"/>
+<area shape="rect" id="node3" href="$_object3_d_8h.html" title="Defines the Object3D class and some functions around it." alt="" coords="253,169,339,196"/>
 <area shape="rect" id="node4" title=" " alt="" coords="214,244,269,271"/>
 <area shape="rect" id="node5" href="$_diffuse_material_8h.html" title="Defines the DiffuseMaterial class." alt="" coords="293,244,411,271"/>
-<area shape="rect" id="node6" href="$_material_8h.html" title="Defines the Material class and the functions around it." alt="" coords="313,319,391,345"/>
+<area shape="rect" id="node6" href="$_material_8h.html" title="Defines the Material class and some functions around it." alt="" coords="313,319,391,345"/>
 <area shape="rect" id="node7" href="$_ray_8h.html" title="Defines the Ray class." alt="" coords="324,393,380,420"/>
-<area shape="rect" id="node8" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and the functions around it." alt="" coords="296,543,408,569"/>
-<area shape="rect" id="node18" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and the functions around it." alt="" coords="338,468,473,495"/>
+<area shape="rect" id="node8" href="$_double_vec3_d_8h.html" title="Defines the DoubleVec3D class and some functions around it." alt="" coords="296,543,408,569"/>
+<area shape="rect" id="node18" href="$_double_unit_vec3_d_8h.html" title="Defines the DoubleUnitVec3D class and some functions around it." alt="" coords="338,468,473,495"/>
 <area shape="rect" id="node9" href="$_interface_gestion_8h.html" title="Defines functions that are used when drawing the interface." alt="" coords="289,617,415,644"/>
 <area shape="rect" id="node10" title=" " alt="" coords="5,692,67,719"/>
 <area shape="rect" id="node11" title=" " alt="" coords="91,692,157,719"/>

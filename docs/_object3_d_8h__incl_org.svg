@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Defines the Object3D class and the functions around it.">
+<g id="a_node1"><a xlink:title="Defines the Object3D class and some functions around it.">
 <polygon fill="#bfbfbf" stroke="black" points="154.5,-392.5 154.5,-422.5 281.5,-422.5 281.5,-392.5 154.5,-392.5"/>
 <text text-anchor="start" x="162.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
 <text text-anchor="middle" x="218" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Object3D.h</text>
@@ -52,7 +52,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="_material_8h.html" target="_top" xlink:title="Defines the Material class and the functions around it.">
+<g id="a_node4"><a xlink:href="_material_8h.html" target="_top" xlink:title="Defines the Material class and some functions around it.">
 <polygon fill="white" stroke="black" points="230.5,-280.5 230.5,-299.5 289.5,-299.5 289.5,-280.5 230.5,-280.5"/>
 <text text-anchor="middle" x="260" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">Material.h</text>
 </a>
@@ -82,7 +82,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and the functions around it.">
+<g id="a_node6"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and some functions around it.">
 <polygon fill="white" stroke="black" points="218,-112.5 218,-131.5 302,-131.5 302,-112.5 218,-112.5"/>
 <text text-anchor="middle" x="260" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleVec3D.h</text>
 </a>
@@ -97,7 +97,7 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and the functions around it.">
+<g id="a_node16"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and some functions around it.">
 <polygon fill="white" stroke="black" points="249.5,-168.5 249.5,-187.5 350.5,-187.5 350.5,-168.5 249.5,-168.5"/>
 <text text-anchor="middle" x="300" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleUnitVec3D.h</text>
 </a>

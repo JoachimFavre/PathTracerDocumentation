@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="Defines the Material class and the functions around it.">
+<g id="a_node1"><a xlink:title="Defines the Material class and some functions around it.">
 <polygon fill="#bfbfbf" stroke="black" points="196.5,-280.5 196.5,-310.5 323.5,-310.5 323.5,-280.5 196.5,-280.5"/>
 <text text-anchor="start" x="204.5" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00">D:/PathTracer/PathTracer</text>
 <text text-anchor="middle" x="260" y="-287.5" font-family="Helvetica,sans-Serif" font-size="10.00">/Material.h</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and the functions around it.">
+<g id="a_node3"><a xlink:href="_double_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleVec3D class and some functions around it.">
 <polygon fill="white" stroke="black" points="218,-112.5 218,-131.5 302,-131.5 302,-112.5 218,-112.5"/>
 <text text-anchor="middle" x="260" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleVec3D.h</text>
 </a>
@@ -52,7 +52,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and the functions around it.">
+<g id="a_node13"><a xlink:href="_double_unit_vec3_d_8h.html" target="_top" xlink:title="Defines the DoubleUnitVec3D class and some functions around it.">
 <polygon fill="white" stroke="black" points="249.5,-168.5 249.5,-187.5 350.5,-187.5 350.5,-168.5 249.5,-168.5"/>
 <text text-anchor="middle" x="300" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleUnitVec3D.h</text>
 </a>

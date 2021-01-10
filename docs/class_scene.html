@@ -70,130 +70,166 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Stores objects groups and a camera for the render.  
+<p>Stores object groups and a camera for the render.  
  <a href="class_scene.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_scene_8h_source.html">Scene.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acf789fb1120eeb804af9274fadf031aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa">Scene</a> (<a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> camera=<a class="el" href="class_perspective_camera.html">PerspectiveCamera</a>(), unsigned int samplePerPixel=8, unsigned int minBounces=5)</td></tr>
-<tr class="memdesc:acf789fb1120eeb804af9274fadf031aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor.  <a href="class_scene.html#acf789fb1120eeb804af9274fadf031aa">More...</a><br /></td></tr>
-<tr class="separator:acf789fb1120eeb804af9274fadf031aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae99632f6bac1360a8c7463c9ab0f613"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aae99632f6bac1360a8c7463c9ab0f613">Scene</a> (const <a class="el" href="class_scene.html">Scene</a> &amp;scene)</td></tr>
+<tr class="memitem:a0c0079d2d0d622af08e897b27b8fb7f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4">Scene</a> (<a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> camera=<a class="el" href="class_perspective_camera.html">PerspectiveCamera</a>(), unsigned int samplesPerPixel=8, unsigned int minBounces=5)</td></tr>
+<tr class="memdesc:a0c0079d2d0d622af08e897b27b8fb7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor.  <a href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4">More...</a><br /></td></tr>
+<tr class="separator:a0c0079d2d0d622af08e897b27b8fb7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae99632f6bac1360a8c7463c9ab0f613"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aae99632f6bac1360a8c7463c9ab0f613">Scene</a> (const <a class="el" href="class_scene.html">Scene</a> &amp;<a class="el" href="_interface_8h.html#abadbb2cf97c17e6ce9b0c598de4c16b2">scene</a>)</td></tr>
 <tr class="memdesc:aae99632f6bac1360a8c7463c9ab0f613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="class_scene.html#aae99632f6bac1360a8c7463c9ab0f613">More...</a><br /></td></tr>
 <tr class="separator:aae99632f6bac1360a8c7463c9ab0f613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a497df154b5b005f028f3b0238d57049b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a497df154b5b005f028f3b0238d57049b">getObjectsGroups</a> () const</td></tr>
-<tr class="memdesc:a497df154b5b005f028f3b0238d57049b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the objects groups.  <a href="class_scene.html#a497df154b5b005f028f3b0238d57049b">More...</a><br /></td></tr>
-<tr class="separator:a497df154b5b005f028f3b0238d57049b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a742ea3e69dc52bab4ff3418483fe7d89"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a742ea3e69dc52bab4ff3418483fe7d89">getObjectsGroupsReference</a> ()</td></tr>
-<tr class="memdesc:a742ea3e69dc52bab4ff3418483fe7d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for a reference to the objects groups.  <a href="class_scene.html#a742ea3e69dc52bab4ff3418483fe7d89">More...</a><br /></td></tr>
-<tr class="separator:a742ea3e69dc52bab4ff3418483fe7d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaa8593cde7a8961cf218f267f072bf5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#acaa8593cde7a8961cf218f267f072bf5">getObjects</a> ()</td></tr>
-<tr class="memdesc:acaa8593cde7a8961cf218f267f072bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the objects.  <a href="class_scene.html#acaa8593cde7a8961cf218f267f072bf5">More...</a><br /></td></tr>
-<tr class="separator:acaa8593cde7a8961cf218f267f072bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad467c23c7af369c7fbe156305917ef36"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ad467c23c7af369c7fbe156305917ef36">getLamps</a> ()</td></tr>
-<tr class="memdesc:ad467c23c7af369c7fbe156305917ef36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the lamps.  <a href="class_scene.html#ad467c23c7af369c7fbe156305917ef36">More...</a><br /></td></tr>
-<tr class="separator:ad467c23c7af369c7fbe156305917ef36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62967576b9876b4446c0d7bca56f662c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a62967576b9876b4446c0d7bca56f662c">getCamera</a> () const</td></tr>
-<tr class="memdesc:a62967576b9876b4446c0d7bca56f662c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the camera.  <a href="class_scene.html#a62967576b9876b4446c0d7bca56f662c">More...</a><br /></td></tr>
-<tr class="separator:a62967576b9876b4446c0d7bca56f662c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d4eabff6d28d2fefa09dd6b674c5140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6d4eabff6d28d2fefa09dd6b674c5140">getCameraReference</a> ()</td></tr>
-<tr class="memdesc:a6d4eabff6d28d2fefa09dd6b674c5140"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for a reference to the camera.  <a href="class_scene.html#a6d4eabff6d28d2fefa09dd6b674c5140">More...</a><br /></td></tr>
-<tr class="separator:a6d4eabff6d28d2fefa09dd6b674c5140"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c630d1767200b7ec5922b6354d21657"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a2c630d1767200b7ec5922b6354d21657">getSamplePerPixel</a> () const</td></tr>
-<tr class="memdesc:a2c630d1767200b7ec5922b6354d21657"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the number of samples per pixel.  <a href="class_scene.html#a2c630d1767200b7ec5922b6354d21657">More...</a><br /></td></tr>
-<tr class="separator:a2c630d1767200b7ec5922b6354d21657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6df6e28644a91eff549784294f598e8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#af6df6e28644a91eff549784294f598e8">getMinBounces</a> () const</td></tr>
-<tr class="memdesc:af6df6e28644a91eff549784294f598e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the minimum number of bounces.  <a href="class_scene.html#af6df6e28644a91eff549784294f598e8">More...</a><br /></td></tr>
-<tr class="separator:af6df6e28644a91eff549784294f598e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b0d2bb39b0eef7c3192e4b1459d7df7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a8b0d2bb39b0eef7c3192e4b1459d7df7">getRussianRoulette</a> () const</td></tr>
-<tr class="memdesc:a8b0d2bb39b0eef7c3192e4b1459d7df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the russian roulette.  <a href="class_scene.html#a8b0d2bb39b0eef7c3192e4b1459d7df7">More...</a><br /></td></tr>
-<tr class="separator:a8b0d2bb39b0eef7c3192e4b1459d7df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25711f3325e943725e10596ea6726824"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a25711f3325e943725e10596ea6726824">getRrStopProbability</a> () const</td></tr>
-<tr class="memdesc:a25711f3325e943725e10596ea6726824"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the russian roulette stop probability.  <a href="class_scene.html#a25711f3325e943725e10596ea6726824">More...</a><br /></td></tr>
-<tr class="separator:a25711f3325e943725e10596ea6726824"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfcbed2741bcb68047ab13821b62ea4e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#adfcbed2741bcb68047ab13821b62ea4e">getNextEventEstimation</a> () const</td></tr>
-<tr class="memdesc:adfcbed2741bcb68047ab13821b62ea4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the next event estimation.  <a href="class_scene.html#adfcbed2741bcb68047ab13821b62ea4e">More...</a><br /></td></tr>
-<tr class="separator:adfcbed2741bcb68047ab13821b62ea4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8a7d2f6615d53eb19ef820a96ec5b5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0c8a7d2f6615d53eb19ef820a96ec5b5">getNumberThreads</a> () const</td></tr>
-<tr class="memdesc:a0c8a7d2f6615d53eb19ef820a96ec5b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the number of CPU threads.  <a href="class_scene.html#a0c8a7d2f6615d53eb19ef820a96ec5b5">More...</a><br /></td></tr>
-<tr class="separator:a0c8a7d2f6615d53eb19ef820a96ec5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76fb8b1665f62e3f217c5b6bd75f8bc0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a76fb8b1665f62e3f217c5b6bd75f8bc0">getKDTree</a> () const</td></tr>
-<tr class="memdesc:a76fb8b1665f62e3f217c5b6bd75f8bc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the k-d tree.  <a href="class_scene.html#a76fb8b1665f62e3f217c5b6bd75f8bc0">More...</a><br /></td></tr>
-<tr class="separator:a76fb8b1665f62e3f217c5b6bd75f8bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25d3a49eaad491d6077a798207ed3e01"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a25d3a49eaad491d6077a798207ed3e01">getKDMaxObjectNumber</a> () const</td></tr>
-<tr class="memdesc:a25d3a49eaad491d6077a798207ed3e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the maximum number of objects in a k-d tree leaf.  <a href="class_scene.html#a25d3a49eaad491d6077a798207ed3e01">More...</a><br /></td></tr>
-<tr class="separator:a25d3a49eaad491d6077a798207ed3e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa214149ef3fe9b07a47b647f0b47a766"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa214149ef3fe9b07a47b647f0b47a766">getKDMaxDepth</a> () const</td></tr>
-<tr class="memdesc:aa214149ef3fe9b07a47b647f0b47a766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the maximum depth recursion of the k-d tree.  <a href="class_scene.html#aa214149ef3fe9b07a47b647f0b47a766">More...</a><br /></td></tr>
-<tr class="separator:aa214149ef3fe9b07a47b647f0b47a766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc6ea1296d26a6587226549d268d24bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#acc6ea1296d26a6587226549d268d24bd">setObjectsGroups</a> (std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt; groups)</td></tr>
-<tr class="memdesc:acc6ea1296d26a6587226549d268d24bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the objects groups.  <a href="class_scene.html#acc6ea1296d26a6587226549d268d24bd">More...</a><br /></td></tr>
-<tr class="separator:acc6ea1296d26a6587226549d268d24bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a715c256a1e8563a71c8b8aeb6dcb342a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a715c256a1e8563a71c8b8aeb6dcb342a">setCamera</a> (<a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> camera)</td></tr>
-<tr class="memdesc:a715c256a1e8563a71c8b8aeb6dcb342a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the camera.  <a href="class_scene.html#a715c256a1e8563a71c8b8aeb6dcb342a">More...</a><br /></td></tr>
-<tr class="separator:a715c256a1e8563a71c8b8aeb6dcb342a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb971b44877bf2ca157a61592b52d035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#acb971b44877bf2ca157a61592b52d035">setSamplePerPixel</a> (unsigned int samplePerPixel)</td></tr>
-<tr class="memdesc:acb971b44877bf2ca157a61592b52d035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the number of samples per pixel.  <a href="class_scene.html#acb971b44877bf2ca157a61592b52d035">More...</a><br /></td></tr>
-<tr class="separator:acb971b44877bf2ca157a61592b52d035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a867e5e98d9740ea2174a320490f43f65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a867e5e98d9740ea2174a320490f43f65">setMinBounces</a> (unsigned int minBounces)</td></tr>
-<tr class="memdesc:a867e5e98d9740ea2174a320490f43f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the minimum number of bounces.  <a href="class_scene.html#a867e5e98d9740ea2174a320490f43f65">More...</a><br /></td></tr>
-<tr class="separator:a867e5e98d9740ea2174a320490f43f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a7b6b13ed4a5a686f4cb2ccec44a623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0a7b6b13ed4a5a686f4cb2ccec44a623">setRussianRoulette</a> (bool russianRoulette)</td></tr>
-<tr class="memdesc:a0a7b6b13ed4a5a686f4cb2ccec44a623"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the russian roulette.  <a href="class_scene.html#a0a7b6b13ed4a5a686f4cb2ccec44a623">More...</a><br /></td></tr>
-<tr class="separator:a0a7b6b13ed4a5a686f4cb2ccec44a623"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139704ae1782641cc1060620a8cacd23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a139704ae1782641cc1060620a8cacd23">setRussianRoulette</a> (bool russianRoulette, double rrStopProbability)</td></tr>
-<tr class="memdesc:a139704ae1782641cc1060620a8cacd23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the russian roulette and russian roulette stop probability.  <a href="class_scene.html#a139704ae1782641cc1060620a8cacd23">More...</a><br /></td></tr>
-<tr class="separator:a139704ae1782641cc1060620a8cacd23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6207b6c471b1a2b78216bc8dc68e2dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6207b6c471b1a2b78216bc8dc68e2dd7">setRrStopProbability</a> (double rrStopProbability)</td></tr>
-<tr class="memdesc:a6207b6c471b1a2b78216bc8dc68e2dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the russian roulette stop probability.  <a href="class_scene.html#a6207b6c471b1a2b78216bc8dc68e2dd7">More...</a><br /></td></tr>
-<tr class="separator:a6207b6c471b1a2b78216bc8dc68e2dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7554a7949a369ce35d4b93341da50e09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7554a7949a369ce35d4b93341da50e09">setNextEventEstimation</a> (bool nextEventEstimation)</td></tr>
-<tr class="memdesc:a7554a7949a369ce35d4b93341da50e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the next event estimation.  <a href="class_scene.html#a7554a7949a369ce35d4b93341da50e09">More...</a><br /></td></tr>
-<tr class="separator:a7554a7949a369ce35d4b93341da50e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab33cd2c6877f24545e8eeaff914b1ebb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ab33cd2c6877f24545e8eeaff914b1ebb">setNumberThreads</a> (unsigned int numberThreads)</td></tr>
-<tr class="memdesc:ab33cd2c6877f24545e8eeaff914b1ebb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the number of CPU threads.  <a href="class_scene.html#ab33cd2c6877f24545e8eeaff914b1ebb">More...</a><br /></td></tr>
-<tr class="separator:ab33cd2c6877f24545e8eeaff914b1ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c29edc64dba18d30d359a7b5ecdd682"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7c29edc64dba18d30d359a7b5ecdd682">setKDTree</a> (bool kdTree)</td></tr>
-<tr class="memdesc:a7c29edc64dba18d30d359a7b5ecdd682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the k-d tree.  <a href="class_scene.html#a7c29edc64dba18d30d359a7b5ecdd682">More...</a><br /></td></tr>
-<tr class="separator:a7c29edc64dba18d30d359a7b5ecdd682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6163aee44206f52a711d9d6c008dfe75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6163aee44206f52a711d9d6c008dfe75">setKDMaxObjectNumber</a> (unsigned int kdMaxObjectNumber)</td></tr>
-<tr class="memdesc:a6163aee44206f52a711d9d6c008dfe75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the maximum number of objects in a k-d tree leaf.  <a href="class_scene.html#a6163aee44206f52a711d9d6c008dfe75">More...</a><br /></td></tr>
-<tr class="separator:a6163aee44206f52a711d9d6c008dfe75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb9dcaebbd820fbe3393c1421ba68f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#adfb9dcaebbd820fbe3393c1421ba68f6">setKDMaxDepth</a> (unsigned int kdMaxDepth)</td></tr>
-<tr class="memdesc:adfb9dcaebbd820fbe3393c1421ba68f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the maximum depth recursion of the k-d tree.  <a href="class_scene.html#adfb9dcaebbd820fbe3393c1421ba68f6">More...</a><br /></td></tr>
-<tr class="separator:adfb9dcaebbd820fbe3393c1421ba68f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ea94cd122d63022816146d7a869bd11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a4ea94cd122d63022816146d7a869bd11">addObjectGroup</a> (const <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &amp;group)</td></tr>
-<tr class="memdesc:a4ea94cd122d63022816146d7a869bd11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an objects group to the current ones.  <a href="class_scene.html#a4ea94cd122d63022816146d7a869bd11">More...</a><br /></td></tr>
-<tr class="separator:a4ea94cd122d63022816146d7a869bd11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea9f0025cc75c067966e202d7eded113"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aea9f0025cc75c067966e202d7eded113">resetObjectGroups</a> ()</td></tr>
-<tr class="memdesc:aea9f0025cc75c067966e202d7eded113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys all the objects groups.  <a href="class_scene.html#aea9f0025cc75c067966e202d7eded113">More...</a><br /></td></tr>
-<tr class="separator:aea9f0025cc75c067966e202d7eded113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7988eb9131d0f4d4930f88b26b47ef22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7988eb9131d0f4d4930f88b26b47ef22">computeObjectsAndLamps</a> ()</td></tr>
-<tr class="memdesc:a7988eb9131d0f4d4930f88b26b47ef22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all the objects.  <a href="class_scene.html#a7988eb9131d0f4d4930f88b26b47ef22">More...</a><br /></td></tr>
-<tr class="separator:a7988eb9131d0f4d4930f88b26b47ef22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9693c8065bcd85b4dd3fe63c2c7411bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a9693c8065bcd85b4dd3fe63c2c7411bc">defaultScene</a> ()</td></tr>
-<tr class="memdesc:a9693c8065bcd85b4dd3fe63c2c7411bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this scene's objects to default ones.  <a href="class_scene.html#a9693c8065bcd85b4dd3fe63c2c7411bc">More...</a><br /></td></tr>
-<tr class="separator:a9693c8065bcd85b4dd3fe63c2c7411bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5511e3991a36989c1408895600fede10"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a5511e3991a36989c1408895600fede10">importFBX</a> (const char *filePath, <a class="el" href="class_material.html">Material</a> *material, std::string name)</td></tr>
-<tr class="memdesc:a5511e3991a36989c1408895600fede10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a FBX file as triangles.  <a href="class_scene.html#a5511e3991a36989c1408895600fede10">More...</a><br /></td></tr>
-<tr class="separator:a5511e3991a36989c1408895600fede10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b660fed6b4be5999534c5e1c3efc61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_picture.html">Picture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a04b660fed6b4be5999534c5e1c3efc61">render</a> ()</td></tr>
-<tr class="memdesc:a04b660fed6b4be5999534c5e1c3efc61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the render of the picture.  <a href="class_scene.html#a04b660fed6b4be5999534c5e1c3efc61">More...</a><br /></td></tr>
-<tr class="separator:a04b660fed6b4be5999534c5e1c3efc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5efdec1ca3bf0f48e9eb1a5134e698ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a5efdec1ca3bf0f48e9eb1a5134e698ca">displayParametersPage</a> (bool displayIndexes=true) const</td></tr>
-<tr class="memdesc:a5efdec1ca3bf0f48e9eb1a5134e698ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the parameters page.  <a href="class_scene.html#a5efdec1ca3bf0f48e9eb1a5134e698ca">More...</a><br /></td></tr>
-<tr class="separator:a5efdec1ca3bf0f48e9eb1a5134e698ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15995436805b32321faa5a5860ae82b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a15995436805b32321faa5a5860ae82b9">displayObjectsPage</a> () const</td></tr>
-<tr class="memdesc:a15995436805b32321faa5a5860ae82b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the objects page.  <a href="class_scene.html#a15995436805b32321faa5a5860ae82b9">More...</a><br /></td></tr>
-<tr class="separator:a15995436805b32321faa5a5860ae82b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ab6825689d7ae7db17315f72834c8a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a88ab6825689d7ae7db17315f72834c8a">getObjectGroups</a> () const</td></tr>
+<tr class="memdesc:a88ab6825689d7ae7db17315f72834c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the object groups.  <a href="class_scene.html#a88ab6825689d7ae7db17315f72834c8a">More...</a><br /></td></tr>
+<tr class="separator:a88ab6825689d7ae7db17315f72834c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955fef5f787af4a75f6e504273212fa6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a955fef5f787af4a75f6e504273212fa6">getObjectGroupsReference</a> ()</td></tr>
+<tr class="memdesc:a955fef5f787af4a75f6e504273212fa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for a reference to the object groups.  <a href="class_scene.html#a955fef5f787af4a75f6e504273212fa6">More...</a><br /></td></tr>
+<tr class="separator:a955fef5f787af4a75f6e504273212fa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f27bbf5c169764a816b83644eb6185"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa6f27bbf5c169764a816b83644eb6185">getObjects</a> ()</td></tr>
+<tr class="memdesc:aa6f27bbf5c169764a816b83644eb6185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the objects.  <a href="class_scene.html#aa6f27bbf5c169764a816b83644eb6185">More...</a><br /></td></tr>
+<tr class="separator:aa6f27bbf5c169764a816b83644eb6185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184edb2e45aba330b352f21abf2ebb6f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a184edb2e45aba330b352f21abf2ebb6f">getLamps</a> ()</td></tr>
+<tr class="memdesc:a184edb2e45aba330b352f21abf2ebb6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the lamps.  <a href="class_scene.html#a184edb2e45aba330b352f21abf2ebb6f">More...</a><br /></td></tr>
+<tr class="separator:a184edb2e45aba330b352f21abf2ebb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6b91a2bc9ccb2f00ab6582f48febc01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa6b91a2bc9ccb2f00ab6582f48febc01">getCamera</a> () const</td></tr>
+<tr class="memdesc:aa6b91a2bc9ccb2f00ab6582f48febc01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the camera.  <a href="class_scene.html#aa6b91a2bc9ccb2f00ab6582f48febc01">More...</a><br /></td></tr>
+<tr class="separator:aa6b91a2bc9ccb2f00ab6582f48febc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0acc79caad19a600556e1c6db7e104b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0acc79caad19a600556e1c6db7e104b5">getCameraReference</a> ()</td></tr>
+<tr class="memdesc:a0acc79caad19a600556e1c6db7e104b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for a reference to the camera.  <a href="class_scene.html#a0acc79caad19a600556e1c6db7e104b5">More...</a><br /></td></tr>
+<tr class="separator:a0acc79caad19a600556e1c6db7e104b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a293d8e450ff31c4778844474a4e79f2d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a293d8e450ff31c4778844474a4e79f2d">getSamplesPerPixel</a> () const</td></tr>
+<tr class="memdesc:a293d8e450ff31c4778844474a4e79f2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the number of samples per pixel.  <a href="class_scene.html#a293d8e450ff31c4778844474a4e79f2d">More...</a><br /></td></tr>
+<tr class="separator:a293d8e450ff31c4778844474a4e79f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3323b647e0728e997e78834994ac4ca0"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3323b647e0728e997e78834994ac4ca0">getMinBounces</a> () const</td></tr>
+<tr class="memdesc:a3323b647e0728e997e78834994ac4ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the minimum number of bounces.  <a href="class_scene.html#a3323b647e0728e997e78834994ac4ca0">More...</a><br /></td></tr>
+<tr class="separator:a3323b647e0728e997e78834994ac4ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acecb02d1be9d7d73b6f4d16048baac5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#acecb02d1be9d7d73b6f4d16048baac5d">getRussianRoulette</a> () const</td></tr>
+<tr class="memdesc:acecb02d1be9d7d73b6f4d16048baac5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the russian roulette.  <a href="class_scene.html#acecb02d1be9d7d73b6f4d16048baac5d">More...</a><br /></td></tr>
+<tr class="separator:acecb02d1be9d7d73b6f4d16048baac5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aae63ea683d4f9731b4f823ea2fb21a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0aae63ea683d4f9731b4f823ea2fb21a">getRrStopProbability</a> () const</td></tr>
+<tr class="memdesc:a0aae63ea683d4f9731b4f823ea2fb21a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the russian roulette stop probability.  <a href="class_scene.html#a0aae63ea683d4f9731b4f823ea2fb21a">More...</a><br /></td></tr>
+<tr class="separator:a0aae63ea683d4f9731b4f823ea2fb21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac007b9d81d9d2d86ef75a0d6f1bd38a8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ac007b9d81d9d2d86ef75a0d6f1bd38a8">getNextEventEstimation</a> () const</td></tr>
+<tr class="memdesc:ac007b9d81d9d2d86ef75a0d6f1bd38a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the next event estimation.  <a href="class_scene.html#ac007b9d81d9d2d86ef75a0d6f1bd38a8">More...</a><br /></td></tr>
+<tr class="separator:ac007b9d81d9d2d86ef75a0d6f1bd38a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab80b2ba5e9606fd65614ec09aaeac63e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ab80b2ba5e9606fd65614ec09aaeac63e">getNumberThreads</a> () const</td></tr>
+<tr class="memdesc:ab80b2ba5e9606fd65614ec09aaeac63e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the number of CPU threads.  <a href="class_scene.html#ab80b2ba5e9606fd65614ec09aaeac63e">More...</a><br /></td></tr>
+<tr class="separator:ab80b2ba5e9606fd65614ec09aaeac63e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e68a2ea983341c3f2fc225d4b1e850"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a28e68a2ea983341c3f2fc225d4b1e850">getKDTree</a> () const</td></tr>
+<tr class="memdesc:a28e68a2ea983341c3f2fc225d4b1e850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the k-d tree option.  <a href="class_scene.html#a28e68a2ea983341c3f2fc225d4b1e850">More...</a><br /></td></tr>
+<tr class="separator:a28e68a2ea983341c3f2fc225d4b1e850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff08b62a53b6a42fa0fc31d80401e45d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aff08b62a53b6a42fa0fc31d80401e45d">getKDMaxObjectNumber</a> () const</td></tr>
+<tr class="memdesc:aff08b62a53b6a42fa0fc31d80401e45d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the maximum number of objects in a k-d tree leaf.  <a href="class_scene.html#aff08b62a53b6a42fa0fc31d80401e45d">More...</a><br /></td></tr>
+<tr class="separator:aff08b62a53b6a42fa0fc31d80401e45d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890fe43a2a024a068161afc5eeae9fe5"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a890fe43a2a024a068161afc5eeae9fe5">getKDMaxDepth</a> () const</td></tr>
+<tr class="memdesc:a890fe43a2a024a068161afc5eeae9fe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the maximum depth recursion of the k-d tree.  <a href="class_scene.html#a890fe43a2a024a068161afc5eeae9fe5">More...</a><br /></td></tr>
+<tr class="separator:a890fe43a2a024a068161afc5eeae9fe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771b36550ad9e636c2407c974d0baacc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a771b36550ad9e636c2407c974d0baacc">getBackupFileName</a> () const</td></tr>
+<tr class="memdesc:a771b36550ad9e636c2407c974d0baacc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the name of the file in which backups will be made.  <a href="class_scene.html#a771b36550ad9e636c2407c974d0baacc">More...</a><br /></td></tr>
+<tr class="separator:a771b36550ad9e636c2407c974d0baacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ee96d7d9bd72d8c50ec1a0761a7f021"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a8ee96d7d9bd72d8c50ec1a0761a7f021">getBackupParameters</a> () const</td></tr>
+<tr class="memdesc:a8ee96d7d9bd72d8c50ec1a0761a7f021"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the option to backup the parameters.  <a href="class_scene.html#a8ee96d7d9bd72d8c50ec1a0761a7f021">More...</a><br /></td></tr>
+<tr class="separator:a8ee96d7d9bd72d8c50ec1a0761a7f021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc8a039ca9c3f437724ea0753323595"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a4bc8a039ca9c3f437724ea0753323595">getBackupObjectGroups</a> () const</td></tr>
+<tr class="memdesc:a4bc8a039ca9c3f437724ea0753323595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the option to backup the object groups.  <a href="class_scene.html#a4bc8a039ca9c3f437724ea0753323595">More...</a><br /></td></tr>
+<tr class="separator:a4bc8a039ca9c3f437724ea0753323595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc4183e0f18fa3369d805eb7effbcf6a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#abc4183e0f18fa3369d805eb7effbcf6a">getBackupPicture</a> () const</td></tr>
+<tr class="memdesc:abc4183e0f18fa3369d805eb7effbcf6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the option to backup the picture.  <a href="class_scene.html#abc4183e0f18fa3369d805eb7effbcf6a">More...</a><br /></td></tr>
+<tr class="separator:abc4183e0f18fa3369d805eb7effbcf6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b915c2c5b765bf84470b8958c9dd48"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a84b915c2c5b765bf84470b8958c9dd48">getLeastRenderTime4PictureBackup</a> () const</td></tr>
+<tr class="memdesc:a84b915c2c5b765bf84470b8958c9dd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Getter for the least render time after which the picture is backed up.  <a href="class_scene.html#a84b915c2c5b765bf84470b8958c9dd48">More...</a><br /></td></tr>
+<tr class="separator:a84b915c2c5b765bf84470b8958c9dd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d43e15274e119c8c3b7b2394eb41fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ac7d43e15274e119c8c3b7b2394eb41fe">setObjectGroups</a> (std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt; groups)</td></tr>
+<tr class="memdesc:ac7d43e15274e119c8c3b7b2394eb41fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the object groups.  <a href="class_scene.html#ac7d43e15274e119c8c3b7b2394eb41fe">More...</a><br /></td></tr>
+<tr class="separator:ac7d43e15274e119c8c3b7b2394eb41fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f57f22956028befab4e7d6244b5c263"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a7f57f22956028befab4e7d6244b5c263">setCamera</a> (<a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> camera)</td></tr>
+<tr class="memdesc:a7f57f22956028befab4e7d6244b5c263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the camera.  <a href="class_scene.html#a7f57f22956028befab4e7d6244b5c263">More...</a><br /></td></tr>
+<tr class="separator:a7f57f22956028befab4e7d6244b5c263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab19c516a50a37495cbbf8abdc8576322"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ab19c516a50a37495cbbf8abdc8576322">setSamplesPerPixel</a> (unsigned int samplesPerPixel)</td></tr>
+<tr class="memdesc:ab19c516a50a37495cbbf8abdc8576322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the number of samples per pixel.  <a href="class_scene.html#ab19c516a50a37495cbbf8abdc8576322">More...</a><br /></td></tr>
+<tr class="separator:ab19c516a50a37495cbbf8abdc8576322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc12622711c492b31560c15edc4f7f89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#adc12622711c492b31560c15edc4f7f89">setMinBounces</a> (unsigned int minBounces)</td></tr>
+<tr class="memdesc:adc12622711c492b31560c15edc4f7f89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the minimum number of bounces.  <a href="class_scene.html#adc12622711c492b31560c15edc4f7f89">More...</a><br /></td></tr>
+<tr class="separator:adc12622711c492b31560c15edc4f7f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accb4113afda2f4d8e60023e356033a9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#accb4113afda2f4d8e60023e356033a9a">setRussianRoulette</a> (bool russianRoulette)</td></tr>
+<tr class="memdesc:accb4113afda2f4d8e60023e356033a9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the russian roulette.  <a href="class_scene.html#accb4113afda2f4d8e60023e356033a9a">More...</a><br /></td></tr>
+<tr class="separator:accb4113afda2f4d8e60023e356033a9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6a144c9deea7b3778fe6d386fe925e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#af6a144c9deea7b3778fe6d386fe925e0">setRussianRoulette</a> (bool russianRoulette, double rrStopProbability)</td></tr>
+<tr class="memdesc:af6a144c9deea7b3778fe6d386fe925e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the russian roulette and russian roulette stop probability.  <a href="class_scene.html#af6a144c9deea7b3778fe6d386fe925e0">More...</a><br /></td></tr>
+<tr class="separator:af6a144c9deea7b3778fe6d386fe925e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0126e7d5ee45833f34e377f18ed23d1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0126e7d5ee45833f34e377f18ed23d1c">setRrStopProbability</a> (double rrStopProbability)</td></tr>
+<tr class="memdesc:a0126e7d5ee45833f34e377f18ed23d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the russian roulette stop probability.  <a href="class_scene.html#a0126e7d5ee45833f34e377f18ed23d1c">More...</a><br /></td></tr>
+<tr class="separator:a0126e7d5ee45833f34e377f18ed23d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc780c8d89d97dcf4a8e2c530a57752"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a1cc780c8d89d97dcf4a8e2c530a57752">setNextEventEstimation</a> (bool nextEventEstimation)</td></tr>
+<tr class="memdesc:a1cc780c8d89d97dcf4a8e2c530a57752"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the next event estimation.  <a href="class_scene.html#a1cc780c8d89d97dcf4a8e2c530a57752">More...</a><br /></td></tr>
+<tr class="separator:a1cc780c8d89d97dcf4a8e2c530a57752"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2a60207a57107833da052cdb6883c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aad2a60207a57107833da052cdb6883c0">setNumberThreads</a> (unsigned int numberThreads)</td></tr>
+<tr class="memdesc:aad2a60207a57107833da052cdb6883c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the number of CPU threads.  <a href="class_scene.html#aad2a60207a57107833da052cdb6883c0">More...</a><br /></td></tr>
+<tr class="separator:aad2a60207a57107833da052cdb6883c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ba5f8f2e65040ff1748a3766ba0b7e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a4ba5f8f2e65040ff1748a3766ba0b7e3">setKDTree</a> (bool kdTree)</td></tr>
+<tr class="memdesc:a4ba5f8f2e65040ff1748a3766ba0b7e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the k-d tree.  <a href="class_scene.html#a4ba5f8f2e65040ff1748a3766ba0b7e3">More...</a><br /></td></tr>
+<tr class="separator:a4ba5f8f2e65040ff1748a3766ba0b7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044c58bafa0f8d157476b6cc342fb502"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a044c58bafa0f8d157476b6cc342fb502">setKDMaxObjectNumber</a> (unsigned int kdMaxObjectNumber)</td></tr>
+<tr class="memdesc:a044c58bafa0f8d157476b6cc342fb502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the maximum number of objects in a k-d tree leaf.  <a href="class_scene.html#a044c58bafa0f8d157476b6cc342fb502">More...</a><br /></td></tr>
+<tr class="separator:a044c58bafa0f8d157476b6cc342fb502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a463e71580a2d61d61a73dac06085d500"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a463e71580a2d61d61a73dac06085d500">setKDMaxDepth</a> (unsigned int kdMaxDepth)</td></tr>
+<tr class="memdesc:a463e71580a2d61d61a73dac06085d500"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the maximum depth recursion of the k-d tree.  <a href="class_scene.html#a463e71580a2d61d61a73dac06085d500">More...</a><br /></td></tr>
+<tr class="separator:a463e71580a2d61d61a73dac06085d500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0736e11ae498a9dd0d1c95164d3d4fd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a0736e11ae498a9dd0d1c95164d3d4fd1">setBackupFileName</a> (std::string backupFileName)</td></tr>
+<tr class="memdesc:a0736e11ae498a9dd0d1c95164d3d4fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the new name of the file in which backups will be made.  <a href="class_scene.html#a0736e11ae498a9dd0d1c95164d3d4fd1">More...</a><br /></td></tr>
+<tr class="separator:a0736e11ae498a9dd0d1c95164d3d4fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f8df632ffb9642187c33ff7e672a441"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6f8df632ffb9642187c33ff7e672a441">setBackupParameters</a> (bool backupParameters)</td></tr>
+<tr class="memdesc:a6f8df632ffb9642187c33ff7e672a441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the option to backup the parameters.  <a href="class_scene.html#a6f8df632ffb9642187c33ff7e672a441">More...</a><br /></td></tr>
+<tr class="separator:a6f8df632ffb9642187c33ff7e672a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e90764a5a5246101e6266232d5412a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a2e90764a5a5246101e6266232d5412a5">setBackupObjectGroups</a> (bool backupObjectGroups)</td></tr>
+<tr class="memdesc:a2e90764a5a5246101e6266232d5412a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the option to backup the object groups.  <a href="class_scene.html#a2e90764a5a5246101e6266232d5412a5">More...</a><br /></td></tr>
+<tr class="separator:a2e90764a5a5246101e6266232d5412a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30801387f7d0e626e63a431599e8110"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa30801387f7d0e626e63a431599e8110">setBackupPicture</a> (bool backupPicture)</td></tr>
+<tr class="memdesc:aa30801387f7d0e626e63a431599e8110"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the option to backup the picture.  <a href="class_scene.html#aa30801387f7d0e626e63a431599e8110">More...</a><br /></td></tr>
+<tr class="separator:aa30801387f7d0e626e63a431599e8110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036abf3060dd2597c70225a812167fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a036abf3060dd2597c70225a812167fd6">setLeastRenderTime4PictureBackup</a> (double leastRenderTime4PictureBackup)</td></tr>
+<tr class="memdesc:a036abf3060dd2597c70225a812167fd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setter for the least render time after which the picture is backed up.  <a href="class_scene.html#a036abf3060dd2597c70225a812167fd6">More...</a><br /></td></tr>
+<tr class="separator:a036abf3060dd2597c70225a812167fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01c7d664ec6241d17fc98304e1a9cd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ae01c7d664ec6241d17fc98304e1a9cd0">addObjectGroup</a> (const <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &amp;group)</td></tr>
+<tr class="memdesc:ae01c7d664ec6241d17fc98304e1a9cd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object group to the current ones.  <a href="class_scene.html#ae01c7d664ec6241d17fc98304e1a9cd0">More...</a><br /></td></tr>
+<tr class="separator:ae01c7d664ec6241d17fc98304e1a9cd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3697522bbc43f6ceb3817576ac002d0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a3697522bbc43f6ceb3817576ac002d0e">resetAndDeleteObjectGroups</a> ()</td></tr>
+<tr class="memdesc:a3697522bbc43f6ceb3817576ac002d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all object groups and their objects.  <a href="class_scene.html#a3697522bbc43f6ceb3817576ac002d0e">More...</a><br /></td></tr>
+<tr class="separator:a3697522bbc43f6ceb3817576ac002d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f516a2b2a7f26207a59a5b92bc9f185"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a1f516a2b2a7f26207a59a5b92bc9f185">computeObjectsAndLamps</a> ()</td></tr>
+<tr class="memdesc:a1f516a2b2a7f26207a59a5b92bc9f185"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all the objects.  <a href="class_scene.html#a1f516a2b2a7f26207a59a5b92bc9f185">More...</a><br /></td></tr>
+<tr class="separator:a1f516a2b2a7f26207a59a5b92bc9f185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01100b85642ad932afaaa4065fdec9c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a01100b85642ad932afaaa4065fdec9c3">defaultScene</a> ()</td></tr>
+<tr class="memdesc:a01100b85642ad932afaaa4065fdec9c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this scene's objects to default ones.  <a href="class_scene.html#a01100b85642ad932afaaa4065fdec9c3">More...</a><br /></td></tr>
+<tr class="separator:a01100b85642ad932afaaa4065fdec9c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fbbe234f71d94218eae7d1c2fc9261"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa7fbbe234f71d94218eae7d1c2fc9261">saveParameters2File</a> (std::string fileName) const</td></tr>
+<tr class="memdesc:aa7fbbe234f71d94218eae7d1c2fc9261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves parameters to a file.  <a href="class_scene.html#aa7fbbe234f71d94218eae7d1c2fc9261">More...</a><br /></td></tr>
+<tr class="separator:aa7fbbe234f71d94218eae7d1c2fc9261"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0acc6ad520764c30c37053338bbfc12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#aa0acc6ad520764c30c37053338bbfc12">saveObjectGroups2File</a> (std::string fileName) const</td></tr>
+<tr class="memdesc:aa0acc6ad520764c30c37053338bbfc12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves object groups to a file.  <a href="class_scene.html#aa0acc6ad520764c30c37053338bbfc12">More...</a><br /></td></tr>
+<tr class="separator:aa0acc6ad520764c30c37053338bbfc12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2ef1451cb66d3cea3244ee42059262"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a6f2ef1451cb66d3cea3244ee42059262">importFBXFile</a> (const char *filePath, <a class="el" href="class_material.html">Material</a> *material, std::string name)</td></tr>
+<tr class="memdesc:a6f2ef1451cb66d3cea3244ee42059262"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imports a fbx file as triangles.  <a href="class_scene.html#a6f2ef1451cb66d3cea3244ee42059262">More...</a><br /></td></tr>
+<tr class="separator:a6f2ef1451cb66d3cea3244ee42059262"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa524ca9c2b5f986d998a62fc0f8ddfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_picture.html">Picture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#afa524ca9c2b5f986d998a62fc0f8ddfb">render</a> ()</td></tr>
+<tr class="memdesc:afa524ca9c2b5f986d998a62fc0f8ddfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start the render of the picture.  <a href="class_scene.html#afa524ca9c2b5f986d998a62fc0f8ddfb">More...</a><br /></td></tr>
+<tr class="separator:afa524ca9c2b5f986d998a62fc0f8ddfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c51b3d8d23006878b797a72c78b77aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#a5c51b3d8d23006878b797a72c78b77aa">displayParametersPage</a> (bool displayIndexes=true) const</td></tr>
+<tr class="memdesc:a5c51b3d8d23006878b797a72c78b77aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the parameters page.  <a href="class_scene.html#a5c51b3d8d23006878b797a72c78b77aa">More...</a><br /></td></tr>
+<tr class="separator:a5c51b3d8d23006878b797a72c78b77aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b91b7439ddac437785d3df1bc9658c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_scene.html#ab2b91b7439ddac437785d3df1bc9658c">displayObjectsPage</a> () const</td></tr>
+<tr class="memdesc:ab2b91b7439ddac437785d3df1bc9658c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the objects page.  <a href="class_scene.html#ab2b91b7439ddac437785d3df1bc9658c">More...</a><br /></td></tr>
+<tr class="separator:ab2b91b7439ddac437785d3df1bc9658c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Stores objects groups and a camera for the render. </p>
+<div class="textblock"><p>Stores object groups and a camera for the render. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acf789fb1120eeb804af9274fadf031aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf789fb1120eeb804af9274fadf031aa">&#9670;&nbsp;</a></span>Scene() <span class="overload">[1/2]</span></h2>
+<a id="a0c0079d2d0d622af08e897b27b8fb7f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c0079d2d0d622af08e897b27b8fb7f4">&#9670;&nbsp;</a></span>Scene() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,7 +244,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>samplePerPixel</em> = <code>8</code>, </td>
+          <td class="paramname"><em>samplesPerPixel</em> = <code>8</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -228,8 +264,8 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">camera</td><td>The camera that will be used for the render. </td></tr>
-    <tr><td class="paramname">samplePerPixel</td><td>The number of ray casted per pixel. Increasing it will give a higher quality, but at a cost of a linearly increasing time. </td></tr>
-    <tr><td class="paramname">minBounces</td><td>The minimum number of bounces that each ray will do. It can be less if the ray does not intersect with any object. </td></tr>
+    <tr><td class="paramname">samplesPerPixel</td><td>The number of ray casted per pixel. Increasing it will give a higher quality, but at a cost of a linearly increasing time. </td></tr>
+    <tr><td class="paramname">minBounces</td><td>The minimum number of bounces that each ray will do before beginning to use the russian roulette algorithm. </td></tr>
   </table>
   </dd>
 </dl>
@@ -263,14 +299,14 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4ea94cd122d63022816146d7a869bd11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ea94cd122d63022816146d7a869bd11">&#9670;&nbsp;</a></span>addObjectGroup()</h2>
+<a id="ae01c7d664ec6241d17fc98304e1a9cd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01c7d664ec6241d17fc98304e1a9cd0">&#9670;&nbsp;</a></span>addObjectGroup()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::addObjectGroup </td>
+          <td class="memname">void Scene::addObjectGroup </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &amp;&#160;</td>
           <td class="paramname"><em>group</em></td><td>)</td>
@@ -279,24 +315,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Adds an objects group to the current ones. </p>
+<p>Adds an object group to the current ones. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">group</td><td>The objects group that will be added. </td></tr>
+    <tr><td class="paramname">group</td><td>The object group that will be added. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a7988eb9131d0f4d4930f88b26b47ef22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7988eb9131d0f4d4930f88b26b47ef22">&#9670;&nbsp;</a></span>computeObjectsAndLamps()</h2>
+<a id="a1f516a2b2a7f26207a59a5b92bc9f185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f516a2b2a7f26207a59a5b92bc9f185">&#9670;&nbsp;</a></span>computeObjectsAndLamps()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::computeObjectsAndLamps </td>
+          <td class="memname">void Scene::computeObjectsAndLamps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -309,14 +345,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9693c8065bcd85b4dd3fe63c2c7411bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9693c8065bcd85b4dd3fe63c2c7411bc">&#9670;&nbsp;</a></span>defaultScene()</h2>
+<a id="a01100b85642ad932afaaa4065fdec9c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01100b85642ad932afaaa4065fdec9c3">&#9670;&nbsp;</a></span>defaultScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::defaultScene </td>
+          <td class="memname">void Scene::defaultScene </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -325,18 +361,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Sets this scene's objects to default ones. </p>
-<p>The look is similar to the Cornell box. </p>
+<p>The look is similar to the Cornell box. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_8cpp.html#ab4171a161c7c6d81c111749da9949f29" title="Starts the infinite loop of the interface.">initInterface()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a15995436805b32321faa5a5860ae82b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15995436805b32321faa5a5860ae82b9">&#9670;&nbsp;</a></span>displayObjectsPage()</h2>
+<a id="ab2b91b7439ddac437785d3df1bc9658c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2b91b7439ddac437785d3df1bc9658c">&#9670;&nbsp;</a></span>displayObjectsPage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::displayObjectsPage </td>
+          <td class="memname">void Scene::displayObjectsPage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -345,18 +381,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Prints the objects page. </p>
-<p>This is one of the main pages. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a5efdec1ca3bf0f48e9eb1a5134e698ca" title="Prints the parameters page.">displayParametersPage()</a> </dd></dl>
+<p>This is one of the main pages. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a5c51b3d8d23006878b797a72c78b77aa" title="Prints the parameters page.">Scene::displayParametersPage()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a5efdec1ca3bf0f48e9eb1a5134e698ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5efdec1ca3bf0f48e9eb1a5134e698ca">&#9670;&nbsp;</a></span>displayParametersPage()</h2>
+<a id="a5c51b3d8d23006878b797a72c78b77aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c51b3d8d23006878b797a72c78b77aa">&#9670;&nbsp;</a></span>displayParametersPage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::displayParametersPage </td>
+          <td class="memname">void Scene::displayParametersPage </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>displayIndexes</em> = <code>true</code></td><td>)</td>
@@ -368,22 +404,103 @@ Public Member Functions</h2></td></tr>
 <p>Prints the parameters page. </p>
 <p>This is one of the main pages. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">displayIndexes</td><td>If true it will print the indexes before each parameter. This is useful if for the user to be able to change them, but you can remove them if you only want the information. </td></tr>
+    <tr><td class="paramname">displayIndexes</td><td>If true it will print the indexes before each parameter. This is useful if for the user to be able to change them, but you can remove them if you only want the information (during the render, for example). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a15995436805b32321faa5a5860ae82b9" title="Prints the objects page.">displayObjectsPage()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#ab2b91b7439ddac437785d3df1bc9658c" title="Prints the objects page.">Scene::displayObjectsPage()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a62967576b9876b4446c0d7bca56f662c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62967576b9876b4446c0d7bca56f662c">&#9670;&nbsp;</a></span>getCamera()</h2>
+<a id="a771b36550ad9e636c2407c974d0baacc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a771b36550ad9e636c2407c974d0baacc">&#9670;&nbsp;</a></span>getBackupFileName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getCamera </td>
+          <td class="memname">std::string Scene::getBackupFileName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for the name of the file in which backups will be made. </p>
+<p>Every backup will be done with the same file name, but using a different file extension. </p><dl class="section return"><dt>Returns</dt><dd>The name of the file in which backups will be made. </dd></dl>
+
+</div>
+</div>
+<a id="a4bc8a039ca9c3f437724ea0753323595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bc8a039ca9c3f437724ea0753323595">&#9670;&nbsp;</a></span>getBackupObjectGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::getBackupObjectGroups </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for the option to backup the object groups. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the object groups will be backed up before the render. </dd></dl>
+
+</div>
+</div>
+<a id="a8ee96d7d9bd72d8c50ec1a0761a7f021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ee96d7d9bd72d8c50ec1a0761a7f021">&#9670;&nbsp;</a></span>getBackupParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::getBackupParameters </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for the option to backup the parameters. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the parameters will be backed up before the render. </dd></dl>
+
+</div>
+</div>
+<a id="abc4183e0f18fa3369d805eb7effbcf6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc4183e0f18fa3369d805eb7effbcf6a">&#9670;&nbsp;</a></span>getBackupPicture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Scene::getBackupPicture </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for the option to backup the picture. </p>
+<dl class="section return"><dt>Returns</dt><dd>Whether the picture will be backed up after the render. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a84b915c2c5b765bf84470b8958c9dd48" title="Getter for the least render time after which the picture is backed up.">Scene::getLeastRenderTime4PictureBackup()</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa6b91a2bc9ccb2f00ab6582f48febc01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6b91a2bc9ccb2f00ab6582f48febc01">&#9670;&nbsp;</a></span>getCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> Scene::getCamera </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -396,14 +513,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6d4eabff6d28d2fefa09dd6b674c5140"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d4eabff6d28d2fefa09dd6b674c5140">&#9670;&nbsp;</a></span>getCameraReference()</h2>
+<a id="a0acc79caad19a600556e1c6db7e104b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0acc79caad19a600556e1c6db7e104b5">&#9670;&nbsp;</a></span>getCameraReference()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getCameraReference </td>
+          <td class="memname"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a> &amp; Scene::getCameraReference </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -416,14 +533,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aa214149ef3fe9b07a47b647f0b47a766"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa214149ef3fe9b07a47b647f0b47a766">&#9670;&nbsp;</a></span>getKDMaxDepth()</h2>
+<a id="a890fe43a2a024a068161afc5eeae9fe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a890fe43a2a024a068161afc5eeae9fe5">&#9670;&nbsp;</a></span>getKDMaxDepth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getKDMaxDepth </td>
+          <td class="memname">unsigned int Scene::getKDMaxDepth </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -432,19 +549,19 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter for the maximum depth recursion of the k-d tree. </p>
-<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#a25d3a49eaad491d6077a798207ed3e01" title="Getter for the maximum number of objects in a k-d tree leaf.">Scene::getKDMaxObjectNumber()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="section return"><dt>Returns</dt><dd>The maximum number of recursive steps of the k-d tree. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a76fb8b1665f62e3f217c5b6bd75f8bc0" title="Getter for the k-d tree.">Scene::getKDTree()</a>, <a class="el" href="class_scene.html#a25d3a49eaad491d6077a798207ed3e01" title="Getter for the maximum number of objects in a k-d tree leaf.">Scene::getKDMaxObjectNumber()</a> </dd></dl>
+<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#aff08b62a53b6a42fa0fc31d80401e45d" title="Getter for the maximum number of objects in a k-d tree leaf.">Scene::getKDMaxObjectNumber()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="section return"><dt>Returns</dt><dd>The maximum number of recursive steps of the k-d tree. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a28e68a2ea983341c3f2fc225d4b1e850" title="Getter for the k-d tree option.">Scene::getKDTree()</a>, <a class="el" href="class_scene.html#aff08b62a53b6a42fa0fc31d80401e45d" title="Getter for the maximum number of objects in a k-d tree leaf.">Scene::getKDMaxObjectNumber()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a25d3a49eaad491d6077a798207ed3e01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25d3a49eaad491d6077a798207ed3e01">&#9670;&nbsp;</a></span>getKDMaxObjectNumber()</h2>
+<a id="aff08b62a53b6a42fa0fc31d80401e45d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff08b62a53b6a42fa0fc31d80401e45d">&#9670;&nbsp;</a></span>getKDMaxObjectNumber()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getKDMaxObjectNumber </td>
+          <td class="memname">unsigned int Scene::getKDMaxObjectNumber </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -453,19 +570,19 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter for the maximum number of objects in a k-d tree leaf. </p>
-<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#aa214149ef3fe9b07a47b647f0b47a766" title="Getter for the maximum depth recursion of the k-d tree.">Scene::getKDMaxDepth()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="section return"><dt>Returns</dt><dd>The maximum number of objects in a k-d tree leaf. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a76fb8b1665f62e3f217c5b6bd75f8bc0" title="Getter for the k-d tree.">Scene::getKDTree()</a>, <a class="el" href="class_scene.html#aa214149ef3fe9b07a47b647f0b47a766" title="Getter for the maximum depth recursion of the k-d tree.">Scene::getKDMaxDepth()</a> </dd></dl>
+<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#a890fe43a2a024a068161afc5eeae9fe5" title="Getter for the maximum depth recursion of the k-d tree.">Scene::getKDMaxDepth()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="section return"><dt>Returns</dt><dd>The maximum number of objects in a k-d tree leaf. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a28e68a2ea983341c3f2fc225d4b1e850" title="Getter for the k-d tree option.">Scene::getKDTree()</a>, <a class="el" href="class_scene.html#a890fe43a2a024a068161afc5eeae9fe5" title="Getter for the maximum depth recursion of the k-d tree.">Scene::getKDMaxDepth()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a76fb8b1665f62e3f217c5b6bd75f8bc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76fb8b1665f62e3f217c5b6bd75f8bc0">&#9670;&nbsp;</a></span>getKDTree()</h2>
+<a id="a28e68a2ea983341c3f2fc225d4b1e850"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e68a2ea983341c3f2fc225d4b1e850">&#9670;&nbsp;</a></span>getKDTree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getKDTree </td>
+          <td class="memname">bool Scene::getKDTree </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -473,20 +590,20 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Getter for the k-d tree. </p>
+<p>Getter for the k-d tree option. </p>
 <p>See my TM's report for further information on this data structure. </p><dl class="section return"><dt>Returns</dt><dd>Whether a k-d tree will be used during the render. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a25d3a49eaad491d6077a798207ed3e01" title="Getter for the maximum number of objects in a k-d tree leaf.">Scene::getKDMaxObjectNumber()</a>, <a class="el" href="class_scene.html#aa214149ef3fe9b07a47b647f0b47a766" title="Getter for the maximum depth recursion of the k-d tree.">Scene::getKDMaxDepth()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#aff08b62a53b6a42fa0fc31d80401e45d" title="Getter for the maximum number of objects in a k-d tree leaf.">Scene::getKDMaxObjectNumber()</a>, <a class="el" href="class_scene.html#a890fe43a2a024a068161afc5eeae9fe5" title="Getter for the maximum depth recursion of the k-d tree.">Scene::getKDMaxDepth()</a> </dd></dl>
 
 </div>
 </div>
-<a id="ad467c23c7af369c7fbe156305917ef36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad467c23c7af369c7fbe156305917ef36">&#9670;&nbsp;</a></span>getLamps()</h2>
+<a id="a184edb2e45aba330b352f21abf2ebb6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a184edb2e45aba330b352f21abf2ebb6f">&#9670;&nbsp;</a></span>getLamps()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getLamps </td>
+          <td class="memname">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt; Scene::getLamps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -495,19 +612,40 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter for the lamps. </p>
-<p>Calls <a class="el" href="class_scene.html#a7988eb9131d0f4d4930f88b26b47ef22" title="Computes all the objects.">computeObjectsAndLamps()</a>. </p><dl class="section return"><dt>Returns</dt><dd>This scene's objects that have an emittance strictly greater than 0. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acaa8593cde7a8961cf218f267f072bf5" title="Getter for the objects.">getObjects()</a> </dd></dl>
+<p>Calls <a class="el" href="class_scene.html#a1f516a2b2a7f26207a59a5b92bc9f185" title="Computes all the objects.">computeObjectsAndLamps()</a>. </p><dl class="section return"><dt>Returns</dt><dd>This scene's objects that have an emittance strictly greater than 0. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#aa6f27bbf5c169764a816b83644eb6185" title="Getter for the objects.">Scene::getObjects()</a> </dd></dl>
 
 </div>
 </div>
-<a id="af6df6e28644a91eff549784294f598e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6df6e28644a91eff549784294f598e8">&#9670;&nbsp;</a></span>getMinBounces()</h2>
+<a id="a84b915c2c5b765bf84470b8958c9dd48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84b915c2c5b765bf84470b8958c9dd48">&#9670;&nbsp;</a></span>getLeastRenderTime4PictureBackup()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getMinBounces </td>
+          <td class="memname">double Scene::getLeastRenderTime4PictureBackup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for the least render time after which the picture is backed up. </p>
+<p>If this value is set to 0.0, the picture will always be backed up after the render. </p><dl class="section return"><dt>Returns</dt><dd>The least render time after which the picture is backed up. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#abc4183e0f18fa3369d805eb7effbcf6a" title="Getter for the option to backup the picture.">Scene::getBackupPicture()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a3323b647e0728e997e78834994ac4ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3323b647e0728e997e78834994ac4ca0">&#9670;&nbsp;</a></span>getMinBounces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Scene::getMinBounces </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -517,18 +655,18 @@ Public Member Functions</h2></td></tr>
 
 <p>Getter for the minimum number of bounces. </p>
 <dl class="section return"><dt>Returns</dt><dd>The minimum number of bounces that will be used during the render. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a> </dd></dl>
 
 </div>
 </div>
-<a id="adfcbed2741bcb68047ab13821b62ea4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfcbed2741bcb68047ab13821b62ea4e">&#9670;&nbsp;</a></span>getNextEventEstimation()</h2>
+<a id="ac007b9d81d9d2d86ef75a0d6f1bd38a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac007b9d81d9d2d86ef75a0d6f1bd38a8">&#9670;&nbsp;</a></span>getNextEventEstimation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getNextEventEstimation </td>
+          <td class="memname">bool Scene::getNextEventEstimation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -541,14 +679,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0c8a7d2f6615d53eb19ef820a96ec5b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c8a7d2f6615d53eb19ef820a96ec5b5">&#9670;&nbsp;</a></span>getNumberThreads()</h2>
+<a id="ab80b2ba5e9606fd65614ec09aaeac63e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab80b2ba5e9606fd65614ec09aaeac63e">&#9670;&nbsp;</a></span>getNumberThreads()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getNumberThreads </td>
+          <td class="memname">unsigned int Scene::getNumberThreads </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -561,14 +699,54 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acaa8593cde7a8961cf218f267f072bf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaa8593cde7a8961cf218f267f072bf5">&#9670;&nbsp;</a></span>getObjects()</h2>
+<a id="a88ab6825689d7ae7db17315f72834c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88ab6825689d7ae7db17315f72834c8a">&#9670;&nbsp;</a></span>getObjectGroups()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getObjects </td>
+          <td class="memname">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt; Scene::getObjectGroups </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for the object groups. </p>
+<dl class="section return"><dt>Returns</dt><dd>This scene's object groups. </dd></dl>
+
+</div>
+</div>
+<a id="a955fef5f787af4a75f6e504273212fa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955fef5f787af4a75f6e504273212fa6">&#9670;&nbsp;</a></span>getObjectGroupsReference()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt; &amp; Scene::getObjectGroupsReference </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Getter for a reference to the object groups. </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to this scene's object groups. </dd></dl>
+
+</div>
+</div>
+<a id="aa6f27bbf5c169764a816b83644eb6185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6f27bbf5c169764a816b83644eb6185">&#9670;&nbsp;</a></span>getObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="class_object3_d.html">Object3D</a> * &gt; Scene::getObjects </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -577,59 +755,19 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Getter for the objects. </p>
-<p>Calls <a class="el" href="class_scene.html#a7988eb9131d0f4d4930f88b26b47ef22" title="Computes all the objects.">computeObjectsAndLamps()</a>. </p><dl class="section return"><dt>Returns</dt><dd>This scene's objects. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="_object3_d_group_8cpp.html#af4b898a0c76f4880fd1db6feb7bd3f5a" title="Takes the std::vector of each objects group and merge them.">split()</a> </dd></dl>
+<p>Calls <a class="el" href="class_scene.html#a1f516a2b2a7f26207a59a5b92bc9f185" title="Computes all the objects.">computeObjectsAndLamps()</a>. </p><dl class="section return"><dt>Returns</dt><dd>This scene's objects. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_object3_d_group_8cpp.html#a8d6b5398ff396b1777e8b91395ec2208" title="Takes the std::vector of each object group and merge them.">split()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a497df154b5b005f028f3b0238d57049b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a497df154b5b005f028f3b0238d57049b">&#9670;&nbsp;</a></span>getObjectsGroups()</h2>
+<a id="a0aae63ea683d4f9731b4f823ea2fb21a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aae63ea683d4f9731b4f823ea2fb21a">&#9670;&nbsp;</a></span>getRrStopProbability()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getObjectsGroups </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Getter for the objects groups. </p>
-<dl class="section return"><dt>Returns</dt><dd>This scene's objects groups. </dd></dl>
-
-</div>
-</div>
-<a id="a742ea3e69dc52bab4ff3418483fe7d89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a742ea3e69dc52bab4ff3418483fe7d89">&#9670;&nbsp;</a></span>getObjectsGroupsReference()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Scene::getObjectsGroupsReference </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Getter for a reference to the objects groups. </p>
-<dl class="section return"><dt>Returns</dt><dd>A reference to this scene's objects groups. </dd></dl>
-
-</div>
-</div>
-<a id="a25711f3325e943725e10596ea6726824"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25711f3325e943725e10596ea6726824">&#9670;&nbsp;</a></span>getRrStopProbability()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Scene::getRrStopProbability </td>
+          <td class="memname">double Scene::getRrStopProbability </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -639,18 +777,18 @@ Public Member Functions</h2></td></tr>
 
 <p>Getter for the russian roulette stop probability. </p>
 <p>Russian roulette stop probability that will be used during the render. </p><dl class="section return"><dt>Returns</dt><dd>The russian roulette stop probability. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a>, <a class="el" href="class_scene.html#a8b0d2bb39b0eef7c3192e4b1459d7df7" title="Getter for the russian roulette.">getRussianRoulette()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a>, <a class="el" href="class_scene.html#acecb02d1be9d7d73b6f4d16048baac5d" title="Getter for the russian roulette.">Scene::getRussianRoulette()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a8b0d2bb39b0eef7c3192e4b1459d7df7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b0d2bb39b0eef7c3192e4b1459d7df7">&#9670;&nbsp;</a></span>getRussianRoulette()</h2>
+<a id="acecb02d1be9d7d73b6f4d16048baac5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acecb02d1be9d7d73b6f4d16048baac5d">&#9670;&nbsp;</a></span>getRussianRoulette()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getRussianRoulette </td>
+          <td class="memname">bool Scene::getRussianRoulette </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -660,18 +798,18 @@ Public Member Functions</h2></td></tr>
 
 <p>Getter for the russian roulette. </p>
 <p>See my TM's report for further information on this algorithm. </p><dl class="section return"><dt>Returns</dt><dd>Whether the russian roulette path termination algorithm will be used during the render. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a25711f3325e943725e10596ea6726824" title="Getter for the russian roulette stop probability.">getRrStopProbability()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0aae63ea683d4f9731b4f823ea2fb21a" title="Getter for the russian roulette stop probability.">Scene::getRrStopProbability()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a2c630d1767200b7ec5922b6354d21657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c630d1767200b7ec5922b6354d21657">&#9670;&nbsp;</a></span>getSamplePerPixel()</h2>
+<a id="a293d8e450ff31c4778844474a4e79f2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a293d8e450ff31c4778844474a4e79f2d">&#9670;&nbsp;</a></span>getSamplesPerPixel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::getSamplePerPixel </td>
+          <td class="memname">unsigned int Scene::getSamplesPerPixel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -681,18 +819,18 @@ Public Member Functions</h2></td></tr>
 
 <p>Getter for the number of samples per pixel. </p>
 <dl class="section return"><dt>Returns</dt><dd>The number of samples per pixel that will be used during the render. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a5511e3991a36989c1408895600fede10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5511e3991a36989c1408895600fede10">&#9670;&nbsp;</a></span>importFBX()</h2>
+<a id="a6f2ef1451cb66d3cea3244ee42059262"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2ef1451cb66d3cea3244ee42059262">&#9670;&nbsp;</a></span>importFBXFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::importFBX </td>
+          <td class="memname">bool Scene::importFBXFile </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filePath</em>, </td>
@@ -717,27 +855,28 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Imports a FBX file as triangles. </p>
+<p>Imports a fbx file as triangles. </p>
 <p>Uses the FBX SDK library. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filePath</td><td>The path the FBX file. </td></tr>
+    <tr><td class="paramname">filePath</td><td>The path to the fbx file. </td></tr>
     <tr><td class="paramname">material</td><td>The material that will be used for all the triangles which will be imported. </td></tr>
-    <tr><td class="paramname">name</td><td>The name of the objects group in which all triangles will be stored. </td></tr>
+    <tr><td class="paramname">name</td><td>The name of the object group in which all triangles will be stored. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>True if the importation was successful, false else. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_scene_8cpp.html#acee556ffb8e186e373bb6eb4c8d1c6e5" title="Imports recursively all triangles present in a FBXNode.">importTrianglesFromFbxNode()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a04b660fed6b4be5999534c5e1c3efc61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04b660fed6b4be5999534c5e1c3efc61">&#9670;&nbsp;</a></span>render()</h2>
+<a id="afa524ca9c2b5f986d998a62fc0f8ddfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa524ca9c2b5f986d998a62fc0f8ddfb">&#9670;&nbsp;</a></span>render()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::render </td>
+          <td class="memname"><a class="el" href="class_picture.html">Picture</a> * Scene::render </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -746,18 +885,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Start the render of the picture. </p>
-<p>This uses the path tracing algorithm (you could have read this project's title for this information) and some optimisations such as next event estimation and russian roulette path termination. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the rendered picture. </dd></dl>
+<p>This uses the path tracing algorithm (I guess this information was not useful, as it is in the title) and some optimisations such as next event estimation and russian roulette path termination. </p><dl class="section return"><dt>Returns</dt><dd>A pointer to the rendered picture. </dd></dl>
 
 </div>
 </div>
-<a id="aea9f0025cc75c067966e202d7eded113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea9f0025cc75c067966e202d7eded113">&#9670;&nbsp;</a></span>resetObjectGroups()</h2>
+<a id="a3697522bbc43f6ceb3817576ac002d0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3697522bbc43f6ceb3817576ac002d0e">&#9670;&nbsp;</a></span>resetAndDeleteObjectGroups()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::resetObjectGroups </td>
+          <td class="memname">void Scene::resetAndDeleteObjectGroups </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -765,18 +904,178 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys all the objects groups. </p>
+<p>Deletes all object groups and their objects. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_object3_d_group.html#aa30fd4c4f44b2737dcf89bb9bc7af2a9" title="Deletes all pointers to the objects of this object group, then reset its objects.">Object3DGroup::resetAndDeleteObjects()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a715c256a1e8563a71c8b8aeb6dcb342a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a715c256a1e8563a71c8b8aeb6dcb342a">&#9670;&nbsp;</a></span>setCamera()</h2>
+<a id="aa0acc6ad520764c30c37053338bbfc12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0acc6ad520764c30c37053338bbfc12">&#9670;&nbsp;</a></span>saveObjectGroups2File()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setCamera </td>
+          <td class="memname">void Scene::saveObjectGroups2File </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves object groups to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>The name of the file to which the object groups will be saved. It is recommended that this file extension ends with OBJECTS_SAVE_EXTENSION. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8cpp.html#a3353a0a9047f1d5d88e75457ea1d2d3c" title="Formats the name of the file the user gave and the extension we want.">formatFileName()</a>, <a class="el" href="_interface_gestion_8h.html#aee92f45aba0dbf16b2799958cc2857b6" title="Custom file extension to save object groups.">OBJECTS_SAVE_EXTENSION</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa7fbbe234f71d94218eae7d1c2fc9261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7fbbe234f71d94218eae7d1c2fc9261">&#9670;&nbsp;</a></span>saveParameters2File()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::saveParameters2File </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Saves parameters to a file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fileName</td><td>The name of the file to which the prameters will be saved. It is recommended that this file extension ends with PARAMETERS_SAVE_EXTENSION. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="_interface_creation_8cpp.html#a3353a0a9047f1d5d88e75457ea1d2d3c" title="Formats the name of the file the user gave and the extension we want.">formatFileName()</a>, <a class="el" href="_interface_gestion_8h.html#a3bfceac4dd284823d668edd2449cc9f9" title="Custom file extension to save parameters.">PARAMETERS_SAVE_EXTENSION</a> </dd></dl>
+
+</div>
+</div>
+<a id="a0736e11ae498a9dd0d1c95164d3d4fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0736e11ae498a9dd0d1c95164d3d4fd1">&#9670;&nbsp;</a></span>setBackupFileName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::setBackupFileName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>backupFileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setter for the new name of the file in which backups will be made. </p>
+<p>Every backup will be done with the same file name, but using a different file extension. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backupFileName</td><td>The name of the file in which backups will be made. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2e90764a5a5246101e6266232d5412a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e90764a5a5246101e6266232d5412a5">&#9670;&nbsp;</a></span>setBackupObjectGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::setBackupObjectGroups </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>backupObjectGroups</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setter for the option to backup the object groups. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backupObjectGroups</td><td>Whether the object groups will be backed up before the render. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6f8df632ffb9642187c33ff7e672a441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8df632ffb9642187c33ff7e672a441">&#9670;&nbsp;</a></span>setBackupParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::setBackupParameters </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>backupParameters</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setter for the option to backup the parameters. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backupParameters</td><td>Whether the parameters will be backed up before the render. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa30801387f7d0e626e63a431599e8110"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa30801387f7d0e626e63a431599e8110">&#9670;&nbsp;</a></span>setBackupPicture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::setBackupPicture </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>backupPicture</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setter for the option to backup the picture. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backupPicture</td><td>Whether the picture will be backed up after the render. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a036abf3060dd2597c70225a812167fd6" title="Setter for the least render time after which the picture is backed up.">Scene::setLeastRenderTime4PictureBackup()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a7f57f22956028befab4e7d6244b5c263"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f57f22956028befab4e7d6244b5c263">&#9670;&nbsp;</a></span>setCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::setCamera </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_perspective_camera.html">PerspectiveCamera</a>&#160;</td>
           <td class="paramname"><em>camera</em></td><td>)</td>
@@ -795,14 +1094,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="adfb9dcaebbd820fbe3393c1421ba68f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfb9dcaebbd820fbe3393c1421ba68f6">&#9670;&nbsp;</a></span>setKDMaxDepth()</h2>
+<a id="a463e71580a2d61d61a73dac06085d500"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a463e71580a2d61d61a73dac06085d500">&#9670;&nbsp;</a></span>setKDMaxDepth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setKDMaxDepth </td>
+          <td class="memname">void Scene::setKDMaxDepth </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>kdMaxDepth</em></td><td>)</td>
@@ -812,24 +1111,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Setter for the maximum depth recursion of the k-d tree. </p>
-<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#a6163aee44206f52a711d9d6c008dfe75" title="Setter for the maximum number of objects in a k-d tree leaf.">Scene::setKDMaxObjectNumber()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#a044c58bafa0f8d157476b6cc342fb502" title="Setter for the maximum number of objects in a k-d tree leaf.">Scene::setKDMaxObjectNumber()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">kdMaxDepth</td><td>The new maximum number of recursive steps of the k-d tree. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a7c29edc64dba18d30d359a7b5ecdd682" title="Setter for the k-d tree.">Scene::setKDTree(bool kdTree)</a>, <a class="el" href="class_scene.html#a6163aee44206f52a711d9d6c008dfe75" title="Setter for the maximum number of objects in a k-d tree leaf.">Scene::setKDMaxObjectNumber(unsigned int kdMaxObjectNumber)</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a4ba5f8f2e65040ff1748a3766ba0b7e3" title="Setter for the k-d tree.">Scene::setKDTree(bool kdTree)</a>, <a class="el" href="class_scene.html#a044c58bafa0f8d157476b6cc342fb502" title="Setter for the maximum number of objects in a k-d tree leaf.">Scene::setKDMaxObjectNumber(unsigned int kdMaxObjectNumber)</a> </dd></dl>
 
 </div>
 </div>
-<a id="a6163aee44206f52a711d9d6c008dfe75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6163aee44206f52a711d9d6c008dfe75">&#9670;&nbsp;</a></span>setKDMaxObjectNumber()</h2>
+<a id="a044c58bafa0f8d157476b6cc342fb502"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a044c58bafa0f8d157476b6cc342fb502">&#9670;&nbsp;</a></span>setKDMaxObjectNumber()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setKDMaxObjectNumber </td>
+          <td class="memname">void Scene::setKDMaxObjectNumber </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>kdMaxObjectNumber</em></td><td>)</td>
@@ -839,24 +1138,24 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Setter for the maximum number of objects in a k-d tree leaf. </p>
-<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#adfb9dcaebbd820fbe3393c1421ba68f6" title="Setter for the maximum depth recursion of the k-d tree.">Scene::setKDMaxDepth()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>One of the two recursion stop conditions, along with <a class="el" href="class_scene.html#a463e71580a2d61d61a73dac06085d500" title="Setter for the maximum depth recursion of the k-d tree.">Scene::setKDMaxDepth()</a>. If one of them is fulfilled, the k-d tree recursive creation stops. See my TM's report for further information on this data structure. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">kdMaxObjectNumber</td><td>The new maximum number of objects in a k-d tree leaf. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a7c29edc64dba18d30d359a7b5ecdd682" title="Setter for the k-d tree.">Scene::setKDTree(bool kdTree)</a>, <a class="el" href="class_scene.html#adfb9dcaebbd820fbe3393c1421ba68f6" title="Setter for the maximum depth recursion of the k-d tree.">Scene::setKDMaxDepth(unsigned int kdMaxDepth)</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a4ba5f8f2e65040ff1748a3766ba0b7e3" title="Setter for the k-d tree.">Scene::setKDTree(bool kdTree)</a>, <a class="el" href="class_scene.html#a463e71580a2d61d61a73dac06085d500" title="Setter for the maximum depth recursion of the k-d tree.">Scene::setKDMaxDepth(unsigned int kdMaxDepth)</a> </dd></dl>
 
 </div>
 </div>
-<a id="a7c29edc64dba18d30d359a7b5ecdd682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c29edc64dba18d30d359a7b5ecdd682">&#9670;&nbsp;</a></span>setKDTree()</h2>
+<a id="a4ba5f8f2e65040ff1748a3766ba0b7e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ba5f8f2e65040ff1748a3766ba0b7e3">&#9670;&nbsp;</a></span>setKDTree()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setKDTree </td>
+          <td class="memname">void Scene::setKDTree </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>kdTree</em></td><td>)</td>
@@ -872,18 +1171,45 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a6163aee44206f52a711d9d6c008dfe75" title="Setter for the maximum number of objects in a k-d tree leaf.">Scene::setKDMaxObjectNumber(unsigned int kdMaxObjectNumber)</a>, <a class="el" href="class_scene.html#adfb9dcaebbd820fbe3393c1421ba68f6" title="Setter for the maximum depth recursion of the k-d tree.">Scene::setKDMaxDepth(unsigned int kdMaxDepth)</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a044c58bafa0f8d157476b6cc342fb502" title="Setter for the maximum number of objects in a k-d tree leaf.">Scene::setKDMaxObjectNumber(unsigned int kdMaxObjectNumber)</a>, <a class="el" href="class_scene.html#a463e71580a2d61d61a73dac06085d500" title="Setter for the maximum depth recursion of the k-d tree.">Scene::setKDMaxDepth(unsigned int kdMaxDepth)</a> </dd></dl>
 
 </div>
 </div>
-<a id="a867e5e98d9740ea2174a320490f43f65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a867e5e98d9740ea2174a320490f43f65">&#9670;&nbsp;</a></span>setMinBounces()</h2>
+<a id="a036abf3060dd2597c70225a812167fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036abf3060dd2597c70225a812167fd6">&#9670;&nbsp;</a></span>setLeastRenderTime4PictureBackup()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setMinBounces </td>
+          <td class="memname">void Scene::setLeastRenderTime4PictureBackup </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>leastRenderTime4PictureBackup</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setter for the least render time after which the picture is backed up. </p>
+<p>If this value is set to 0.0, the picture will always be backed up after the render. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">leastRenderTime4PictureBackup</td><td>The new least render time after which the picture is backed up. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#aa30801387f7d0e626e63a431599e8110" title="Setter for the option to backup the picture.">Scene::setBackupPicture()</a> </dd></dl>
+
+</div>
+</div>
+<a id="adc12622711c492b31560c15edc4f7f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc12622711c492b31560c15edc4f7f89">&#9670;&nbsp;</a></span>setMinBounces()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scene::setMinBounces </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>minBounces</em></td><td>)</td>
@@ -899,18 +1225,18 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a> </dd></dl>
 
 </div>
 </div>
-<a id="a7554a7949a369ce35d4b93341da50e09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7554a7949a369ce35d4b93341da50e09">&#9670;&nbsp;</a></span>setNextEventEstimation()</h2>
+<a id="a1cc780c8d89d97dcf4a8e2c530a57752"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc780c8d89d97dcf4a8e2c530a57752">&#9670;&nbsp;</a></span>setNextEventEstimation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setNextEventEstimation </td>
+          <td class="memname">void Scene::setNextEventEstimation </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>nextEventEstimation</em></td><td>)</td>
@@ -929,14 +1255,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab33cd2c6877f24545e8eeaff914b1ebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab33cd2c6877f24545e8eeaff914b1ebb">&#9670;&nbsp;</a></span>setNumberThreads()</h2>
+<a id="aad2a60207a57107833da052cdb6883c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2a60207a57107833da052cdb6883c0">&#9670;&nbsp;</a></span>setNumberThreads()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setNumberThreads </td>
+          <td class="memname">void Scene::setNumberThreads </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>numberThreads</em></td><td>)</td>
@@ -955,14 +1281,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acc6ea1296d26a6587226549d268d24bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc6ea1296d26a6587226549d268d24bd">&#9670;&nbsp;</a></span>setObjectsGroups()</h2>
+<a id="ac7d43e15274e119c8c3b7b2394eb41fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d43e15274e119c8c3b7b2394eb41fe">&#9670;&nbsp;</a></span>setObjectGroups()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setObjectsGroups </td>
+          <td class="memname">void Scene::setObjectGroups </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="class_object3_d_group.html">Object3DGroup</a> &gt;&#160;</td>
           <td class="paramname"><em>groups</em></td><td>)</td>
@@ -971,24 +1297,24 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Setter for the objects groups. </p>
+<p>Setter for the object groups. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">groups</td><td>The new objects groups of this scene. </td></tr>
+    <tr><td class="paramname">groups</td><td>The new object groups of this scene. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a6207b6c471b1a2b78216bc8dc68e2dd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6207b6c471b1a2b78216bc8dc68e2dd7">&#9670;&nbsp;</a></span>setRrStopProbability()</h2>
+<a id="a0126e7d5ee45833f34e377f18ed23d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0126e7d5ee45833f34e377f18ed23d1c">&#9670;&nbsp;</a></span>setRrStopProbability()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setRrStopProbability </td>
+          <td class="memname">void Scene::setRrStopProbability </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>rrStopProbability</em></td><td>)</td>
@@ -1004,18 +1330,18 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a>. </dd></dl>
 
 </div>
 </div>
-<a id="a0a7b6b13ed4a5a686f4cb2ccec44a623"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a7b6b13ed4a5a686f4cb2ccec44a623">&#9670;&nbsp;</a></span>setRussianRoulette() <span class="overload">[1/2]</span></h2>
+<a id="accb4113afda2f4d8e60023e356033a9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accb4113afda2f4d8e60023e356033a9a">&#9670;&nbsp;</a></span>setRussianRoulette() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setRussianRoulette </td>
+          <td class="memname">void Scene::setRussianRoulette </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>russianRoulette</em></td><td>)</td>
@@ -1034,14 +1360,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a139704ae1782641cc1060620a8cacd23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a139704ae1782641cc1060620a8cacd23">&#9670;&nbsp;</a></span>setRussianRoulette() <span class="overload">[2/2]</span></h2>
+<a id="af6a144c9deea7b3778fe6d386fe925e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6a144c9deea7b3778fe6d386fe925e0">&#9670;&nbsp;</a></span>setRussianRoulette() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setRussianRoulette </td>
+          <td class="memname">void Scene::setRussianRoulette </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>russianRoulette</em>, </td>
@@ -1068,21 +1394,21 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a>. </dd></dl>
 
 </div>
 </div>
-<a id="acb971b44877bf2ca157a61592b52d035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb971b44877bf2ca157a61592b52d035">&#9670;&nbsp;</a></span>setSamplePerPixel()</h2>
+<a id="ab19c516a50a37495cbbf8abdc8576322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab19c516a50a37495cbbf8abdc8576322">&#9670;&nbsp;</a></span>setSamplesPerPixel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Scene::setSamplePerPixel </td>
+          <td class="memname">void Scene::setSamplesPerPixel </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>samplePerPixel</em></td><td>)</td>
+          <td class="paramname"><em>samplesPerPixel</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1091,11 +1417,11 @@ Public Member Functions</h2></td></tr>
 <p>Setter for the number of samples per pixel. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">samplePerPixel</td><td>The new number of samples per pixel that will be used during the render. </td></tr>
+    <tr><td class="paramname">samplesPerPixel</td><td>The new number of samples per pixel that will be used during the render. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#acf789fb1120eeb804af9274fadf031aa" title="Main constructor.">Scene()</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="class_scene.html#a0c0079d2d0d622af08e897b27b8fb7f4" title="Main constructor.">Scene::Scene()</a> </dd></dl>
 
 </div>
 </div>
